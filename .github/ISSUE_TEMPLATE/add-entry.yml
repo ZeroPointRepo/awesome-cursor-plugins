@@ -1,0 +1,57 @@
+name: Add a Cursor plugin
+description: Suggest a plugin for the list
+title: "Add: "
+labels: ["new entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Plugin name
+      placeholder: my-plugin
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Source repository
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: install
+    attributes:
+      label: Install line
+      description: The /add-plugin line off its marketplace page, or the real install path
+      placeholder: /add-plugin my-plugin
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does for the reader
+      description: One or two lines. Lead with the benefit, not the product name.
+    validations:
+      required: true
+  - type: input
+    id: portability
+    attributes:
+      label: Which other agents does the repo ship a manifest for?
+      description: .claude-plugin, .codex-plugin, .grok-plugin, .github/plugin, root plugin.json. Say "none" if it is Cursor only.
+      placeholder: .claude-plugin, .codex-plugin
+  - type: dropdown
+    id: signin
+    attributes:
+      label: What happens on install?
+      options:
+        - OAuth sign-in
+        - Paste a token or API key
+        - No sign-in
+        - Points at your own instance
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: pricing
+    attributes:
+      label: What is free and what is paid?
+      placeholder: Free tier, paid above 1,000 calls a month

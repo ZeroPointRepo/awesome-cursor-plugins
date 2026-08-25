@@ -1,0 +1,32 @@
+name: Report something broken
+description: A dead link, a pulled plugin, a wrong portability or sign-in row
+title: "Broken: "
+labels: ["broken"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry
+      placeholder: figma
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Link is dead
+        - Plugin is no longer on the marketplace
+        - Install line does not work
+        - Portability row is wrong
+        - Sign-in row is wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got.
+    validations:
+      required: true

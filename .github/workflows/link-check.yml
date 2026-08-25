@@ -1,0 +1,52 @@
+name: link-check
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every link in the curated page
+        id: check
+        run: |
+          set +e
+          grep -oE 'https://[^)"< ]+' README.md | sed 's/[.,]$//' | sort -u > urls.txt
+          echo "Checking $(wc -l < urls.txt) URLs"
+          : > broken.txt
+          while read -r u; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 20 -A 'awesome-cursor-plugins link-check' "$u")
+            case "$code" in
+              200|201|202|301|302|303|307|308|401|403|429) ;;
+              *) echo "$code $u" >> broken.txt ;;
+            esac
+          done < urls.txt
+          if [ -s broken.txt ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            cat broken.txt
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "All links resolved."
+          fi
+
+      - name: Open or update one issue
+        if: steps.check.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          body=$(printf 'These links did not resolve on the weekly sweep. A 401 or 403 is treated as alive, so everything here is a real failure.\n\n```\n%s\n```\n' "$(cat broken.txt)")
+          existing=$(gh issue list --state open --search 'in:title "Broken links"' --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "Broken links found by the weekly sweep" --body "$body"
+          fi

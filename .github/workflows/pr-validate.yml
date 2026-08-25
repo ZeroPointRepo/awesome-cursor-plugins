@@ -1,0 +1,41 @@
+name: pr-validate
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the entry shape
+        id: fmt
+        run: |
+          set +e
+          : > problems.txt
+          # every catalog bullet must lead with a bold benefit phrase and carry a link
+          grep -nE '^- ' README.md | grep -vE '^\s*[0-9]+:- \*\*.+\*\* with \[.+\]\(https?://[^)]+\) by \[.+\]\(https?://[^)]+\)\.' >> problems.txt
+          # no em dashes anywhere
+          grep -nE '[—–]' README.md >> problems.txt
+          if [ -s problems.txt ]; then echo "found=true" >> "$GITHUB_OUTPUT"; cat problems.txt; else echo "found=false" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+
+      - name: Say thanks, and say what to fix if anything
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          if [ "${{ steps.fmt.outputs.found }}" = "true" ]; then
+            gh pr comment "$PR" --body "$(printf 'Thanks for this. A couple of lines do not match the entry shape in CONTRIBUTING.md yet. No rush, and if it is easier, say so and it gets fixed on merge instead.\n\n```\n%s\n```\n' "$(head -40 problems.txt)")"
+          else
+            gh pr comment "$PR" --body "Thanks for this. Format checks pass. A human will look at the entry itself shortly."
+          fi
