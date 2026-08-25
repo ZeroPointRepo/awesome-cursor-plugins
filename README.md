@@ -90,9 +90,11 @@ that plugin's own marketplace page:
 **2. Or install from the sidebar.** Open **Customize**, find the plugin, choose **Install**, and
 pick a project or user scope. Same flow for both plugin formats.
 
+<!-- nosignin:start -->
 **3. Sign in only if the entry says so.** 105 of the 247 have nothing to sign in to. The rest say
 `OAuth sign-in`, `Paste a token`, or `Points at your own instance` on their own line, so you know
 before you install rather than after.
+<!-- nosignin:end -->
 
 > Building one instead of installing one? Start with
 > [create-plugin](https://github.com/cursor/plugins/tree/HEAD/create-plugin), which scaffolds the
@@ -102,6 +104,7 @@ before you install rather than after.
 
 ## Cursor plugin portability: which agents each plugin also runs in
 
+<!-- portability:start -->
 A Cursor plugin is a directory with a manifest in it. Ship a second manifest and the same folder
 loads in a second agent. **110 of the 247 listings do exactly that. 137 are Cursor and nothing
 else.** Both numbers come from reading the manifest directories in each plugin's own source
@@ -120,14 +123,16 @@ repository.
 
 The widest-travelling plugin in the marketplace is
 [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin), which ships
-manifests for six agents besides Cursor.
-[mongodb-atlas](https://github.com/mongodb/agent-skills) ships five.
+manifests for 6 agents besides Cursor.
+[atlassian-twg-cli](https://github.com/atlassian-labs/twg-plugins) ships 5.
 Per-plugin rows are on every entry below and in [CATALOG.md](CATALOG.md).
+<!-- portability:end -->
 
 ---
 
 ## Cursor MCP plugins and sign-in: OAuth, token, or nothing
 
+<!-- signin:start -->
 189 of the 247 plugins bring an MCP server. The question that decides whether you install one
 right now is whether it will ask you for credentials, and no listing page answers it. This one
 does, from a live handshake against each server.
@@ -143,6 +148,7 @@ does, from a live handshake against each server.
 `Nothing to sign in to` covers three honest cases: a plugin that is skills, rules, and commands
 only, a local server that runs on your machine, and a remote server that answers an
 unauthenticated request. Each entry says which.
+<!-- signin:end -->
 
 ---
 

@@ -119,10 +119,14 @@ async function readRepo(slug) {
   if (!meta || !meta.full_name) return null;
   const tree = await gh(`/repos/${meta.full_name}/git/trees/${meta.default_branch}?recursive=1`);
   const paths = tree && tree.tree ? tree.tree.filter((t) => t.type === 'blob').map((t) => t.path) : [];
+  /* A tree that failed to read, or came back truncated, is NOT evidence of absence. Saying
+     "Cursor only" because an API call timed out is the one failure mode that would quietly make
+     this list dishonest, so it is tracked and reported instead of defaulted to false. */
+  const treeOk = !!(tree && tree.tree) && !(tree && tree.truncated);
   return {
     full_name: meta.full_name, stars: meta.stargazers_count, license: meta.license?.spdx_id || null,
     archived: !!meta.archived, fork: !!meta.fork, default_branch: meta.default_branch,
-    description: meta.description || null, pushed_at: meta.pushed_at, truncated: !!(tree && tree.truncated), paths,
+    description: meta.description || null, pushed_at: meta.pushed_at, truncated: !!(tree && tree.truncated), treeOk, paths,
   };
 }
 
@@ -252,7 +256,7 @@ const entries = [];
         repoDescription: r.description, pushedAt: r.pushed_at,
         skills: (p.skills || []).length, mcpServers: (p.mcpServers || []).length, commands: (p.commands || []).length,
         rules: (p.rules || []).length, agents: (p.agents || []).length, hooks: (p.hooks || []).length,
-        clients, cursorManifest, portable, hasMcpComponent, mcp, pathLive,
+        clients, cursorManifest, portable, hasMcpComponent, mcp, pathLive, portabilityKnown: r.treeOk,
       });
     }
   };
@@ -281,6 +285,10 @@ console.log('Verifying every install command against its own marketplace page');
   };
   await Promise.all(Array.from({ length: 6 }, worker));
 }
+const unreadTrees = entries.filter((e) => !e.portabilityKnown).length;
+if (unreadTrees) console.log(`  ${unreadTrees} entr(ies) had an unreadable or truncated file tree: reported as not established, never as "Cursor only"`);
+if (entries.length && unreadTrees / entries.length > 0.05) throw new Error('more than 5% of file trees could not be read, refusing to publish a portability matrix built on gaps');
+
 const verified = entries.filter((e) => e.installVerified).length;
 console.log(`  ${verified} of ${entries.length} install commands read off Cursor's own pages`);
 if (entries.length && verified / entries.length < 0.8) throw new Error('under 80% of install commands verified, refusing to publish unverified marks as if they were checked');
@@ -302,34 +310,35 @@ if (fs.existsSync(catalogPath)) {
 
 const clientLabel = Object.fromEntries(CLIENTS.map(([k, , label]) => [k, label]));
 const alsoOf = (e) => { const a = CLIENTS.map(([k]) => k).filter((k) => e.clients[k]).map((k) => clientLabel[k]); if (e.portable) a.push('Agent Plugins'); return a; };
+const portCell = (e) => (!e.portabilityKnown ? 'Not established' : alsoOf(e).length ? alsoOf(e).join(', ') : 'Cursor only');
 
 /* ---------- CATALOG.md ---------- */
 const sorted = [...entries].sort((a, b) => (b.stars || 0) - (a.stars || 0) || a.name.localeCompare(b.name));
-const multi = entries.filter((e) => alsoOf(e).length).length;
+const multi = entries.filter((e) => e.portabilityKnown && alsoOf(e).length).length;
+const cursorOnly = entries.filter((e) => e.portabilityKnown && !alsoOf(e).length).length;
 const authCount = (k) => entries.filter((e) => e.auth === k).length;
 const noSignin = authCount('none') + authCount('local') + authCount('skills-only');
 const md = [];
 md.push('# Cursor plugin catalog: all ' + entries.length + ' listings, with portability and sign-in\n');
 md.push(`Every approved, publicly listed plugin on [cursor.com/marketplace](${MARKETPLACE}), rebuilt from live sources on ${today}.`);
 md.push('The curated page is [README.md](README.md). This file is the whole set.\n');
-md.push(`**${multi} of ${entries.length}** ship a manifest for at least one agent besides Cursor. **${entries.length - multi}** are Cursor and nothing else.`);
+md.push(`**${multi} of ${entries.length}** ship a manifest for at least one agent besides Cursor. **${cursorOnly}** are Cursor and nothing else${unreadTrees ? `, and ${unreadTrees} could not be established this run` : ''}.`);
 md.push(`**${authCount('oauth')}** use OAuth, **${noSignin}** have nothing to sign in to, **${authCount('token')}** want a token, **${authCount('self-hosted')}** point at your own instance.\n`);
 md.push('Sorted by stars on the source repository. `Also runs in` is manifest presence in that repository, nothing inferred.\n');
 md.push('| Plugin | Publisher | Stars | Also runs in | Sign-in | Install |');
 md.push('|---|---|---:|---|---|---|');
 for (const e of sorted) {
-  const also = alsoOf(e);
-  md.push(`| [${e.name}](https://github.com/${e.repo}${e.gitPath !== '.' && e.pathLive ? '/tree/HEAD/' + e.gitPath : ''}) | ${e.publisher || ''} | ${num(e.stars)} | ${also.length ? also.join(', ') : 'Cursor only'} | ${AUTH_LABEL[e.auth]} | \`${e.install}\` |`);
+  md.push(`| [${e.name}](https://github.com/${e.repo}${e.gitPath !== '.' && e.pathLive ? '/tree/HEAD/' + e.gitPath : ''}) | ${e.publisher || ''} | ${num(e.stars)} | ${portCell(e)} | ${AUTH_LABEL[e.auth]} | \`${e.install}\` |`);
 }
 md.push('\n---\n');
 md.push('<sub>Unofficial, community-maintained. Not affiliated with or endorsed by Anysphere or Cursor.</sub>');
 fs.writeFileSync(catalogPath, md.join('\n') + '\n');
 
 /* ---------- catalog.csv ---------- */
-const cols = ['name', 'display_name', 'publisher', 'repo', 'git_path', 'stars', 'license', 'archived', 'skills', 'mcp_servers', 'commands', 'rules', 'agents', 'hooks', 'cursor_manifest', 'agent_plugins_portable', ...CLIENTS.map(([k]) => 'runs_in_' + k), 'sign_in', 'sign_in_evidence', 'install', 'marketplace_url', 'install_verified', 'first_seen'];
+const cols = ['name', 'display_name', 'publisher', 'repo', 'git_path', 'stars', 'license', 'archived', 'skills', 'mcp_servers', 'commands', 'rules', 'agents', 'hooks', 'cursor_manifest', 'agent_plugins_portable', 'portability_established', ...CLIENTS.map(([k]) => 'runs_in_' + k), 'sign_in', 'sign_in_evidence', 'install', 'marketplace_url', 'install_verified', 'first_seen'];
 const rows = [cols.join(',')];
 for (const e of sorted) {
-  rows.push([e.name, e.displayName, e.publisher, e.repo, e.gitPath, e.stars, e.license, e.archived, e.skills, e.mcpServers, e.commands, e.rules, e.agents, e.hooks, e.cursorManifest, e.portable, ...CLIENTS.map(([k]) => e.clients[k]), e.auth, e.authEvidence, e.install, e.marketplaceUrl, e.installVerified, seen.entries[e.name]].map(csvCell).join(','));
+  rows.push([e.name, e.displayName, e.publisher, e.repo, e.gitPath, e.stars, e.license, e.archived, e.skills, e.mcpServers, e.commands, e.rules, e.agents, e.hooks, e.cursorManifest, e.portable, e.portabilityKnown, ...CLIENTS.map(([k]) => e.clients[k]), e.auth, e.authEvidence, e.install, e.marketplaceUrl, e.installVerified, seen.entries[e.name]].map(csvCell).join(','));
 }
 fs.writeFileSync(path.join(ROOT, 'catalog.csv'), rows.join('\n') + '\n');
 
@@ -345,7 +354,7 @@ fs.writeFileSync(path.join(ROOT, 'plugins.json'), JSON.stringify({
     description: { en: e.description || e.repoDescription || '' },
     stars: e.stars, install: e.install, added: seen.entries[e.name],
     page: e.marketplaceUrl, license: e.license,
-    runs_in: ['Cursor', ...alsoOf(e)], sign_in: e.auth,
+    runs_in: e.portabilityKnown ? ['Cursor', ...alsoOf(e)] : null, sign_in: e.auth,
   })),
 }, null, 2) + '\n');
 
@@ -356,10 +365,80 @@ fs.writeFileSync(path.join(ROOT, 'badges/verified.json'), badge('install command
 fs.writeFileSync(path.join(ROOT, 'badges/portability.json'), badge('runs beyond cursor', `${multi}/${entries.length}`, '6799FE'));
 fs.writeFileSync(path.join(ROOT, 'badges/checked-at.json'), badge('last checked', new Date().toISOString().replace(/\.\d+Z$/, 'Z'), 'blue'));
 
-/* ---------- README count line and badge ---------- */
+/* ---------- README: every number on the page is written from this run ----------
+   The curated prose is hand-written, but the counts are not. A page that says 110 while the
+   catalog says 108 is worse than no page, so the three number-bearing blocks are regenerated
+   here between markers and can never drift from the data behind them. */
+const mcpCount = entries.filter((e) => e.hasMcpComponent).length;
+const clientCounts = CLIENTS.map(([k, dir, label]) => ({ label, dir, n: entries.filter((e) => e.portabilityKnown && e.clients[k]).length })).filter((c) => c.n > 0).sort((a, b) => b.n - a.n);
+const portableCount = entries.filter((e) => e.portabilityKnown && e.portable).length;
+const bigRows = clientCounts.filter((c) => c.n >= 4);
+const tailRows = clientCounts.filter((c) => c.n < 4);
+const widest = [...entries].filter((e) => e.portabilityKnown).sort((a, b) => alsoOf(b).length - alsoOf(a).length)[0];
+const second = [...entries].filter((e) => e.portabilityKnown && e.name !== widest?.name).sort((a, b) => alsoOf(b).length - alsoOf(a).length)[0];
+
+const portBlock = [
+  'A Cursor plugin is a directory with a manifest in it. Ship a second manifest and the same folder',
+  `loads in a second agent. **${multi} of the ${entries.length} listings do exactly that. ${cursorOnly} are Cursor and nothing`,
+  'else.** Both numbers come from reading the manifest directories in each plugin\'s own source',
+  'repository.',
+  '',
+  '| Also loads in | Plugins | What proves it |',
+  '|---|---:|---|',
+  ...(() => {
+    const rows = [];
+    let placedPortable = false;
+    for (const c of bigRows) {
+      if (!placedPortable && portableCount > c.n) { rows.push(`| The Agent Plugins standard | ${portableCount} | \`plugin.json\` at the plugin root |`); placedPortable = true; }
+      rows.push(`| ${c.label} | ${c.n} | \`${c.dir}/plugin.json\` |`);
+    }
+    if (!placedPortable) rows.push(`| The Agent Plugins standard | ${portableCount} | \`plugin.json\` at the plugin root |`);
+    if (tailRows.length) rows.push(`| ${tailRows.map((c) => c.label).join(', ')} | ${tailRows.reduce((a, c) => a + c.n, 0)} | one manifest directory each |`);
+    return rows;
+  })(),
+  '',
+  'The widest-travelling plugin in the marketplace is',
+  `[${widest.name}](https://github.com/${widest.repo}), which ships`,
+  `manifests for ${alsoOf(widest).length} agents besides Cursor.`,
+  `[${second.name}](https://github.com/${second.repo}) ships ${alsoOf(second).length}.`,
+  'Per-plugin rows are on every entry below and in [CATALOG.md](CATALOG.md).',
+].join('\n');
+
+const signBlock = [
+  `${mcpCount} of the ${entries.length} plugins bring an MCP server. The question that decides whether you install one`,
+  'right now is whether it will ask you for credentials, and no listing page answers it. This one',
+  'does, from a live handshake against each server.',
+  '',
+  '| What happens when you install | Plugins |',
+  '|---|---:|',
+  `| OAuth sign-in, click once and you are in | ${authCount('oauth')} |`,
+  `| Nothing to sign in to | ${noSignin} |`,
+  `| Paste a token or an API key first | ${authCount('token')} |`,
+  `| Points at your own instance, so you configure the URL | ${authCount('self-hosted')} |`,
+  `| Could not be established from outside | ${authCount('unknown')} |`,
+  '',
+  '`Nothing to sign in to` covers three honest cases: a plugin that is skills, rules, and commands',
+  'only, a local server that runs on your machine, and a remote server that answers an',
+  'unauthenticated request. Each entry says which.',
+].join('\n');
+
+const noSignBlock = [
+  `**3. Sign in only if the entry says so.** ${noSignin} of the ${entries.length} have nothing to sign in to. The rest say`,
+  '`OAuth sign-in`, `Paste a token`, or `Points at your own instance` on their own line, so you know',
+  'before you install rather than after.',
+].join('\n');
+
 const readmePath = path.join(ROOT, 'README.md');
 if (fs.existsSync(readmePath)) {
   let r = fs.readFileSync(readmePath, 'utf8');
+  const between = (name, body) => {
+    const re = new RegExp(`(<!-- ${name}:start -->\\n)[\\s\\S]*?(<!-- ${name}:end -->)`);
+    if (!re.test(r)) { console.log(`  WARN: ${name} markers missing from README, block not refreshed`); return; }
+    r = r.replace(re, `$1${body}\n$2`);
+  };
+  between('portability', portBlock);
+  between('signin', signBlock);
+  between('nosignin', noSignBlock);
   r = r.replace(/badge\/plugins-\d+-/, `badge/plugins-${entries.length}-`);
   r = r.replace(/\*\*Full catalog:\*\* all \d+ Cursor plugins/, `**Full catalog:** all ${entries.length} Cursor plugins`);
   r = r.replace(/^\*\*\d+ plugins from the Cursor marketplace/m, `**${entries.length} plugins from the Cursor marketplace`);
@@ -367,6 +446,6 @@ if (fs.existsSync(readmePath)) {
 }
 
 console.log(`\nWrote CATALOG.md (${entries.length}), catalog.csv, plugins.json, 3 badges, first-seen ledger.`);
-console.log(`Portability: ${multi} multi-client, ${entries.length - multi} Cursor only.`);
+console.log(`Portability: ${multi} multi-client, ${cursorOnly} Cursor only, ${unreadTrees} not established.`);
 console.log(`Sign-in: ${authCount('oauth')} OAuth, ${noSignin} none, ${authCount('token')} token, ${authCount('self-hosted')} self-hosted, ${authCount('unknown')} unestablished.`);
 console.log(drops.length ? `${drops.length} drop(s) this run, listed above.` : 'No drops this run.');
