@@ -60,19 +60,24 @@ this list works it out from the source and puts it next to the entry.
 
 ## ⭐ Featured plugin
 
-**Search YouTube and read the transcript, without a Google API key** with
+**Search YouTube and read the transcript** with
 [youtube-mcp](https://github.com/ZeroPointRepo/youtube-mcp) by
 [ZeroPointRepo](https://github.com/ZeroPointRepo). Ask for a video, get the words. Search across
 channels, pull a full transcript with timestamps, and feed it straight into whatever you are
-writing. Nothing to install and nothing to maintain: it is a hosted MCP server, you click sign in
-once, and it is on. 8★, MIT.
+writing. Hosted MCP server, no Google API key. 8★, MIT.
+Also packaged for the Agent Plugins standard · OAuth sign-in.
 
 <details>
 <summary>Install</summary>
 
-[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=transcriptapi&config=eyJ1cmwiOiJodHRwczovL3RyYW5zY3JpcHRhcGkuY29tL21jcCJ9)
+Paste this in your browser's address bar, or into any link field, to add the server:
 
-Or drop the repo into `~/.cursor/plugins/local/` and reload the window.
+```text
+cursor://anysphere.cursor-deeplink/mcp/install?name=transcriptapi&config=eyJ1cmwiOiJodHRwczovL3RyYW5zY3JpcHRhcGkuY29tL21jcCJ9
+```
+
+Or clone the repo into `~/.cursor/plugins/local/` and reload the window. Free tier at
+[transcriptapi.com](https://transcriptapi.com).
 
 </details>
 
@@ -642,9 +647,14 @@ unauthenticated request. Each entry says which.
   <details>
   <summary>Install</summary>
 
-  [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=transcriptapi&config=eyJ1cmwiOiJodHRwczovL3RyYW5zY3JpcHRhcGkuY29tL21jcCJ9)
+  Paste this in your browser's address bar, or into any link field, to add the server:
 
-  Or drop the repo into `~/.cursor/plugins/local/` and reload the window.
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=transcriptapi&config=eyJ1cmwiOiJodHRwczovL3RyYW5zY3JpcHRhcGkuY29tL21jcCJ9
+  ```
+
+  Or clone the repo into `~/.cursor/plugins/local/` and reload the window. Free tier at
+  [transcriptapi.com](https://transcriptapi.com).
 
   </details>
 
@@ -2178,9 +2188,14 @@ unauthenticated request. Each entry says which.
   <details>
   <summary>Install</summary>
 
-  [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=zillapi&config=eyJ1cmwiOiJodHRwczovL2FwaS56aWxsYXBpLmNvbS9tY3AifQ==)
+  Paste this in your browser's address bar, or into any link field, to add the server:
 
-  Or drop the repo into `~/.cursor/plugins/local/` and reload the window.
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=zillapi&config=eyJ1cmwiOiJodHRwczovL2FwaS56aWxsYXBpLmNvbS9tY3AifQ==
+  ```
+
+  Or clone the repo into `~/.cursor/plugins/local/` and reload the window. Free tier at
+  [zillapi.com](https://zillapi.com).
 
   </details>
 
@@ -2205,9 +2220,14 @@ unauthenticated request. Each entry says which.
   <details>
   <summary>Install</summary>
 
-  [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=stayingapi&config=eyJ1cmwiOiJodHRwczovL21jcC5zdGF5aW5nYXBpLmNvbS9tY3AifQ==)
+  Paste this in your browser's address bar, or into any link field, to add the server:
 
-  Or drop the repo into `~/.cursor/plugins/local/` and reload the window.
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=stayingapi&config=eyJ1cmwiOiJodHRwczovL21jcC5zdGF5aW5nYXBpLmNvbS9tY3AifQ==
+  ```
+
+  Or clone the repo into `~/.cursor/plugins/local/` and reload the window. Free tier at
+  [stayingapi.com](https://stayingapi.com).
 
   </details>
 
@@ -2445,7 +2465,7 @@ unauthenticated request. Each entry says which.
 - **Browse the community side** at [cursor.directory](https://cursor.directory), open self-serve submission with an automated security scan, backed by [cursor/community-plugins](https://github.com/cursor/community-plugins). 3,980★.
 - **Publish yours** at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish). Open source, reviewed by hand, free.
 - **Run a private one** from a repository: Dashboard, then Plugins, then Add Marketplace, then Import from Repo. Start from [cursor-team-marketplace-template](https://github.com/fieldsphere/cursor-team-marketplace-template). Teams and Enterprise plans.
-- **Share an MCP server as a link** with the [install-link format](https://cursor.com/docs/mcp/install-links), which turns any README into a one-click Add to Cursor button.
+- **Share an MCP server as a link** with the [install-link format](https://cursor.com/docs/mcp/install-links). A `cursor://` URL that installs a server in one step. GitHub strips the scheme out of markdown links, so ship it as a code line people copy, not as a button.
 
 ---
 
