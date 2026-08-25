@@ -179,6 +179,11 @@ async function probe(url) {
     const txt = (await r.text()).slice(0, 400);
     if (r.status === 401 || r.status === 403) {
       out = { auth: wa && /resource_metadata/i.test(wa) ? 'oauth' : 'auth-required' };
+      /* ADVERTISED FIRST, constructed only as a fallback. This is deliberate and it is what
+         Cursor's own MCP client does, so the column reports what a real user hits rather than what
+         a strict RFC 9728 reading predicts. Read "Before you fix the prober" in CONTRIBUTING.md
+         before changing this order: servers with the path-suffix defect move to "not established"
+         if you flip it, which is correct output but moves the counts on the README. */
       const m = wa && wa.match(/resource_metadata="?([^",]+)"?/i);
       const prm = m ? m[1] : (() => { const o = new URL(url); return `${o.origin}/.well-known/oauth-protected-resource${o.pathname}`; })();
       const pt = await getText(prm, {}, 1, 8000);
