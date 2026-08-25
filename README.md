@@ -1,6 +1,156 @@
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <img src="https://img.shields.io/badge/plugins-247-000000" alt="Plugin count" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fverified.json" alt="Install commands verified" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fportability.json" alt="Multi-client plugins" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fchecked-at.json" alt="Last checked" />
+  <img src="https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-cursor-plugins" alt="Last commit" />
+  <img src="https://img.shields.io/badge/status-unofficial-lightgrey" alt="Unofficial, not affiliated with Anysphere or Cursor" />
+  <img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License" />
+</p>
+
+# Awesome Cursor Plugins
+
+**247 plugins from the Cursor marketplace, organized by the job each one does, and for every one
+of them: which other agents it also runs in, and whether you have to sign in.**
+
+A [Cursor plugin](https://cursor.com/docs/plugins) is a folder that bundles skills, MCP servers,
+rules, agents, commands, and hooks, and drops all of it into the editor at once. Cursor reviews
+every listing by hand. The serious vendors ship the same plugin four or five times over, one
+manifest per agent, in a single repository. Which agents those are is not on any listing page, so
+this list works it out from the source and puts it next to the entry.
+
+---
+
+## Contents
+
+- [⭐ Featured plugin](#-featured-plugin)
+- [🚀 Install a Cursor plugin in 30 seconds](#-install-a-cursor-plugin-in-30-seconds)
+- [Cursor plugin portability: which agents each plugin also runs in](#cursor-plugin-portability-which-agents-each-plugin-also-runs-in)
+- [Cursor MCP plugins and sign-in: OAuth, token, or nothing](#cursor-mcp-plugins-and-sign-in-oauth-token-or-nothing)
+- [Cursor plugin marketplace, by what each plugin does](#cursor-plugin-marketplace-by-what-each-plugin-does)
+  - [Drive a real browser](#drive-a-real-browser)
+  - [Design on a canvas the agent can read](#design-on-a-canvas-the-agent-can-read)
+  - [Build the front end](#build-the-front-end)
+  - [Keep docs and code context in reach](#keep-docs-and-code-context-in-reach)
+  - [Search the web and pull data in](#search-the-web-and-pull-data-in)
+  - [Deploy and host](#deploy-and-host)
+  - [Databases and search engines](#databases-and-search-engines)
+  - [Watch production and debug it](#watch-production-and-debug-it)
+  - [Security in the coding loop](#security-in-the-coding-loop)
+  - [Issues, pipelines, and code review](#issues-pipelines-and-code-review)
+  - [Meetings, docs, and team comms](#meetings-docs-and-team-comms)
+  - [Payments, billing, and markets](#payments-billing-and-markets)
+  - [Email, SMS, and notifications](#email-sms-and-notifications)
+  - [Sales and account research](#sales-and-account-research)
+  - [Product analytics and experiments](#product-analytics-and-experiments)
+  - [Data platform and machine learning](#data-platform-and-machine-learning)
+  - [Reference and market data](#reference-and-market-data)
+  - [Travel and spend](#travel-and-spend)
+  - [Memory and working habits](#memory-and-working-habits)
+  - [Generate media](#generate-media)
+  - [Build your own Cursor plugin](#build-your-own-cursor-plugin)
+- [Cursor plugin spec, marketplaces, and where to publish](#cursor-plugin-spec-marketplaces-and-where-to-publish)
+- [Good to know](#good-to-know)
+
+- **Full catalog:** all 247 Cursor plugins with the complete portability and sign-in matrix in [CATALOG.md](CATALOG.md)
+- **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [plugins.json](plugins.json)
+
+---
+
+## ⭐ Featured plugin
+
+**Search YouTube and read the transcript, without a Google API key** with
+[youtube-mcp](https://github.com/ZeroPointRepo/youtube-mcp) by
+[ZeroPointRepo](https://github.com/ZeroPointRepo). Ask for a video, get the words. Search across
+channels, pull a full transcript with timestamps, and feed it straight into whatever you are
+writing. Nothing to install and nothing to maintain: it is a hosted MCP server, you click sign in
+once, and it is on. 8★, MIT.
+
+<details>
+<summary>Install</summary>
+
+[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=transcriptapi&config=eyJ1cmwiOiJodHRwczovL3RyYW5zY3JpcHRhcGkuY29tL21jcCJ9)
+
+Or drop the repo into `~/.cursor/plugins/local/` and reload the window.
+
+</details>
+
+---
+
+## 🚀 Install a Cursor plugin in 30 seconds
+
+**1. Open the agent and type the command.** Every entry in this list carries its own, read off
+that plugin's own marketplace page:
+
+```text
+/add-plugin playwright
+```
+
+**2. Or install from the sidebar.** Open **Customize**, find the plugin, choose **Install**, and
+pick a project or user scope. Same flow for both plugin formats.
+
+**3. Sign in only if the entry says so.** 105 of the 247 have nothing to sign in to. The rest say
+`OAuth sign-in`, `Paste a token`, or `Points at your own instance` on their own line, so you know
+before you install rather than after.
+
+> Building one instead of installing one? Start with
+> [create-plugin](https://github.com/cursor/plugins/tree/HEAD/create-plugin), which scaffolds the
+> folder and validates the manifest against Cursor's published schema before you submit it.
+
+---
+
+## Cursor plugin portability: which agents each plugin also runs in
+
+A Cursor plugin is a directory with a manifest in it. Ship a second manifest and the same folder
+loads in a second agent. **110 of the 247 listings do exactly that. 137 are Cursor and nothing
+else.** Both numbers come from reading the manifest directories in each plugin's own source
+repository.
+
+| Also loads in | Plugins | What proves it |
+|---|---:|---|
+| Claude Code | 106 | `.claude-plugin/plugin.json` |
+| Codex | 63 | `.codex-plugin/plugin.json` |
+| The Agent Plugins standard | 24 | `plugin.json` at the plugin root |
+| GitHub Copilot | 13 | `.github/plugin/plugin.json` |
+| Grok Bot | 10 | `.grok-plugin/plugin.json` |
+| Kimi | 5 | `.kimi-plugin/plugin.json` |
+| Devin | 4 | `.devin-plugin/plugin.json` |
+| Antigravity, Cortex, Qoder | 3 | one manifest directory each |
+
+The widest-travelling plugin in the marketplace is
+[compound-engineering](https://github.com/EveryInc/compound-engineering-plugin), which ships
+manifests for six agents besides Cursor.
+[mongodb-atlas](https://github.com/mongodb/agent-skills) ships five.
+Per-plugin rows are on every entry below and in [CATALOG.md](CATALOG.md).
+
+---
+
+## Cursor MCP plugins and sign-in: OAuth, token, or nothing
+
+189 of the 247 plugins bring an MCP server. The question that decides whether you install one
+right now is whether it will ask you for credentials, and no listing page answers it. This one
+does, from a live handshake against each server.
+
+| What happens when you install | Plugins |
+|---|---:|
+| OAuth sign-in, click once and you are in | 111 |
+| Nothing to sign in to | 105 |
+| Paste a token or an API key first | 14 |
+| Points at your own instance, so you configure the URL | 12 |
+| Could not be established from outside | 5 |
+
+`Nothing to sign in to` covers three honest cases: a plugin that is skills, rules, and commands
+only, a local server that runs on your machine, and a remote server that answers an
+unauthenticated request. Each entry says which.
+
+---
+
+## Cursor plugin marketplace, by what each plugin does
+
 ### Drive a real browser
 
-- **Click through your app in a real browser** with [playwright](https://github.com/cursor/plugins/tree/HEAD/third_party/playwright) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Click through your app in a real browser** with [playwright](https://github.com/cursor/plugins/tree/HEAD/third_party/playwright) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · Runs locally.
 
   <details>
@@ -24,7 +174,7 @@
 
   </details>
 
-- **Point the agent at your own Chrome or a cloud browser** with [browser-use](https://github.com/browser-use/plugins/tree/HEAD/cursor) by [Browser Use](https://browser-use.com). Browser Use plugins for coding agents (browser-harness, video-use). 14★.
+- **Point the agent at your own Chrome or a cloud browser** with [browser-use](https://github.com/browser-use/plugins/tree/HEAD/cursor) by [Browser Use](https://browser-use.com). 14★.
   Cursor only · Runs locally.
 
   <details>
@@ -123,7 +273,7 @@
 
   </details>
 
-- **Create and brand-check a Canva design from chat** with [canva](https://github.com/canva-sdks/canva-skills/tree/HEAD/plugins/canva) by [Canva](https://canva.com). Ready-to-use Canva Skills that improve creative workflows using the Canva Connector. 70★, Apache-2.0.
+- **Create and brand-check a Canva design from chat** with [canva](https://github.com/canva-sdks/canva-skills/tree/HEAD/plugins/canva) by [Canva](https://canva.com). 70★, Apache-2.0.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
   <details>
@@ -183,7 +333,7 @@
 
   </details>
 
-- **Read a Miro board as context and push diagrams back** with [miro](https://github.com/miroapp/miro-ai/tree/HEAD/cursor-plugins/miro) by [Miro](https://miro.com/). Official Miro AI developer tools and integrations. Includes MCP server configuration, Claude Code skills. 149★, MIT.
+- **Read a Miro board as context and push diagrams back** with [miro](https://github.com/miroapp/miro-ai/tree/HEAD/cursor-plugins/miro) by [Miro](https://miro.com/). 149★, MIT.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -345,7 +495,7 @@
 
   </details>
 
-- **Search company docs, Slack, and email for the missing detail** with [glean](https://github.com/gleanwork/cursor-plugins/tree/HEAD/glean) by [Glean](https://github.com/gleanwork). Official Glean plugins for Cursor - enterprise knowledge integration. 3★, MIT.
+- **Search company docs, Slack, and email for the missing detail** with [glean](https://github.com/gleanwork/cursor-plugins/tree/HEAD/glean) by [Glean](https://github.com/gleanwork). 3★, MIT.
   Cursor only · No sign-in.
 
   <details>
@@ -468,7 +618,7 @@
 
   </details>
 
-- **Query 2,600 external API endpoints across 40 providers** with [treg](https://github.com/superdesigndev/treg/tree/HEAD/plugins/treg) by [Superdesign](http://superdesign.dev/). OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn. 597★.
+- **Query 2,600 external API endpoints across 40 providers** with [treg](https://github.com/superdesigndev/treg/tree/HEAD/plugins/treg) by [Superdesign](http://superdesign.dev/). 597★.
   Cursor only · No sign-in.
 
   <details>
@@ -567,7 +717,7 @@
 
   </details>
 
-- **Write infrastructure as code and operate it on AWS** with [aws-core](https://github.com/aws/agent-toolkit-for-aws/tree/HEAD/plugins/aws-core) by [AWS](https://aws.amazon.com/). Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS. 2,422★, Apache-2.0.
+- **Write infrastructure as code and operate it on AWS** with [aws-core](https://github.com/aws/agent-toolkit-for-aws/tree/HEAD/plugins/aws-core) by [AWS](https://aws.amazon.com/). 2,422★, Apache-2.0.
   Also packaged for Claude Code, Codex, and the Agent Plugins standard · Runs locally.
 
   <details>
@@ -786,7 +936,7 @@
 
   </details>
 
-- **Get Redis data structures and caching right** with [redis-development](https://github.com/redis/agent-skills) by [Redis](https://redis.com). Redis' official collection of agent skills. 124★, MIT.
+- **Get Redis data structures and caching right** with [redis-development](https://github.com/redis/agent-skills) by [Redis](https://redis.com). 124★, MIT.
   Cursor only · No sign-in.
 
   <details>
@@ -798,7 +948,7 @@
 
   </details>
 
-- **Work with Elasticsearch, Kibana, and ES|QL** with [elastic](https://github.com/elastic/cursor-plugins/tree/HEAD/elastic) by [Elastic](https://elastic.co). Elastic plugins for Cursor. 31★, Apache-2.0.
+- **Work with Elasticsearch, Kibana, and ES|QL** with [elastic](https://github.com/elastic/cursor-plugins/tree/HEAD/elastic) by [Elastic](https://elastic.co). 31★, Apache-2.0.
   Cursor only · No sign-in.
 
   <details>
@@ -1083,7 +1233,7 @@
 
 ### Issues, pipelines, and code review
 
-- **Work repos, issues, pull requests, and Actions** with [github](https://github.com/cursor/plugins/tree/HEAD/third_party/github) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Work repos, issues, pull requests, and Actions** with [github](https://github.com/cursor/plugins/tree/HEAD/third_party/github) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1155,7 +1305,7 @@
 
   </details>
 
-- **Get a morning briefing and forecast out of monday CRM** with [monday-crm](https://github.com/mondaycom/mcp/tree/HEAD/plugins/monday-crm) by [Monday.com](https://monday.com). Enable AI agents to work reliably - giving them secure access to structured data, tools to take action. 420★, MIT.
+- **Get a morning briefing and forecast out of monday CRM** with [monday-crm](https://github.com/mondaycom/mcp/tree/HEAD/plugins/monday-crm) by [Monday.com](https://monday.com). 420★, MIT.
   Also packaged for Claude Code · OAuth sign-in.
 
   <details>
@@ -1203,7 +1353,7 @@
 
   </details>
 
-- **Get a deep correctness and security audit of a branch** with [thermos](https://github.com/cursor/plugins/tree/HEAD/thermos) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Get a deep correctness and security audit of a branch** with [thermos](https://github.com/cursor/plugins/tree/HEAD/thermos) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · No sign-in.
 
   <details>
@@ -1266,7 +1416,7 @@
 
   </details>
 
-- **Search meetings, transcripts, and action items** with [circleback](https://github.com/cursor/plugins/tree/HEAD/third_party/circleback) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Search meetings, transcripts, and action items** with [circleback](https://github.com/cursor/plugins/tree/HEAD/third_party/circleback) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1314,7 +1464,7 @@
 
   </details>
 
-- **Read, search, and update Falconer documents** with [falconer](https://github.com/FalconerAI/agent-integrations/tree/HEAD/plugins/falconer) by [Falconer](https://falconer.com). Falconer hosted HTTP MCP integrations for AI agent clients. 0★, Apache-2.0.
+- **Read, search, and update Falconer documents** with [falconer](https://github.com/FalconerAI/agent-integrations/tree/HEAD/plugins/falconer) by [Falconer](https://falconer.com). 0★, Apache-2.0.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
   <details>
@@ -1341,7 +1491,7 @@
 
 ### Payments, billing, and markets
 
-- **Get the Stripe integration and the API upgrade right** with [stripe](https://github.com/stripe/ai/tree/HEAD/providers/cursor/plugin) by [Stripe](https://stripe.com/). One-stop shop for building AI-powered products and businesses with Stripe. 1,763★, MIT.
+- **Get the Stripe integration and the API upgrade right** with [stripe](https://github.com/stripe/ai/tree/HEAD/providers/cursor/plugin) by [Stripe](https://stripe.com/). 1,763★, MIT.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1365,7 +1515,7 @@
 
   </details>
 
-- **Configure subscriptions and read project data** with [revenuecat](https://github.com/RevenueCat/ai-toolkit/tree/HEAD/revenuecat) by [RevenueCat](https://www.revenuecat.com/). Plugin for AI coding agents to set up and integrate RevenueCat and access RevenueCat data. 62★, MIT.
+- **Configure subscriptions and read project data** with [revenuecat](https://github.com/RevenueCat/ai-toolkit/tree/HEAD/revenuecat) by [RevenueCat](https://www.revenuecat.com/). 62★, MIT.
   Also packaged for Claude Code, Codex, and the Agent Plugins standard · OAuth sign-in.
 
   <details>
@@ -1401,7 +1551,7 @@
 
   </details>
 
-- **Ship USDC payments and cross-chain transfers** with [circle](https://github.com/circlefin/skills/tree/HEAD/plugins/circle) by [Circle](https://www.circle.com/). Circle's open source skills for AI-assisted development. 144★, Apache-2.0.
+- **Ship USDC payments and cross-chain transfers** with [circle](https://github.com/circlefin/skills/tree/HEAD/plugins/circle) by [Circle](https://www.circle.com/). 144★, Apache-2.0.
   Also packaged for Claude Code and Codex · No sign-in.
 
   <details>
@@ -1512,7 +1662,7 @@
 
   </details>
 
-- **Ship SMS, WhatsApp, RCS, voice, and verification** with [sinch-cursor-plugin](https://github.com/sinch/sinch-plugins/tree/HEAD/plugins/sinch-cursor-plugin) by [Sinch](https://sinch.com/). A plugin that enables seamless integration with Sinch APIs for messaging services. It provides developers with easy-to-use methods to send. 6★, Apache-2.0.
+- **Ship SMS, WhatsApp, RCS, voice, and verification** with [sinch-cursor-plugin](https://github.com/sinch/sinch-plugins/tree/HEAD/plugins/sinch-cursor-plugin) by [Sinch](https://sinch.com/). 6★, Apache-2.0.
   Cursor only · Paste a token.
 
   <details>
@@ -1524,7 +1674,7 @@
 
   </details>
 
-- **Triage deliverability, DNS, and suppressions** with [mailgun-cursor](https://github.com/mailgun/mailgun-plugins/tree/HEAD/plugins/mailgun-cursor) by [Sinch](https://sinch.com/). Mailgun agentic coding platform integrations. 0★, Apache-2.0.
+- **Triage deliverability, DNS, and suppressions** with [mailgun-cursor](https://github.com/mailgun/mailgun-plugins/tree/HEAD/plugins/mailgun-cursor) by [Sinch](https://sinch.com/). 0★, Apache-2.0.
   Cursor only · Paste a token.
 
   <details>
@@ -1575,7 +1725,7 @@
 
 ### Sales and account research
 
-- **Enrich people and companies and run research agents** with [clay](https://github.com/cursor/plugins/tree/HEAD/third_party/clay) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Enrich people and companies and run research agents** with [clay](https://github.com/cursor/plugins/tree/HEAD/third_party/clay) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1611,7 +1761,7 @@
 
   </details>
 
-- **Search and update contacts, deals, and tickets** with [hubspot](https://github.com/cursor/plugins/tree/HEAD/third_party/hubspot) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Search and update contacts, deals, and tickets** with [hubspot](https://github.com/cursor/plugins/tree/HEAD/third_party/hubspot) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1623,7 +1773,7 @@
 
   </details>
 
-- **Pull deal insights and call briefs** with [gong](https://github.com/cursor/plugins/tree/HEAD/third_party/gong) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Pull deal insights and call briefs** with [gong](https://github.com/cursor/plugins/tree/HEAD/third_party/gong) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1635,7 +1785,7 @@
 
   </details>
 
-- **Search sequences, prospects, and meetings** with [outreach](https://github.com/cursor/plugins/tree/HEAD/third_party/outreach) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Search sequences, prospects, and meetings** with [outreach](https://github.com/cursor/plugins/tree/HEAD/third_party/outreach) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1647,7 +1797,7 @@
 
   </details>
 
-- **Enrich leads and run sequences** with [amplemarket](https://github.com/cursor/plugins/tree/HEAD/third_party/amplemarket) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Enrich leads and run sequences** with [amplemarket](https://github.com/cursor/plugins/tree/HEAD/third_party/amplemarket) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1659,7 +1809,7 @@
 
   </details>
 
-- **Search candidates and manage the hiring pipeline** with [ashby](https://github.com/cursor/plugins/tree/HEAD/third_party/ashby) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Search candidates and manage the hiring pipeline** with [ashby](https://github.com/cursor/plugins/tree/HEAD/third_party/ashby) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1671,7 +1821,7 @@
 
   </details>
 
-- **Query recruiting analytics and sourcing agents** with [juicebox](https://github.com/cursor/plugins/tree/HEAD/third_party/juicebox) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Query recruiting analytics and sourcing agents** with [juicebox](https://github.com/cursor/plugins/tree/HEAD/third_party/juicebox) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -1710,7 +1860,7 @@
 
 ### Product analytics and experiments
 
-- **Instrument analytics and analyze the charts** with [amplitude](https://github.com/amplitude/mcp-marketplace/tree/HEAD/plugins/amplitude) by [Amplitude](https://amplitude.com/). Amplitude's MCP plugins and their related agents, skills, and commands. 34★, MIT.
+- **Instrument analytics and analyze the charts** with [amplitude](https://github.com/amplitude/mcp-marketplace/tree/HEAD/plugins/amplitude) by [Amplitude](https://amplitude.com/). 34★, MIT.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
   <details>
@@ -1722,7 +1872,7 @@
 
   </details>
 
-- **Implement tracking and investigate a metric** with [mixpanel-mcp](https://github.com/mixpanel/ai-plugins) by [Mixpanel](https://mixpanel.com/home/). A collection of Agent Skills for building on Mixpanel. 14★, Apache-2.0.
+- **Implement tracking and investigate a metric** with [mixpanel-mcp](https://github.com/mixpanel/ai-plugins) by [Mixpanel](https://mixpanel.com/home/). 14★, Apache-2.0.
   Cursor only · Sign-in not established.
 
   <details>
@@ -1905,7 +2055,7 @@
 
   </details>
 
-- **Run a data lake on S3 Tables, Glue, and Athena** with [aws-data-analytics](https://github.com/aws/agent-toolkit-for-aws/tree/HEAD/plugins/aws-data-analytics) by [AWS](https://aws.amazon.com/). Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS. 2,422★, Apache-2.0.
+- **Run a data lake on S3 Tables, Glue, and Athena** with [aws-data-analytics](https://github.com/aws/agent-toolkit-for-aws/tree/HEAD/plugins/aws-data-analytics) by [AWS](https://aws.amazon.com/). 2,422★, Apache-2.0.
   Also packaged for Claude Code, Codex, and the Agent Plugins standard · Runs locally.
 
   <details>
@@ -1917,7 +2067,7 @@
 
   </details>
 
-- **Build, train, and deploy models on SageMaker** with [sagemaker-ai](https://github.com/awslabs/agent-plugins/tree/HEAD/plugins/sagemaker-ai) by [AWS](https://aws.amazon.com/). Agent Plugins for AWS equip AI coding agents with the skills to help you architect, deploy, and operate on AWS. 868★, Apache-2.0.
+- **Build, train, and deploy models on SageMaker** with [sagemaker-ai](https://github.com/awslabs/agent-plugins/tree/HEAD/plugins/sagemaker-ai) by [AWS](https://aws.amazon.com/). 868★, Apache-2.0.
   Also packaged for Claude Code and Codex · Runs locally.
 
   <details>
@@ -2004,7 +2154,7 @@
 
   </details>
 
-- **Add maps, geocoding, and routing** with [amazon-location-service](https://github.com/awslabs/agent-plugins/tree/HEAD/plugins/amazon-location-service) by [AWS](https://aws.amazon.com/). Agent Plugins for AWS equip AI coding agents with the skills to help you architect, deploy, and operate on AWS. 868★, Apache-2.0.
+- **Add maps, geocoding, and routing** with [amazon-location-service](https://github.com/awslabs/agent-plugins/tree/HEAD/plugins/amazon-location-service) by [AWS](https://aws.amazon.com/). 868★, Apache-2.0.
   Also packaged for Claude Code and Codex · Runs locally.
 
   <details>
@@ -2031,7 +2181,7 @@
 
 ### Travel and spend
 
-- **Query travel bookings, expenses, and card policy** with [navan](https://github.com/cursor/plugins/tree/HEAD/third_party/navan) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Query travel bookings, expenses, and card policy** with [navan](https://github.com/cursor/plugins/tree/HEAD/third_party/navan) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
   <details>
@@ -2118,7 +2268,7 @@
 
   </details>
 
-- **Fan one large task out across parallel cloud agents** with [orchestrate](https://github.com/cursor/plugins/tree/HEAD/orchestrate) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Fan one large task out across parallel cloud agents** with [orchestrate](https://github.com/cursor/plugins/tree/HEAD/orchestrate) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · No sign-in.
 
   <details>
@@ -2232,7 +2382,7 @@
 
   </details>
 
-- **Build apps and automations on the TypeScript SDK** with [cursor-sdk](https://github.com/cursor/plugins/tree/HEAD/cursor-sdk) by [Cursor](https://cursor.com/). Cursor plugin specification and official plugins. 5,031★.
+- **Build apps and automations on the TypeScript SDK** with [cursor-sdk](https://github.com/cursor/plugins/tree/HEAD/cursor-sdk) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · No sign-in.
 
   <details>
@@ -2280,3 +2430,101 @@
 
   </details>
 
+---
+
+## Cursor plugin spec, marketplaces, and where to publish
+
+- **Read the format** in [cursor/plugins](https://github.com/cursor/plugins), Cursor's own repo. It holds both JSON Schemas and 33 official plugins you can read as worked examples. 5,031★, MIT.
+- **Read the portable format** in [agentplugins/agent-plugins-spec](https://github.com/agentplugins/agent-plugins-spec). A plugin that conforms to it loads in Cursor with no changes, and in eight other clients besides.
+- **Browse the community side** at [cursor.directory](https://cursor.directory), open self-serve submission with an automated security scan, backed by [cursor/community-plugins](https://github.com/cursor/community-plugins). 3,980★.
+- **Publish yours** at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish). Open source, reviewed by hand, free.
+- **Run a private one** from a repository: Dashboard, then Plugins, then Add Marketplace, then Import from Repo. Start from [cursor-team-marketplace-template](https://github.com/fieldsphere/cursor-team-marketplace-template). Teams and Enterprise plans.
+- **Share an MCP server as a link** with the [install-link format](https://cursor.com/docs/mcp/install-links), which turns any README into a one-click Add to Cursor button.
+
+---
+
+## Good to know
+
+<details>
+<summary><strong>How the portability and sign-in columns are worked out</strong></summary>
+
+Both columns are derived, not collected. Nothing here is copied from a vendor's marketing page,
+and no row is typed by hand.
+
+```mermaid
+flowchart LR
+    A["Cursor marketplace payload<br/>247 listings, each with<br/>its own source repository"] --> B["Read the repo file tree<br/>through the GitHub API"]
+    B --> C["Which manifest directories<br/>are present?"]
+    C --> D["Portability row"]
+    A --> E["Read the plugin's mcp.json<br/>from its own repository"]
+    E --> F["Open an MCP initialize<br/>against the live endpoint"]
+    F --> G{"401 with protected-resource<br/>metadata that resolves?"}
+    G -->|yes| H["OAuth sign-in"]
+    G -->|no| I["Token, self-hosted,<br/>or nothing to sign in to"]
+    A --> J["Fetch the plugin's own<br/>marketplace page"]
+    J --> K["Read the /add-plugin line<br/>off Cursor's page, never guess it"]
+    D --> L["Weekly re-run<br/>Actions workflow, not memory"]
+    H --> L
+    K --> L
+    L --> B
+```
+
+That pipeline is a workflow in this repo
+([`verify-catalog.yml`](.github/workflows/verify-catalog.yml)), not a diagram we drew once. It
+runs every Monday, rebuilds all three derived columns from live sources, and writes the badges at
+the top of this page from that run's actual result. A plugin whose manifest set changes gets a
+different portability row the following Monday. A server that adds OAuth gets a different sign-in
+row. Neither badge is a hand-set claim.
+
+Two limits worth stating. A manifest directory proves the repository ships that client's
+packaging, which is what "also packaged for" says; it is not a guarantee that every component
+inside works identically in every client. And the sign-in probe is an unauthenticated handshake
+from outside, so a server that is down at check time is reported as unestablished rather than
+guessed at.
+
+</details>
+
+<details>
+<summary><strong>🛡️ Security notice</strong></summary>
+
+This is a **curated list, not a security audit**. Installing a plugin runs third-party code with
+your permissions, and connecting an MCP server hands a remote service whatever your account can
+reach. Cursor reviews every marketplace listing before it appears, which is real but is not the
+same as an audit of the code you are about to run. A plugin's presence here means its install
+command came off Cursor's own page and its source repository resolves, not that the code has been
+reviewed for safety.
+
+Read a plugin's source before you install it or hand it credentials, the same as you would any
+package or browser extension. Found one that seems malicious rather than merely broken? Open an
+issue and say so plainly, or use GitHub's private vulnerability reporting on the plugin's own
+repo.
+
+</details>
+
+<details>
+<summary><strong>🤝 Contributing</strong></summary>
+
+PRs are very welcome, see [CONTRIBUTING.md](CONTRIBUTING.md) for the format and the acceptance
+rules.
+
+</details>
+
+<details>
+<summary><strong>Related lists</strong></summary>
+
+- [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): plugins built on the open Agent Plugins standard, the format Cursor loads unchanged, every entry checked for a real `$schema`.
+- [awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot): skills, plugins, and MCP servers for Grok Bot, which packages plugins in its own `.grok-plugin` namespace.
+- [awesome-dsh-plugins](https://github.com/ZeroPointRepo/awesome-dsh-plugins): DeepSeek Harness plugins, every install command machine-checked weekly.
+- [awesome-fx-skills](https://github.com/ZeroPointRepo/awesome-fx-skills): skills, MCP servers, and subagents for Vercel's fx coding agent.
+
+</details>
+
+---
+
+<p align="center">
+Maintained by <a href="https://github.com/ZeroPointRepo">ZeroPointRepo</a> · list content licensed
+<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Built with
+<a href="https://crhq.ai">crhq.ai</a>
+<br />
+<sub>Unofficial, community-maintained. Not affiliated with or endorsed by Anysphere or Cursor.</sub>
+</p>
