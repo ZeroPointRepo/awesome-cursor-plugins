@@ -3,18 +3,18 @@
 Every approved, publicly listed plugin on [cursor.com/marketplace](https://cursor.com/marketplace), rebuilt from live sources on 2026-08-25.
 The curated page is [README.md](README.md). This file is the whole set.
 
-**110 of 247** ship a manifest for at least one agent besides Cursor. **137** are Cursor and nothing else.
-**111** use OAuth, **105** have nothing to sign in to, **14** want a token, **12** point at your own instance.
+**108 of 247** ship a manifest for at least one agent besides Cursor. **139** are Cursor and nothing else.
+**111** use OAuth, **104** have nothing to sign in to, **14** want a token, **12** point at your own instance.
 
 Sorted by stars on the source repository. `Also runs in` is manifest presence in that repository, nothing inferred.
 
 | Plugin | Publisher | Stars | Also runs in | Sign-in | Install |
 |---|---|---:|---|---|---|
-| [superpowers](https://github.com/obra/superpowers) | Superpowers | 277,202 | Claude Code, Codex, Kimi, Devin | No sign-in | `/add-plugin superpowers` |
+| [superpowers](https://github.com/obra/superpowers) | Superpowers | 277,204 | Claude Code, Codex, Kimi, Devin | No sign-in | `/add-plugin superpowers` |
 | [shadcn](https://github.com/shadcn-ui/ui) | shadcn | 122,038 | Cursor only | Runs locally | `/add-plugin shadcn` |
 | [mem0](https://github.com/mem0ai/mem0/tree/HEAD/integrations/mem0-plugin) | Mem0 | 63,977 | Claude Code, Codex, Kimi, Agent Plugins | OAuth sign-in | `/add-plugin mem0` |
 | [context7-plugin](https://github.com/upstash/context7/tree/HEAD/plugins/claude/context7) | Upstash | 61,175 | Claude Code | No sign-in | `/add-plugin context7-plugin` |
-| [tldraw](https://github.com/tldraw/tldraw/tree/HEAD/apps/mcp-app/plugins/tldraw-mcp) | tldraw | 49,946 | Cursor only | No sign-in | `/add-plugin tldraw` |
+| [tldraw](https://github.com/tldraw/tldraw/tree/HEAD/apps/mcp-app/plugins/tldraw-mcp) | tldraw | 49,947 | Cursor only | No sign-in | `/add-plugin tldraw` |
 | [devtools-for-agents](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google Chrome | 49,667 | Claude Code, GitHub Copilot | Runs locally | `/add-plugin devtools-for-agents` |
 | [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin) | Every | 24,519 | Claude Code, Codex, Grok Bot, Kimi, Devin, Agent Plugins | No sign-in | `/add-plugin compound-engineering` |
 | [react-doctor](https://github.com/millionco/react-doctor) | React Doctor | 14,610 | Cursor only | No sign-in | `/add-plugin react-doctor` |
@@ -71,7 +71,7 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [kraken-cli](https://github.com/krakenfx/kraken-cli) | Kraken | 694 | Claude Code, Codex | Runs locally | `/add-plugin kraken-cli` |
 | [dbt](https://github.com/dbt-labs/dbt-agent-skills/tree/HEAD/skills/dbt) | dbt Labs | 685 | Claude Code | No sign-in | `/add-plugin dbt` |
 | [treg](https://github.com/superdesigndev/treg/tree/HEAD/plugins/treg) | Superdesign | 597 | Cursor only | No sign-in | `/add-plugin treg` |
-| [shopify-plugin](https://github.com/Shopify/Shopify-AI-Toolkit) | Shopify | 512 | Claude Code, Codex, Agent Plugins | No sign-in | `/add-plugin shopify-plugin` |
+| [shopify-plugin](https://github.com/Shopify/Shopify-AI-Toolkit) | Shopify | 512 | Cursor only | No sign-in | `/add-plugin shopify-plugin` |
 | [revyl](https://github.com/RevylAI/revyl-cli/tree/HEAD/cursor-plugin) | Revyl | 506 | Cursor only | No sign-in | `/add-plugin revyl` |
 | [superdesign](https://github.com/superdesigndev/superdesign-skill) | Superdesign | 446 | Claude Code, Codex | No sign-in | `/add-plugin superdesign` |
 | [astronomer-data](https://github.com/astronomer/agents) | Astronomer | 428 | Claude Code | No sign-in | `/add-plugin astronomer-data` |
@@ -81,7 +81,7 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [zapier](https://github.com/zapier/zapier-mcp/tree/HEAD/plugins/zapier) | Zapier | 388 | Claude Code, Codex, GitHub Copilot | OAuth sign-in | `/add-plugin zapier` |
 | [railway](https://github.com/railwayapp/railway-skills/tree/HEAD/plugins/railway) | Railway | 312 | Claude Code, Codex, Grok Bot | OAuth sign-in | `/add-plugin railway` |
 | [svelte](https://github.com/sveltejs/ai-tools/tree/HEAD/plugins/cursor/svelte) | Svelte | 309 | Cursor only | Runs locally | `/add-plugin svelte` |
-| [databricks](https://github.com/databricks/databricks-agent-skills/tree/HEAD/plugins/databricks/cursor) | Databricks | 278 | Cursor only | No sign-in | `/add-plugin databricks` |
+| [databricks](https://github.com/databricks/databricks-agent-skills) | Databricks | 278 | Cursor only | No sign-in | `/add-plugin databricks` |
 | [vercel](https://github.com/vercel/vercel-plugin) | Vercel | 262 | Claude Code, Kimi | OAuth sign-in | `/add-plugin vercel` |
 | [langfuse](https://github.com/langfuse/skills) | Langfuse | 254 | Claude Code, Codex | No sign-in | `/add-plugin langfuse` |
 | [amd-skills](https://github.com/amd/skills) | AMD | 251 | Claude Code, Codex | No sign-in | `/add-plugin amd-skills` |
@@ -102,7 +102,7 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [slack](https://github.com/slackapi/slack-skills-plugin) | Slack | 106 | Claude Code, Codex | OAuth sign-in | `/add-plugin slack` |
 | [sonarqube](https://github.com/SonarSource/sonarqube-agent-plugins) | SonarSource | 100 | Claude Code, Codex, GitHub Copilot, Agent Plugins | Runs locally | `/add-plugin sonarqube` |
 | [githits](https://github.com/githits-com/githits-cli) | GitHits | 84 | Cursor only | Sign-in not established | `/add-plugin githits` |
-| [neon-postgres](https://github.com/neondatabase/agent-skills/tree/HEAD/plugins/neon-postgres) | Neon | 83 | Claude Code | OAuth sign-in | `/add-plugin neon-postgres` |
+| [neon-postgres](https://github.com/neondatabase/agent-skills) | Neon | 83 | Cursor only | OAuth sign-in | `/add-plugin neon-postgres` |
 | [subtext](https://github.com/fullstorydev/subtext) | Subtext | 78 | Claude Code, Codex | OAuth sign-in | `/add-plugin subtext` |
 | [posthog](https://github.com/PostHog/ai-plugin) | PostHog | 77 | Claude Code, Codex | OAuth sign-in | `/add-plugin posthog` |
 | [canva](https://github.com/canva-sdks/canva-skills/tree/HEAD/plugins/canva) | Canva | 70 | Claude Code, Codex | OAuth sign-in | `/add-plugin canva` |
@@ -202,7 +202,7 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [opsera-devsecops](https://github.com/opsera-agents/opsera-cursor/tree/HEAD/plugins/opsera-devsecops) | Opsera | 2 | Cursor only | OAuth sign-in | `/add-plugin opsera-devsecops` |
 | [tavily](https://github.com/tavily-ai/tavily-cursor-plugin) | Tavily | 2 | Cursor only | OAuth sign-in | `/add-plugin tavily` |
 | [whop](https://github.com/whopio/whop-mcp-server) | Whop | 2 | Cursor only | OAuth sign-in | `/add-plugin whop` |
-| [aikido-cursor-plugin](https://github.com/AikidoSec/aikido-cursor-plugin) | Aikido | 1 | Cursor only | Runs locally | `/add-plugin aikido-cursor-plugin` |
+| [aikido-cursor-plugin](https://github.com/AikidoSec/aikido-cursor-plugin) | Aikido | 1 | Cursor only | Sign-in not established | `/add-plugin aikido-cursor-plugin` |
 | [antimetal](https://github.com/antimetal/cursor-plugin) | Antimetal | 1 | Claude Code | OAuth sign-in | `/add-plugin antimetal` |
 | [clickup](https://github.com/clickup/clickup-plugin) | ClickUp | 1 | Claude Code, Agent Plugins | OAuth sign-in | `/add-plugin clickup` |
 | [cockroachdb](https://github.com/cockroachdb/cursor-plugin) | Cockroach Labs | 1 | Cursor only | OAuth sign-in | `/add-plugin cockroachdb` |

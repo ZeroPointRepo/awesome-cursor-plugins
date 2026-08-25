@@ -12,7 +12,7 @@
       "description": {
         "en": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques"
       },
-      "stars": 277202,
+      "stars": 277204,
       "install": "/add-plugin superpowers",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/superpowers",
@@ -89,7 +89,7 @@
       "description": {
         "en": "Draw and visually collaborate with your agents inside Cursor"
       },
-      "stars": 49946,
+      "stars": 49947,
       "install": "/add-plugin tldraw",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/tldraw",
@@ -1111,10 +1111,7 @@
       "page": "https://cursor.com/marketplace/shopify",
       "license": "MIT",
       "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
+        "Cursor"
       ],
       "sign_in": "skills-only"
     },
@@ -1693,8 +1690,7 @@
       "page": "https://cursor.com/marketplace/neon",
       "license": "Apache-2.0",
       "runs_in": [
-        "Cursor",
-        "Claude Code"
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -3489,7 +3485,7 @@
       "runs_in": [
         "Cursor"
       ],
-      "sign_in": "local"
+      "sign_in": "unknown"
     },
     {
       "name": "antimetal",
