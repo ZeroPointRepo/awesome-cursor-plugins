@@ -65,6 +65,33 @@ or the plugin is skills only, or it runs locally. `Points at your own instance` 
 in the config is a template. If you cannot establish it, say `Sign-in not established` rather than
 guessing: an honest gap is worth more than a confident wrong answer.
 
+### Before you "fix" the prober
+
+The order the prober resolves protected-resource metadata in is deliberate, and it looks like a bug
+until you know why.
+
+RFC 9728 says a client constructs the metadata URL by **path insertion**:
+`https://host/.well-known/oauth-protected-resource/mcp`. Some servers advertise theirs at the
+path-**suffix** form instead, `https://host/mcp/.well-known/oauth-protected-resource`, and return a
+404 on the spec-correct one. `.github/scripts/build-catalog.mjs` therefore follows the
+`resource_metadata` parameter the server actually advertises in its `WWW-Authenticate` header first,
+and only constructs the spec path when no parameter is present.
+
+That is not leniency, it is accuracy: **it is what Cursor's own MCP client does**, so it reports what
+a real user will experience rather than what a strict reading would predict. At least one server in
+the current catalog is in exactly this position, advertised URL 200 and spec-constructed path 404,
+and it is listed as `OAuth sign-in` because that is what happens when you install it.
+
+Two things follow, and both matter more than the rule itself:
+
+- **The order is applied to every entry identically**, including the maintainer's own. There is no
+  second code path for our entries, and adding one would be the fastest way to make this column
+  worthless.
+- **If you flip the prober to spec-first, do it knowingly.** Servers with the suffix-form defect will
+  move to `Sign-in not established` on their own, which is the correct output for that rule, and the
+  counts on the README will move with them. That is a legitimate change. Silently flipping it while
+  assuming nothing moves is not.
+
 ## Adding a whole category
 
 Open an issue first. A category with two entries in it is usually better merged into a neighbour,
