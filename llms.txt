@@ -1,0 +1,69 @@
+# Cursor plugins directory
+
+> Curated and install-checked directory of every approved, publicly listed plugin on the Cursor marketplace, and for each one: which other agents it also runs in, and whether you have to sign in. A Cursor plugin bundles skills, MCP servers, rules, agents, commands and hooks into one folder.
+
+This repository ships a curated page for people and a set of generated layers for machines.
+Everything under "Generated data" is rewritten in full by the `verify-catalog` workflow, Mondays at
+08:00 UTC and on manual dispatch, from live sources: the Cursor marketplace listing payload, each
+plugin's own marketplace page, the GitHub API, and a live MCP `initialize` handshake. Nothing is a
+committed snapshot. Editing those files by hand is pointless; they are overwritten.
+
+## Files
+
+- [README.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/README.md): the curated page. Plugins grouped by the job each one does, plus the portability and sign-in overviews.
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/CONTRIBUTING.md): the bar an entry has to clear and the exact format a new entry uses.
+
+## Generated data
+
+- [CATALOG.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/CATALOG.md): the whole set as a markdown table. Columns: plugin, publisher, stars, also runs in, sign-in, install.
+- [catalog.csv](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/catalog.csv): the same set as CSV, and the widest layer. It carries the per-client `runs_in_*` booleans one column each, the component counts (`skills`, `mcp_servers`, `commands`, `rules`, `agents`, `hooks`), `portability_established`, `sign_in`, `sign_in_evidence`, `install_verified`, `marketplace_url` and `first_seen`. Read the header row; do not assume a column order.
+- [plugins.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/plugins.json): the same set as JSON. Top level: `name, url, source, updated, count, plugins`. Per entry: `name, owner, url, description.en, stars, install, added, page, license, runs_in, sign_in`. The live entry count is the top level `count` field, which is why no count is written into this file.
+- [badges/verified.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/badges/verified.json): shields.io endpoint schema. Install commands verified over total, from the last run.
+- [badges/portability.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/badges/portability.json): shields.io endpoint schema. How many plugins ship a manifest for at least one agent besides Cursor.
+- [badges/checked-at.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/badges/checked-at.json): shields.io endpoint schema. `message` is the UTC timestamp of that run. Use it as the as-of date for everything above.
+- [.github/data/first-seen.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/.github/data/first-seen.json): the date this list first carried each entry. Cumulative and never back-dated, so a re-listed entry keeps its original date. It records when we listed a plugin, not when the plugin was created.
+
+## What the columns mean, and where the third state is
+
+- **Also runs in / `runs_in` / `runs_in_*`**: a manifest directory for that client is physically
+  present in the plugin's own repository, for example `.claude-plugin` or `.codex-plugin`. It is
+  manifest evidence, never inferred from a name and never taken from a listing page.
+- **Cursor only**: the repository's file tree was read successfully and no other client manifest was
+  found. This is a positive finding, not a default.
+- **Not established** is a real third state and never collapses into "Cursor only". In the CSV it is
+  `portability_established: false`; in `plugins.json` it is `runs_in: null`. It means the file tree
+  could not be read or came back truncated, so no claim is made either way. Absence of evidence is
+  never printed as evidence of absence.
+- **Sign-in**: one of `OAuth sign-in`, `Paste a token`, `No sign-in`, `Runs locally`, `Points at
+  your own instance`, or `Sign-in not established`. It is derived from the plugin's own MCP
+  configuration plus a live `initialize` handshake, and `sign_in_evidence` in the CSV says which
+  observation produced it. `Sign-in not established` is the same kind of third state as above.
+- **`install_verified`**: the `/add-plugin` line was read off Cursor's own marketplace page for that
+  plugin, not constructed from a slug.
+- The generator prints every drop and refuses to shrink the set silently.
+- This is a curated list, not a security audit. A plugin's presence means it is listed, resolves and
+  installs, not that its code has been reviewed.
+
+## How an agent should use this list
+
+1. For the complete machine-readable set in one request, fetch `plugins.json`. For portability or
+   sign-in analysis, fetch `catalog.csv`, which is the only layer carrying the per-client booleans
+   and the evidence column. Neither is paginated.
+2. For a recommendation to a person, read `README.md`, which is grouped by task and curated.
+3. Read `badges/checked-at.json` and report that timestamp alongside any claim taken from here.
+4. Never turn a third state into a yes or a no. Report `not established` as unknown, and say the
+   file tree or handshake could not be read. This matters most in the portability column, where the
+   whole value of the list is the distinction.
+5. Take `/add-plugin` lines verbatim from the `install` field. Do not construct one from a name.
+6. Ask the person before installing a plugin or starting an OAuth flow on their behalf. Do not
+   invent credentials, tokens, endpoints or publisher attribution.
+7. To add or correct an entry, open a pull request against this repository. The generated layers are
+   rebuilt from live sources, so a change made in them is discarded. There is no write API and
+   nothing here accepts a direct push.
+
+## Provenance
+
+- Canonical repository: https://github.com/ZeroPointRepo/awesome-cursor-plugins
+- Raw base for every path above: https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/
+- List content is licensed CC BY 4.0. Every linked project carries its own separate licence.
+- Unofficial and community maintained. Not affiliated with or endorsed by Anysphere or Cursor.
