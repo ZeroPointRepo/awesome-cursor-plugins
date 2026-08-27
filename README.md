@@ -2542,6 +2542,7 @@ rules.
 - [awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot): skills, plugins, and MCP servers for Grok Bot, which packages plugins in its own `.grok-plugin` namespace.
 - [awesome-dsh-plugins](https://github.com/ZeroPointRepo/awesome-dsh-plugins): DeepSeek Harness plugins, every install command machine-checked weekly.
 - [awesome-fx-skills](https://github.com/ZeroPointRepo/awesome-fx-skills): skills, MCP servers, and subagents for Vercel's fx coding agent.
+- [awesome-ag-ui](https://github.com/ZeroPointRepo/awesome-ag-ui): AG-UI, the protocol for putting an agent in front of a person, with a matrix of which capabilities each of the 30 framework integrations implements.
 
 </details>
 
