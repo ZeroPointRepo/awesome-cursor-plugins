@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/plugins-247-000000" alt="Plugin count" />
+  <img src="https://img.shields.io/badge/plugins-248-000000" alt="Plugin count" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fverified.json" alt="Install commands verified" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fportability.json" alt="Multi-client plugins" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fchecked-at.json" alt="Last checked" />
@@ -1408,7 +1408,7 @@ unauthenticated request. Each entry says which.
 
   </details>
 
-- **Search channels and post from the editor** with [slack](https://github.com/slackapi/slack-mcp-plugin) by [Slack](https://slack.com/). Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients. 106★, MIT.
+- **Search channels and post from the editor** with [slack](https://github.com/slackapi/slack-skills-plugin) by [Slack](https://slack.com/). Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients. 106★, MIT.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
   <details>
@@ -1912,7 +1912,7 @@ unauthenticated request. Each entry says which.
 
   </details>
 
-- **Manage feature flags and AI configs** with [launchdarkly](https://github.com/launchdarkly/agent-skills) by [LaunchDarkly](https://launchdarkly.com). LaunchDarkly agent skills and mcp server for feature flag management, AI configuration, and skill authoring. 25★.
+- **Manage feature flags and AI configs** with [launchdarkly](https://github.com/launchdarkly/ai-tooling) by [LaunchDarkly](https://launchdarkly.com). LaunchDarkly agent skills and mcp server for feature flag management, AI configuration, and skill authoring. 25★.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
   <details>
@@ -1936,7 +1936,7 @@ unauthenticated request. Each entry says which.
 
   </details>
 
-- **Ask governed company data a question** with [basedash](https://github.com/Basedash/cursor-plugin) by [Basedash](https://www.basedash.com). 0★, MIT.
+- **Ask governed company data a question** with [basedash](https://github.com/Basedash/agent-plugin) by [Basedash](https://www.basedash.com). 0★, MIT.
   Also packaged for Claude Code · OAuth sign-in.
 
   <details>
@@ -1960,7 +1960,7 @@ unauthenticated request. Each entry says which.
 
   </details>
 
-- **Model, query, and embed Omni analytics** with [omni-analytics](https://github.com/exploreomni/omni-cursor-plugin) by [Omni](https://www.omni.co). [DEPRECATED] Use exploreomni/omni-agent-skills instead. 6★.
+- **Model, query, and embed Omni analytics** with [omni-analytics](https://github.com/exploreomni/omni-agent-skills) by [Omni](https://www.omni.co). 32★.
   Cursor only · No sign-in.
 
   <details>

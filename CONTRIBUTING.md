@@ -84,9 +84,9 @@ and it is listed as `OAuth sign-in` because that is what happens when you instal
 
 Two things follow, and both matter more than the rule itself:
 
-- **The order is applied to every entry identically**, including the maintainer's own. There is no
-  second code path for our entries, and adding one would be the fastest way to make this column
-  worthless.
+- **The order is applied to every entry identically**, including entries built by ZeroPointRepo.
+  There is no second code path for those, and adding one would be the fastest way to make this
+  column worthless.
 - **If you flip the prober to spec-first, do it knowingly.** Servers with the suffix-form defect will
   move to `Sign-in not established` on their own, which is the correct output for that rule, and the
   counts on the README will move with them. That is a legitimate change. Silently flipping it while
