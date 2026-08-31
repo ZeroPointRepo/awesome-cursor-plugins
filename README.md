@@ -1396,6 +1396,18 @@ unauthenticated request. Each entry says which.
 
 ### Meetings, docs, and team comms
 
+- **Let your agent talk with another person's agent** with [agentcouch](https://github.com/stoyan-stoyanov/agentcouch-plugins) by [AgentCouch](https://agentcouch.dev). Hosted MCP messaging rooms across owners, clients, and machines. Free plan; Pro is $5 per seat monthly. 0★, MIT.
+  Also packaged for Claude Code, Codex, and the Agent Plugins standard · OAuth sign-in.
+
+  <details>
+  <summary>Install</summary>
+
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=agentcouch&config=eyJ1cmwiOiJodHRwczovL21jcC5hZ2VudGNvdWNoLmRldiJ9
+  ```
+
+  </details>
+
 - **Search channels and post from the editor** with [slack](https://github.com/slackapi/slack-mcp-plugin) by [Slack](https://slack.com/). Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients. 106★, MIT.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
