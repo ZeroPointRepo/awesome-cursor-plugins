@@ -30,6 +30,13 @@ jobs:
           exit 0
 
       - name: Say thanks, and say what to fix if anything
+        # Non-fatal on purpose. On a pull_request event from a FORK the GITHUB_TOKEN is
+        # read-only, so this comment returns 403 and would fail the whole run - showing a red X
+        # on a correctly formatted entry and telling a first-time contributor they broke
+        # something when they did not. The format check above is the real signal; the thank-you
+        # is a courtesy and must never be the thing that fails. NOT fixed by switching to
+        # pull_request_target, which would run a write-scoped token against untrusted PR code.
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
