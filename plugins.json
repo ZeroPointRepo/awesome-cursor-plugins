@@ -12,7 +12,7 @@
       "description": {
         "en": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques"
       },
-      "stars": 279847,
+      "stars": 279856,
       "install": "/add-plugin superpowers",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/superpowers",
@@ -33,7 +33,7 @@
       "description": {
         "en": "UI component and design system framework. Search registries, install components as source code, and audit your project."
       },
-      "stars": 122624,
+      "stars": 122626,
       "install": "/add-plugin shadcn",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/shadcn",
@@ -50,7 +50,7 @@
       "description": {
         "en": "Mem0 memory layer for AI applications. Add persistent memory, personalization, and semantic search using the Mem0 Platform MCP server."
       },
-      "stars": 64409,
+      "stars": 64410,
       "install": "/add-plugin mem0",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mem0",
@@ -71,7 +71,7 @@
       "description": {
         "en": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context."
       },
-      "stars": 61436,
+      "stars": 61437,
       "install": "/add-plugin context7-plugin",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/upstash",
@@ -89,7 +89,7 @@
       "description": {
         "en": "Help your agent build, debug, and verify your code correctly. With Chrome DevTools for agents, your AI agent can interact with the Chrome browser to test code, emulate users, and catch bugs using Chrome DevTools’ capabilities before shipping."
       },
-      "stars": 50246,
+      "stars": 50247,
       "install": "/add-plugin devtools-for-agents",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/google-chrome/devtools-for-agents",
@@ -125,7 +125,7 @@
       "description": {
         "en": "Brainstorm, plan, debug, review, and compound learnings with AI agents"
       },
-      "stars": 24707,
+      "stars": 24708,
       "install": "/add-plugin compound-engineering",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/every",
@@ -148,7 +148,7 @@
       "description": {
         "en": "Scan, understand, and fix React codebase diagnostics with React Doctor."
       },
-      "stars": 14662,
+      "stars": 14664,
       "install": "/add-plugin react-doctor",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/react-doctor",
@@ -165,7 +165,7 @@
       "description": {
         "en": "Official GSAP skills for Cursor, Claude and other AI agents — core animations, timelines, ScrollTrigger, plugins, utilities, React integration, and performance best practices"
       },
-      "stars": 14636,
+      "stars": 14639,
       "install": "/add-plugin gsap-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/gsap",
@@ -201,7 +201,7 @@
       "description": {
         "en": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin agent-compatibility",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/agent-compatibility",
@@ -218,7 +218,7 @@
       "description": {
         "en": "Research keywords, backlinks, rankings, and site health."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin ahrefs",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/ahrefs",
@@ -235,7 +235,7 @@
       "description": {
         "en": "Search people and companies, enrich leads, run sequences."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin amplemarket",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/amplemarket",
@@ -252,7 +252,7 @@
       "description": {
         "en": "Search candidates, prep interviews, and manage pipeline tasks."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin ashby",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/ashby",
@@ -269,7 +269,7 @@
       "description": {
         "en": "Manage contacts, email and SMS campaigns, and CRM deals."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin brevo",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/brevo",
@@ -286,7 +286,7 @@
       "description": {
         "en": "Query expenses, receipts, bills, cards, and travel."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin brex",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/brex",
@@ -303,7 +303,7 @@
       "description": {
         "en": "Check availability and book, cancel, or reschedule."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin calendly",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/calendly",
@@ -320,7 +320,7 @@
       "description": {
         "en": "Search meetings, transcripts, action items, and emails."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin circleback",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/circleback",
@@ -337,7 +337,7 @@
       "description": {
         "en": "Enrich people and companies, run AI research agents."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin clay",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/clay",
@@ -354,7 +354,7 @@
       "description": {
         "en": "Patterns for designing CLIs that coding agents can run reliably: non-interactive flags, layered help with examples, pipelines, actionable errors, idempotency, and dry-run."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin cli-for-agent",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cli-for-agent",
@@ -371,7 +371,7 @@
       "description": {
         "en": "Search docs, read pages, and update tables."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin coda",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/coda",
@@ -388,7 +388,7 @@
       "description": {
         "en": "Incrementally learns durable user preferences and workspace facts from transcript changes and keeps AGENTS.md up to date with plain bullet points."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin continual-learning",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/continual-learning",
@@ -405,7 +405,7 @@
       "description": {
         "en": "Search, create, and update documents and daily notes."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin craft",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/craft",
@@ -422,7 +422,7 @@
       "description": {
         "en": "Scaffold and validate new agent plugins. Handles directory setup, manifest generation, and pre-submission quality checks for the marketplace."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin create-plugin",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/create-plugin",
@@ -439,7 +439,7 @@
       "description": {
         "en": "Build apps, scripts, and automations with the TypeScript SDK."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin cursor-sdk",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cursor-sdk",
@@ -456,7 +456,7 @@
       "description": {
         "en": "Internal engineering team workflows for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin cursor-team-kit",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cursor-team-kit",
@@ -473,7 +473,7 @@
       "description": {
         "en": "Build campaigns, manage segments, and query people."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin customer-io",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/customer-io",
@@ -490,7 +490,7 @@
       "description": {
         "en": "Render documentation as a navigable canvas."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin docs-canvas",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/docs-canvas",
@@ -507,7 +507,7 @@
       "description": {
         "en": "Manage envelopes, templates, workflows, and agreements."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin docusign",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/docusign",
@@ -524,7 +524,7 @@
       "description": {
         "en": "Search meetings and pull transcripts and summaries."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin fathom",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/fathom",
@@ -541,7 +541,7 @@
       "description": {
         "en": "Search meeting transcripts, summaries, and action items."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin fireflies",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/fireflies",
@@ -558,7 +558,7 @@
       "description": {
         "en": "Manage repos, issues, pull requests, and Actions."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin github",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/github",
@@ -575,7 +575,7 @@
       "description": {
         "en": "Search, read, draft, and manage email."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin gmail",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/gmail",
@@ -592,7 +592,7 @@
       "description": {
         "en": "Brainstorm domain names and check availability."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin godaddy",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/godaddy",
@@ -609,7 +609,7 @@
       "description": {
         "en": "Pull account summaries, deal insights, and call briefs."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin gong",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/gong",
@@ -626,7 +626,7 @@
       "description": {
         "en": "Search events and schedule meetings."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin google-calendar",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/google-calendar",
@@ -643,7 +643,7 @@
       "description": {
         "en": "Search, read, create, and share files."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin google-drive",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/google-drive",
@@ -660,7 +660,7 @@
       "description": {
         "en": "Search company knowledge and draft verified answers."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin guru",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/guru",
@@ -677,7 +677,7 @@
       "description": {
         "en": "Search and update contacts, companies, deals, and tickets."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin hubspot",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/hubspot",
@@ -694,7 +694,7 @@
       "description": {
         "en": "Search conversations, contacts, and Help Center articles."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin intercom",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/intercom",
@@ -711,7 +711,7 @@
       "description": {
         "en": "Create and edit forms, then read submissions."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin jotform",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/jotform",
@@ -728,7 +728,7 @@
       "description": {
         "en": "Query recruiting analytics, shortlists, and sourcing agents."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin juicebox",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/juicebox",
@@ -745,7 +745,7 @@
       "description": {
         "en": "Manage profiles, segments, campaigns, and flows."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin klaviyo",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/klaviyo",
@@ -762,7 +762,7 @@
       "description": {
         "en": "Manage subscribers, groups, campaigns, and automations."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin mailerlite",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/mailerlite",
@@ -779,7 +779,7 @@
       "description": {
         "en": "Capture, search, and organize notes and collections."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin mem",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/mem",
@@ -796,7 +796,7 @@
       "description": {
         "en": "Read balances, transactions, statements, and cards."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin mercury",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/mercury",
@@ -813,7 +813,7 @@
       "description": {
         "en": "Query expenses, travel bookings, policies, and cards."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin navan",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/navan",
@@ -830,7 +830,7 @@
       "description": {
         "en": "Fan a large task out across parallel cloud agents via the Cursor SDK: planners publish tasks, workers hand off back up, and a script reconciles the tree from disk and git."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin orchestrate",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/orchestrate",
@@ -847,7 +847,7 @@
       "description": {
         "en": "Search meeting history and pull full transcripts."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin otter",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/otter",
@@ -864,7 +864,7 @@
       "description": {
         "en": "Search sequences, prospects, and Kaia meetings."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin outreach",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/outreach",
@@ -881,7 +881,7 @@
       "description": {
         "en": "Navigate, click, screenshot, and test in a real browser."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin playwright",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/playwright",
@@ -898,7 +898,7 @@
       "description": {
         "en": "Render PR diffs as review canvases grouped by importance."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin pr-review-canvas",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/pr-review-canvas",
@@ -915,7 +915,7 @@
       "description": {
         "en": "Track AI visibility, sentiment, and citations."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin profound",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/profound",
@@ -932,7 +932,7 @@
       "description": {
         "en": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin pstack",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/pstack",
@@ -949,7 +949,7 @@
       "description": {
         "en": "Search highlights and Reader documents, save articles."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin readwise",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/readwise",
@@ -966,7 +966,7 @@
       "description": {
         "en": "Query, create, and update records in your org."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin salesforce",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/salesforce",
@@ -983,7 +983,7 @@
       "description": {
         "en": "Research keywords, backlinks, traffic, and competitors."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin semrush",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/semrush",
@@ -1000,7 +1000,7 @@
       "description": {
         "en": "Analyze website traffic, audiences, and competitors."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin similarweb",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/similarweb",
@@ -1017,7 +1017,7 @@
       "description": {
         "en": "Query and update sheets, rows, and workspaces."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin smartsheet",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/smartsheet",
@@ -1034,7 +1034,7 @@
       "description": {
         "en": "Thermo-nuclear branch review: deep correctness and security audits plus harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional take-the-wheel and FSD merge-ready flows."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin thermos",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/thermos",
@@ -1051,7 +1051,7 @@
       "description": {
         "en": "Create, find, and complete tasks and projects."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin todoist",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/todoist",
@@ -1068,7 +1068,7 @@
       "description": {
         "en": "Build forms, analyze responses, and manage contacts."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin typeform",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/typeform",
@@ -1085,7 +1085,7 @@
       "description": {
         "en": "Search talent, post jobs, and manage contracts."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin upwork",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/upwork",
@@ -1102,7 +1102,7 @@
       "description": {
         "en": "Search candidates, move pipelines, and manage HR records."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin workable",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/workable",
@@ -1119,7 +1119,7 @@
       "description": {
         "en": "Search projects, create tasks, and post comments."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin wrike",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/wrike",
@@ -1136,7 +1136,7 @@
       "description": {
         "en": "Search posts, read timelines, pull trends, and manage bookmarks."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin x",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/x",
@@ -1153,7 +1153,7 @@
       "description": {
         "en": "Read and write invoices, contacts, reports, and payroll."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin xero",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/xero",
@@ -1170,7 +1170,7 @@
       "description": {
         "en": "Search meetings, pull transcripts, and work with Zoom Docs."
       },
-      "stars": 6311,
+      "stars": 6312,
       "install": "/add-plugin zoom",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/zoom",
@@ -2004,6 +2004,23 @@
       "sign_in": "none"
     },
     {
+      "name": "redis-development",
+      "owner": "redis",
+      "url": "https://github.com/redis/agent-skills",
+      "description": {
+        "en": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization"
+      },
+      "stars": 132,
+      "install": "/add-plugin redis-development",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/redis",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "dynatrace",
       "owner": "Dynatrace",
       "url": "https://github.com/Dynatrace/dynatrace-for-ai",
@@ -2020,23 +2037,6 @@
         "Claude Code"
       ],
       "sign_in": "self-hosted"
-    },
-    {
-      "name": "redis-development",
-      "owner": "redis",
-      "url": "https://github.com/redis/agent-skills",
-      "description": {
-        "en": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization"
-      },
-      "stars": 131,
-      "install": "/add-plugin redis-development",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/redis",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "skills-only"
     },
     {
       "name": "webflow",
@@ -2260,6 +2260,25 @@
       "sign_in": "local"
     },
     {
+      "name": "inkbox",
+      "owner": "inkbox-ai",
+      "url": "https://github.com/inkbox-ai/inkbox",
+      "description": {
+        "en": "Give Cursor an Inkbox identity for email, SMS, iMessage, voice calls, contacts, notes, and agent-to-agent tasks."
+      },
+      "stars": 58,
+      "install": "/add-plugin inkbox",
+      "added": "2026-08-31",
+      "page": "https://cursor.com/marketplace/inkbox",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "revolut-x",
       "owner": "revolut-engineering",
       "url": "https://github.com/revolut-engineering/revolut-x-api",
@@ -2276,25 +2295,6 @@
         "Claude Code"
       ],
       "sign_in": "skills-only"
-    },
-    {
-      "name": "inkbox",
-      "owner": "inkbox-ai",
-      "url": "https://github.com/inkbox-ai/inkbox",
-      "description": {
-        "en": "Give Cursor an Inkbox identity for email, SMS, iMessage, voice calls, contacts, notes, and agent-to-agent tasks."
-      },
-      "stars": 57,
-      "install": "/add-plugin inkbox",
-      "added": "2026-08-31",
-      "page": "https://cursor.com/marketplace/inkbox",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
     },
     {
       "name": "opensearch-agent-skills",

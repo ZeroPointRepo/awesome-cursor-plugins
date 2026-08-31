@@ -10,74 +10,74 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 
 | Plugin | Publisher | Stars | Also runs in | Sign-in | Install |
 |---|---|---:|---|---|---|
-| [superpowers](https://github.com/obra/superpowers) | Superpowers | 279,847 | Claude Code, Codex, Kimi, Devin | No sign-in | `/add-plugin superpowers` |
-| [shadcn](https://github.com/shadcn-ui/ui) | shadcn | 122,624 | Cursor only | Runs locally | `/add-plugin shadcn` |
-| [mem0](https://github.com/mem0ai/mem0/tree/HEAD/integrations/mem0-plugin) | Mem0 | 64,409 | Claude Code, Codex, Kimi, Agent Plugins | OAuth sign-in | `/add-plugin mem0` |
-| [context7-plugin](https://github.com/upstash/context7/tree/HEAD/plugins/claude/context7) | Upstash | 61,436 | Claude Code | No sign-in | `/add-plugin context7-plugin` |
-| [devtools-for-agents](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google Chrome | 50,246 | Claude Code, GitHub Copilot | Runs locally | `/add-plugin devtools-for-agents` |
+| [superpowers](https://github.com/obra/superpowers) | Superpowers | 279,856 | Claude Code, Codex, Kimi, Devin | No sign-in | `/add-plugin superpowers` |
+| [shadcn](https://github.com/shadcn-ui/ui) | shadcn | 122,626 | Cursor only | Runs locally | `/add-plugin shadcn` |
+| [mem0](https://github.com/mem0ai/mem0/tree/HEAD/integrations/mem0-plugin) | Mem0 | 64,410 | Claude Code, Codex, Kimi, Agent Plugins | OAuth sign-in | `/add-plugin mem0` |
+| [context7-plugin](https://github.com/upstash/context7/tree/HEAD/plugins/claude/context7) | Upstash | 61,437 | Claude Code | No sign-in | `/add-plugin context7-plugin` |
+| [devtools-for-agents](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google Chrome | 50,247 | Claude Code, GitHub Copilot | Runs locally | `/add-plugin devtools-for-agents` |
 | [tldraw](https://github.com/tldraw/tldraw/tree/HEAD/apps/mcp-app/plugins/tldraw-mcp) | tldraw | 50,045 | Cursor only | No sign-in | `/add-plugin tldraw` |
-| [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin) | Every | 24,707 | Claude Code, Codex, Grok Bot, Kimi, Devin, Agent Plugins | No sign-in | `/add-plugin compound-engineering` |
-| [react-doctor](https://github.com/millionco/react-doctor) | React Doctor | 14,662 | Cursor only | No sign-in | `/add-plugin react-doctor` |
-| [gsap-skills](https://github.com/greensock/gsap-skills) | GSAP | 14,636 | Claude Code | No sign-in | `/add-plugin gsap-skills` |
+| [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin) | Every | 24,708 | Claude Code, Codex, Grok Bot, Kimi, Devin, Agent Plugins | No sign-in | `/add-plugin compound-engineering` |
+| [react-doctor](https://github.com/millionco/react-doctor) | React Doctor | 14,664 | Cursor only | No sign-in | `/add-plugin react-doctor` |
+| [gsap-skills](https://github.com/greensock/gsap-skills) | GSAP | 14,639 | Claude Code | No sign-in | `/add-plugin gsap-skills` |
 | [huggingface-skills](https://github.com/huggingface/skills) | Hugging Face | 10,991 | Claude Code | OAuth sign-in | `/add-plugin huggingface-skills` |
-| [agent-compatibility](https://github.com/cursor/plugins/tree/HEAD/agent-compatibility) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin agent-compatibility` |
-| [ahrefs](https://github.com/cursor/plugins/tree/HEAD/third_party/ahrefs) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin ahrefs` |
-| [amplemarket](https://github.com/cursor/plugins/tree/HEAD/third_party/amplemarket) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin amplemarket` |
-| [ashby](https://github.com/cursor/plugins/tree/HEAD/third_party/ashby) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin ashby` |
-| [brevo](https://github.com/cursor/plugins/tree/HEAD/third_party/brevo) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin brevo` |
-| [brex](https://github.com/cursor/plugins/tree/HEAD/third_party/brex) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin brex` |
-| [calendly](https://github.com/cursor/plugins/tree/HEAD/third_party/calendly) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin calendly` |
-| [circleback](https://github.com/cursor/plugins/tree/HEAD/third_party/circleback) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin circleback` |
-| [clay](https://github.com/cursor/plugins/tree/HEAD/third_party/clay) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin clay` |
-| [cli-for-agent](https://github.com/cursor/plugins/tree/HEAD/cli-for-agent) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin cli-for-agent` |
-| [coda](https://github.com/cursor/plugins/tree/HEAD/third_party/coda) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin coda` |
-| [continual-learning](https://github.com/cursor/plugins/tree/HEAD/continual-learning) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin continual-learning` |
-| [craft](https://github.com/cursor/plugins/tree/HEAD/third_party/craft) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin craft` |
-| [create-plugin](https://github.com/cursor/plugins/tree/HEAD/create-plugin) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin create-plugin` |
-| [cursor-sdk](https://github.com/cursor/plugins/tree/HEAD/cursor-sdk) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin cursor-sdk` |
-| [cursor-team-kit](https://github.com/cursor/plugins/tree/HEAD/cursor-team-kit) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin cursor-team-kit` |
-| [customer-io](https://github.com/cursor/plugins/tree/HEAD/third_party/customer-io) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin customer-io` |
-| [docs-canvas](https://github.com/cursor/plugins/tree/HEAD/docs-canvas) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin docs-canvas` |
-| [docusign](https://github.com/cursor/plugins/tree/HEAD/third_party/docusign) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin docusign` |
-| [fathom](https://github.com/cursor/plugins/tree/HEAD/third_party/fathom) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin fathom` |
-| [fireflies](https://github.com/cursor/plugins/tree/HEAD/third_party/fireflies) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin fireflies` |
-| [github](https://github.com/cursor/plugins/tree/HEAD/third_party/github) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin github` |
-| [gmail](https://github.com/cursor/plugins/tree/HEAD/third_party/gmail) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin gmail` |
-| [godaddy](https://github.com/cursor/plugins/tree/HEAD/third_party/godaddy) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin godaddy` |
-| [gong](https://github.com/cursor/plugins/tree/HEAD/third_party/gong) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin gong` |
-| [google-calendar](https://github.com/cursor/plugins/tree/HEAD/third_party/google-calendar) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin google-calendar` |
-| [google-drive](https://github.com/cursor/plugins/tree/HEAD/third_party/google-drive) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin google-drive` |
-| [guru](https://github.com/cursor/plugins/tree/HEAD/third_party/guru) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin guru` |
-| [hubspot](https://github.com/cursor/plugins/tree/HEAD/third_party/hubspot) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin hubspot` |
-| [intercom](https://github.com/cursor/plugins/tree/HEAD/third_party/intercom) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin intercom` |
-| [jotform](https://github.com/cursor/plugins/tree/HEAD/third_party/jotform) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin jotform` |
-| [juicebox](https://github.com/cursor/plugins/tree/HEAD/third_party/juicebox) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin juicebox` |
-| [klaviyo](https://github.com/cursor/plugins/tree/HEAD/third_party/klaviyo) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin klaviyo` |
-| [mailerlite](https://github.com/cursor/plugins/tree/HEAD/third_party/mailerlite) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin mailerlite` |
-| [mem](https://github.com/cursor/plugins/tree/HEAD/third_party/mem) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin mem` |
-| [mercury](https://github.com/cursor/plugins/tree/HEAD/third_party/mercury) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin mercury` |
-| [navan](https://github.com/cursor/plugins/tree/HEAD/third_party/navan) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin navan` |
-| [orchestrate](https://github.com/cursor/plugins/tree/HEAD/orchestrate) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin orchestrate` |
-| [otter](https://github.com/cursor/plugins/tree/HEAD/third_party/otter) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin otter` |
-| [outreach](https://github.com/cursor/plugins/tree/HEAD/third_party/outreach) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin outreach` |
-| [playwright](https://github.com/cursor/plugins/tree/HEAD/third_party/playwright) | Cursor | 6,311 | Cursor only | Runs locally | `/add-plugin playwright` |
-| [pr-review-canvas](https://github.com/cursor/plugins/tree/HEAD/pr-review-canvas) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin pr-review-canvas` |
-| [profound](https://github.com/cursor/plugins/tree/HEAD/third_party/profound) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin profound` |
-| [pstack](https://github.com/cursor/plugins/tree/HEAD/pstack) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin pstack` |
-| [readwise](https://github.com/cursor/plugins/tree/HEAD/third_party/readwise) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin readwise` |
-| [salesforce](https://github.com/cursor/plugins/tree/HEAD/third_party/salesforce) | Cursor | 6,311 | Cursor only | Points at your own instance | `/add-plugin salesforce` |
-| [semrush](https://github.com/cursor/plugins/tree/HEAD/third_party/semrush) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin semrush` |
-| [similarweb](https://github.com/cursor/plugins/tree/HEAD/third_party/similarweb) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin similarweb` |
-| [smartsheet](https://github.com/cursor/plugins/tree/HEAD/third_party/smartsheet) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin smartsheet` |
-| [thermos](https://github.com/cursor/plugins/tree/HEAD/thermos) | Cursor | 6,311 | Cursor only | No sign-in | `/add-plugin thermos` |
-| [todoist](https://github.com/cursor/plugins/tree/HEAD/third_party/todoist) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin todoist` |
-| [typeform](https://github.com/cursor/plugins/tree/HEAD/third_party/typeform) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin typeform` |
-| [upwork](https://github.com/cursor/plugins/tree/HEAD/third_party/upwork) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin upwork` |
-| [workable](https://github.com/cursor/plugins/tree/HEAD/third_party/workable) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin workable` |
-| [wrike](https://github.com/cursor/plugins/tree/HEAD/third_party/wrike) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin wrike` |
-| [x](https://github.com/cursor/plugins/tree/HEAD/third_party/x) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin x` |
-| [xero](https://github.com/cursor/plugins/tree/HEAD/third_party/xero) | Cursor | 6,311 | Cursor only | Paste a token | `/add-plugin xero` |
-| [zoom](https://github.com/cursor/plugins/tree/HEAD/third_party/zoom) | Cursor | 6,311 | Cursor only | OAuth sign-in | `/add-plugin zoom` |
+| [agent-compatibility](https://github.com/cursor/plugins/tree/HEAD/agent-compatibility) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin agent-compatibility` |
+| [ahrefs](https://github.com/cursor/plugins/tree/HEAD/third_party/ahrefs) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin ahrefs` |
+| [amplemarket](https://github.com/cursor/plugins/tree/HEAD/third_party/amplemarket) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin amplemarket` |
+| [ashby](https://github.com/cursor/plugins/tree/HEAD/third_party/ashby) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin ashby` |
+| [brevo](https://github.com/cursor/plugins/tree/HEAD/third_party/brevo) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin brevo` |
+| [brex](https://github.com/cursor/plugins/tree/HEAD/third_party/brex) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin brex` |
+| [calendly](https://github.com/cursor/plugins/tree/HEAD/third_party/calendly) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin calendly` |
+| [circleback](https://github.com/cursor/plugins/tree/HEAD/third_party/circleback) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin circleback` |
+| [clay](https://github.com/cursor/plugins/tree/HEAD/third_party/clay) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin clay` |
+| [cli-for-agent](https://github.com/cursor/plugins/tree/HEAD/cli-for-agent) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin cli-for-agent` |
+| [coda](https://github.com/cursor/plugins/tree/HEAD/third_party/coda) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin coda` |
+| [continual-learning](https://github.com/cursor/plugins/tree/HEAD/continual-learning) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin continual-learning` |
+| [craft](https://github.com/cursor/plugins/tree/HEAD/third_party/craft) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin craft` |
+| [create-plugin](https://github.com/cursor/plugins/tree/HEAD/create-plugin) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin create-plugin` |
+| [cursor-sdk](https://github.com/cursor/plugins/tree/HEAD/cursor-sdk) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin cursor-sdk` |
+| [cursor-team-kit](https://github.com/cursor/plugins/tree/HEAD/cursor-team-kit) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin cursor-team-kit` |
+| [customer-io](https://github.com/cursor/plugins/tree/HEAD/third_party/customer-io) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin customer-io` |
+| [docs-canvas](https://github.com/cursor/plugins/tree/HEAD/docs-canvas) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin docs-canvas` |
+| [docusign](https://github.com/cursor/plugins/tree/HEAD/third_party/docusign) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin docusign` |
+| [fathom](https://github.com/cursor/plugins/tree/HEAD/third_party/fathom) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin fathom` |
+| [fireflies](https://github.com/cursor/plugins/tree/HEAD/third_party/fireflies) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin fireflies` |
+| [github](https://github.com/cursor/plugins/tree/HEAD/third_party/github) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin github` |
+| [gmail](https://github.com/cursor/plugins/tree/HEAD/third_party/gmail) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin gmail` |
+| [godaddy](https://github.com/cursor/plugins/tree/HEAD/third_party/godaddy) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin godaddy` |
+| [gong](https://github.com/cursor/plugins/tree/HEAD/third_party/gong) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin gong` |
+| [google-calendar](https://github.com/cursor/plugins/tree/HEAD/third_party/google-calendar) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin google-calendar` |
+| [google-drive](https://github.com/cursor/plugins/tree/HEAD/third_party/google-drive) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin google-drive` |
+| [guru](https://github.com/cursor/plugins/tree/HEAD/third_party/guru) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin guru` |
+| [hubspot](https://github.com/cursor/plugins/tree/HEAD/third_party/hubspot) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin hubspot` |
+| [intercom](https://github.com/cursor/plugins/tree/HEAD/third_party/intercom) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin intercom` |
+| [jotform](https://github.com/cursor/plugins/tree/HEAD/third_party/jotform) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin jotform` |
+| [juicebox](https://github.com/cursor/plugins/tree/HEAD/third_party/juicebox) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin juicebox` |
+| [klaviyo](https://github.com/cursor/plugins/tree/HEAD/third_party/klaviyo) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin klaviyo` |
+| [mailerlite](https://github.com/cursor/plugins/tree/HEAD/third_party/mailerlite) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin mailerlite` |
+| [mem](https://github.com/cursor/plugins/tree/HEAD/third_party/mem) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin mem` |
+| [mercury](https://github.com/cursor/plugins/tree/HEAD/third_party/mercury) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin mercury` |
+| [navan](https://github.com/cursor/plugins/tree/HEAD/third_party/navan) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin navan` |
+| [orchestrate](https://github.com/cursor/plugins/tree/HEAD/orchestrate) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin orchestrate` |
+| [otter](https://github.com/cursor/plugins/tree/HEAD/third_party/otter) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin otter` |
+| [outreach](https://github.com/cursor/plugins/tree/HEAD/third_party/outreach) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin outreach` |
+| [playwright](https://github.com/cursor/plugins/tree/HEAD/third_party/playwright) | Cursor | 6,312 | Cursor only | Runs locally | `/add-plugin playwright` |
+| [pr-review-canvas](https://github.com/cursor/plugins/tree/HEAD/pr-review-canvas) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin pr-review-canvas` |
+| [profound](https://github.com/cursor/plugins/tree/HEAD/third_party/profound) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin profound` |
+| [pstack](https://github.com/cursor/plugins/tree/HEAD/pstack) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin pstack` |
+| [readwise](https://github.com/cursor/plugins/tree/HEAD/third_party/readwise) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin readwise` |
+| [salesforce](https://github.com/cursor/plugins/tree/HEAD/third_party/salesforce) | Cursor | 6,312 | Cursor only | Points at your own instance | `/add-plugin salesforce` |
+| [semrush](https://github.com/cursor/plugins/tree/HEAD/third_party/semrush) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin semrush` |
+| [similarweb](https://github.com/cursor/plugins/tree/HEAD/third_party/similarweb) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin similarweb` |
+| [smartsheet](https://github.com/cursor/plugins/tree/HEAD/third_party/smartsheet) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin smartsheet` |
+| [thermos](https://github.com/cursor/plugins/tree/HEAD/thermos) | Cursor | 6,312 | Cursor only | No sign-in | `/add-plugin thermos` |
+| [todoist](https://github.com/cursor/plugins/tree/HEAD/third_party/todoist) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin todoist` |
+| [typeform](https://github.com/cursor/plugins/tree/HEAD/third_party/typeform) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin typeform` |
+| [upwork](https://github.com/cursor/plugins/tree/HEAD/third_party/upwork) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin upwork` |
+| [workable](https://github.com/cursor/plugins/tree/HEAD/third_party/workable) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin workable` |
+| [wrike](https://github.com/cursor/plugins/tree/HEAD/third_party/wrike) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin wrike` |
+| [x](https://github.com/cursor/plugins/tree/HEAD/third_party/x) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin x` |
+| [xero](https://github.com/cursor/plugins/tree/HEAD/third_party/xero) | Cursor | 6,312 | Cursor only | Paste a token | `/add-plugin xero` |
+| [zoom](https://github.com/cursor/plugins/tree/HEAD/third_party/zoom) | Cursor | 6,312 | Cursor only | OAuth sign-in | `/add-plugin zoom` |
 | [nvidia-skills](https://github.com/NVIDIA/skills/tree/HEAD/plugins/nvidia-skills) | Nvidia | 3,152 | Claude Code, Codex | No sign-in | `/add-plugin nvidia-skills` |
 | [cloudflare](https://github.com/cloudflare/skills) | Cloudflare | 2,747 | Claude Code | OAuth sign-in | `/add-plugin cloudflare` |
 | [aws-agents](https://github.com/aws/agent-toolkit-for-aws/tree/HEAD/plugins/aws-agents) | AWS | 2,481 | Claude Code, Codex, Agent Plugins | No sign-in | `/add-plugin aws-agents` |
@@ -122,8 +122,8 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [resend](https://github.com/resend/resend-skills) | Resend | 168 | Claude Code, Grok Bot, Agent Plugins | OAuth sign-in | `/add-plugin resend` |
 | [miro](https://github.com/miroapp/miro-ai/tree/HEAD/cursor-plugins/miro) | Miro | 150 | Cursor only | OAuth sign-in | `/add-plugin miro` |
 | [circle](https://github.com/circlefin/skills/tree/HEAD/plugins/circle) | Circle | 145 | Claude Code, Codex | No sign-in | `/add-plugin circle` |
+| [redis-development](https://github.com/redis/agent-skills) | Redis | 132 | Cursor only | No sign-in | `/add-plugin redis-development` |
 | [dynatrace](https://github.com/Dynatrace/dynatrace-for-ai) | Dynatrace | 131 | Claude Code | Points at your own instance | `/add-plugin dynatrace` |
-| [redis-development](https://github.com/redis/agent-skills) | Redis | 131 | Cursor only | No sign-in | `/add-plugin redis-development` |
 | [webflow](https://github.com/webflow/webflow-skills) | Webflow | 114 | Claude Code | OAuth sign-in | `/add-plugin webflow` |
 | [convex](https://github.com/get-convex/convex-agent-plugins) | Convex | 112 | Cursor only | Runs locally | `/add-plugin convex` |
 | [slack](https://github.com/slackapi/slack-skills-plugin) | Slack | 109 | Claude Code, Codex | OAuth sign-in | `/add-plugin slack` |
@@ -136,8 +136,8 @@ Sorted by stars on the source repository. `Also runs in` is manifest presence in
 | [revenuecat](https://github.com/RevenueCat/ai-toolkit/tree/HEAD/revenuecat) | RevenueCat | 63 | Claude Code, Codex, Agent Plugins | OAuth sign-in | `/add-plugin revenuecat` |
 | [revenuecat-play-billing](https://github.com/RevenueCat/ai-toolkit/tree/HEAD/revenuecat-play-billing) | RevenueCat | 63 | Claude Code, Codex, Agent Plugins | No sign-in | `/add-plugin revenuecat-play-billing` |
 | [snyk-secure-development](https://github.com/snyk/studio-recipes/tree/HEAD/plugins/cursor) | Snyk | 62 | Cursor only | Runs locally | `/add-plugin snyk-secure-development` |
+| [inkbox](https://github.com/inkbox-ai/inkbox) | Inkbox | 58 | Claude Code, Codex | OAuth sign-in | `/add-plugin inkbox` |
 | [revolut-x](https://github.com/revolut-engineering/revolut-x-api) | Revolut | 58 | Claude Code | No sign-in | `/add-plugin revolut-x` |
-| [inkbox](https://github.com/inkbox-ai/inkbox) | Inkbox | 57 | Claude Code, Codex | OAuth sign-in | `/add-plugin inkbox` |
 | [opensearch-agent-skills](https://github.com/opensearch-project/opensearch-agent-skills) | OpenSearch | 50 | Claude Code | OAuth sign-in | `/add-plugin opensearch-agent-skills` |
 | [zscaler](https://github.com/zscaler/zscaler-mcp-server) | Zscaler | 50 | Claude Code | Paste a token | `/add-plugin zscaler` |
 | [arize-skills](https://github.com/Arize-ai/arize-skills) | Arize AI | 47 | Claude Code, Agent Plugins | No sign-in | `/add-plugin arize-skills` |
