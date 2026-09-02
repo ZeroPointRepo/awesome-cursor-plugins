@@ -62,6 +62,7 @@ jobs:
       - name: Rebuild the catalog, the portability matrix, and the sign-in column
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CATALOG_RANK_UNKNOWN_IDS: ${{ secrets.CATALOG_RANK_UNKNOWN_IDS }}
         run: node .github/scripts/build-catalog.mjs .
 
       - name: Append a dated star snapshot to the ledger

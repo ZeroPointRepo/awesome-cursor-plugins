@@ -15,6 +15,12 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { rankUnknownIds, byStarRank } from './lib/star-rank.mjs';
+
+// Ordering only: some published star counts cannot be read as measurements. Empty unless the
+// environment supplies ids, in which case those entries sort last instead of high. Presence and
+// display are untouched — see lib/star-rank.mjs.
+const RANK_UNKNOWN = rankUnknownIds();
 
 const ROOT = path.resolve(process.argv[2] || '.');
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
@@ -124,7 +130,7 @@ async function readRepo(slug) {
      this list dishonest, so it is tracked and reported instead of defaulted to false. */
   const treeOk = !!(tree && tree.tree) && !(tree && tree.truncated);
   return {
-    full_name: meta.full_name, stars: meta.stargazers_count, license: meta.license?.spdx_id || null,
+    full_name: meta.full_name, id: meta.id, stars: meta.stargazers_count, license: meta.license?.spdx_id || null,
     archived: !!meta.archived, fork: !!meta.fork, default_branch: meta.default_branch,
     description: meta.description || null, pushed_at: meta.pushed_at, truncated: !!(tree && tree.truncated), treeOk, paths,
   };
@@ -257,7 +263,7 @@ const entries = [];
       entries.push({
         name: p.name, displayName: p.displayName || p.name, description: (p.description || '').replace(/\s+/g, ' ').trim(),
         publisher: p.publisher?.displayName || p.publisher?.name || null, publisherUrl: p.publisher?.websiteUrl || null,
-        repo: r.full_name, gitPath: gp || '.', stars: r.stars, license: r.license, archived: r.archived,
+        repo: r.full_name, id: r.id, gitPath: gp || '.', stars: r.stars, license: r.license, archived: r.archived,
         repoDescription: r.description, pushedAt: r.pushed_at,
         skills: (p.skills || []).length, mcpServers: (p.mcpServers || []).length, commands: (p.commands || []).length,
         rules: (p.rules || []).length, agents: (p.agents || []).length, hooks: (p.hooks || []).length,
@@ -318,7 +324,8 @@ const alsoOf = (e) => { const a = CLIENTS.map(([k]) => k).filter((k) => e.client
 const portCell = (e) => (!e.portabilityKnown ? 'Not established' : alsoOf(e).length ? alsoOf(e).join(', ') : 'Cursor only');
 
 /* ---------- CATALOG.md ---------- */
-const sorted = [...entries].sort((a, b) => (b.stars || 0) - (a.stars || 0) || a.name.localeCompare(b.name));
+const sorted = [...entries].sort(byStarRank({ id: (x) => x.id, stars: (x) => x.stars,
+                                              tiebreak: (a, b) => a.name.localeCompare(b.name) }, RANK_UNKNOWN));
 const multi = entries.filter((e) => e.portabilityKnown && alsoOf(e).length).length;
 const cursorOnly = entries.filter((e) => e.portabilityKnown && !alsoOf(e).length).length;
 const authCount = (k) => entries.filter((e) => e.auth === k).length;
