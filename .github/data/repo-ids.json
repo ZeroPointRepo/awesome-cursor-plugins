@@ -1,0 +1,685 @@
+{
+  "_note": "GitHub numeric repository id for every entry this list links to, recorded the first time the entry resolves. The id is immutable and survives a rename or a transfer; the slug does not, and once a vacated slug is claimed by somebody else, a slug-keyed lookup returns the new owner and reports the stale link as correct. Written by .github/scripts/resolve-names.mjs, never edited by hand.",
+  "ids": {
+    "1inch/1inch-ai": {
+      "id": 1195146755,
+      "full_name": "1inch/1inch-ai"
+    },
+    "1password/cursor-plugin": {
+      "id": 1167110846,
+      "full_name": "1Password/cursor-plugin"
+    },
+    "agentmail-to/agentmail-plugins": {
+      "id": 1206485871,
+      "full_name": "agentmail-to/agentmail-plugins"
+    },
+    "agentplugins/agent-plugins-spec": {
+      "id": 1200071160,
+      "full_name": "agentplugins/agent-plugins-spec"
+    },
+    "airwallex/airwallex-marketplace": {
+      "id": 1213281752,
+      "full_name": "airwallex/airwallex-marketplace"
+    },
+    "alwaysmeticulous/skills": {
+      "id": 1177869888,
+      "full_name": "alwaysmeticulous/skills"
+    },
+    "amplitude/mcp-marketplace": {
+      "id": 1144641765,
+      "full_name": "amplitude/mcp-marketplace"
+    },
+    "antimetal/cursor-plugin": {
+      "id": 1187397686,
+      "full_name": "antimetal/cursor-plugin"
+    },
+    "apify/apify-cursor-plugin": {
+      "id": 1216946045,
+      "full_name": "apify/apify-cursor-plugin"
+    },
+    "apolloio/apollo-mcp-plugin": {
+      "id": 1161640315,
+      "full_name": "apolloio/apollo-mcp-plugin"
+    },
+    "appwrite/cursor-plugin": {
+      "id": 1162328621,
+      "full_name": "appwrite/cursor-plugin"
+    },
+    "arize-ai/arize-skills": {
+      "id": 1173840557,
+      "full_name": "Arize-ai/arize-skills"
+    },
+    "asana/cursor-marketplace-plugin": {
+      "id": 1266537067,
+      "full_name": "Asana/cursor-marketplace-plugin"
+    },
+    "astronomer/agents": {
+      "id": 1133647197,
+      "full_name": "astronomer/agents"
+    },
+    "atlanhq/agent-toolkit": {
+      "id": 959799376,
+      "full_name": "atlanhq/agent-toolkit"
+    },
+    "atlassian-labs/twg-plugins": {
+      "id": 1304291046,
+      "full_name": "atlassian-labs/twg-plugins"
+    },
+    "atlassian/atlassian-mcp-server": {
+      "id": 1030580992,
+      "full_name": "atlassian/atlassian-mcp-server"
+    },
+    "aws/agent-toolkit-for-aws": {
+      "id": 1219009070,
+      "full_name": "aws/agent-toolkit-for-aws"
+    },
+    "awslabs/agent-plugins": {
+      "id": 1150865300,
+      "full_name": "awslabs/agent-plugins"
+    },
+    "basedash/agent-plugin": {
+      "id": 1338822920,
+      "full_name": "Basedash/agent-plugin"
+    },
+    "braintrustdata/braintrust-cursor-extension": {
+      "id": 1145615980,
+      "full_name": "braintrustdata/braintrust-cursor-extension"
+    },
+    "brightdata/brightdata-cursor-plugin": {
+      "id": 1171515871,
+      "full_name": "brightdata/brightdata-cursor-plugin"
+    },
+    "browser-use/plugins": {
+      "id": 1268661539,
+      "full_name": "browser-use/plugins"
+    },
+    "browserbase/browse-plugin": {
+      "id": 1155567399,
+      "full_name": "browserbase/browse-plugin"
+    },
+    "browserstack/browserstack-cursor-plugin": {
+      "id": 1150464610,
+      "full_name": "browserstack/browserstack-cursor-plugin"
+    },
+    "buildkite/skills": {
+      "id": 1192083473,
+      "full_name": "buildkite/skills"
+    },
+    "canva-sdks/canva-skills": {
+      "id": 1114822980,
+      "full_name": "canva-sdks/canva-skills"
+    },
+    "cartesia-ai/skills": {
+      "id": 1150138090,
+      "full_name": "cartesia-ai/skills"
+    },
+    "chainguard-dev/chainguard-cursor-plugin": {
+      "id": 1229014438,
+      "full_name": "chainguard-dev/chainguard-cursor-plugin"
+    },
+    "chargebee/ai": {
+      "id": 1151282884,
+      "full_name": "chargebee/ai"
+    },
+    "chatprd/cursor-plugin": {
+      "id": 1160450545,
+      "full_name": "ChatPRD/cursor-plugin"
+    },
+    "chromedevtools/chrome-devtools-mcp": {
+      "id": 1054793726,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    "circlefin/skills": {
+      "id": 1174708463,
+      "full_name": "circlefin/skills"
+    },
+    "clickhouse/clickhouse-cursor-plugin": {
+      "id": 1161921128,
+      "full_name": "ClickHouse/clickhouse-cursor-plugin"
+    },
+    "clickup/clickup-plugin": {
+      "id": 1198469807,
+      "full_name": "clickup/clickup-plugin"
+    },
+    "cloudflare/skills": {
+      "id": 1113922795,
+      "full_name": "cloudflare/skills"
+    },
+    "cloudinary-devs/cloudinary-plugin": {
+      "id": 1167359366,
+      "full_name": "cloudinary-devs/cloudinary-plugin"
+    },
+    "cockroachdb/cursor-plugin": {
+      "id": 1179018487,
+      "full_name": "cockroachdb/cursor-plugin"
+    },
+    "coderabbitai/cursor-plugin": {
+      "id": 1286553746,
+      "full_name": "coderabbitai/cursor-plugin"
+    },
+    "context-dot-dev/cursor-plugin": {
+      "id": 1273823932,
+      "full_name": "context-dot-dev/cursor-plugin"
+    },
+    "crowdstrike/foundry-skills": {
+      "id": 1204115994,
+      "full_name": "CrowdStrike/foundry-skills"
+    },
+    "cursor/community-plugins": {
+      "id": 846957113,
+      "full_name": "cursor/community-plugins"
+    },
+    "cursor/plugins": {
+      "id": 1140229822,
+      "full_name": "cursor/plugins"
+    },
+    "dagster-io/skills": {
+      "id": 1134327524,
+      "full_name": "dagster-io/skills"
+    },
+    "databricks/databricks-agent-skills": {
+      "id": 1134135741,
+      "full_name": "databricks/databricks-agent-skills"
+    },
+    "datadog-labs/cursor-plugin": {
+      "id": 1178027839,
+      "full_name": "datadog-labs/cursor-plugin"
+    },
+    "datarobot-oss/datarobot-agent-skills": {
+      "id": 1116036816,
+      "full_name": "datarobot-oss/datarobot-agent-skills"
+    },
+    "dbt-labs/dbt-agent-skills": {
+      "id": 1130059064,
+      "full_name": "dbt-labs/dbt-agent-skills"
+    },
+    "dnb-public/dnb-dplus-plugin-cursor": {
+      "id": 1292791260,
+      "full_name": "dnb-public/dnb-dplus-plugin-cursor"
+    },
+    "dnb-public/dnb-risk-analytics-plugin-cursor": {
+      "id": 1267770122,
+      "full_name": "dnb-public/dnb-risk-analytics-plugin-cursor"
+    },
+    "dynatrace/dynatrace-for-ai": {
+      "id": 1197177849,
+      "full_name": "Dynatrace/dynatrace-for-ai"
+    },
+    "elastic/cursor-plugins": {
+      "id": 1166049824,
+      "full_name": "elastic/cursor-plugins"
+    },
+    "encoredev/cursor-plugin": {
+      "id": 1184425722,
+      "full_name": "encoredev/cursor-plugin"
+    },
+    "endorlabs/ai-plugins": {
+      "id": 1170930454,
+      "full_name": "endorlabs/ai-plugins"
+    },
+    "everyinc/compound-engineering-plugin": {
+      "id": 1073224021,
+      "full_name": "EveryInc/compound-engineering-plugin"
+    },
+    "exa-labs/exa-cursor-plugin": {
+      "id": 1202982661,
+      "full_name": "exa-labs/exa-cursor-plugin"
+    },
+    "exploreomni/omni-agent-skills": {
+      "id": 1187130165,
+      "full_name": "exploreomni/omni-agent-skills"
+    },
+    "falconerai/agent-integrations": {
+      "id": 1263191379,
+      "full_name": "FalconerAI/agent-integrations"
+    },
+    "fieldsphere/cursor-team-marketplace-template": {
+      "id": 1170881806,
+      "full_name": "fieldsphere/cursor-team-marketplace-template"
+    },
+    "figma/mcp-server-guide": {
+      "id": 1032420465,
+      "full_name": "figma/mcp-server-guide"
+    },
+    "firebase/agent-skills": {
+      "id": 1154880547,
+      "full_name": "firebase/agent-skills"
+    },
+    "firecrawl/firecrawl-cursor-plugin": {
+      "id": 1160480587,
+      "full_name": "firecrawl/firecrawl-cursor-plugin"
+    },
+    "get-convex/convex-agent-plugins": {
+      "id": 1150126946,
+      "full_name": "get-convex/convex-agent-plugins"
+    },
+    "getsentry/plugin-cursor": {
+      "id": 1263166494,
+      "full_name": "getsentry/plugin-cursor"
+    },
+    "gitbookio/gitbook-skills": {
+      "id": 1255058059,
+      "full_name": "GitbookIO/gitbook-skills"
+    },
+    "githits-com/githits-cli": {
+      "id": 1165453165,
+      "full_name": "githits-com/githits-cli"
+    },
+    "gleanwork/cursor-plugins": {
+      "id": 1163539681,
+      "full_name": "gleanwork/cursor-plugins"
+    },
+    "googlechrome/modern-web-guidance": {
+      "id": 1189825116,
+      "full_name": "GoogleChrome/modern-web-guidance"
+    },
+    "grafana/ai-marketplace": {
+      "id": 1166860424,
+      "full_name": "grafana/ai-marketplace"
+    },
+    "granola-inc/granola-cursor-plugin": {
+      "id": 1197282911,
+      "full_name": "granola-inc/granola-cursor-plugin"
+    },
+    "greensock/gsap-skills": {
+      "id": 1172781277,
+      "full_name": "greensock/gsap-skills"
+    },
+    "harness/harness-ai": {
+      "id": 1209700714,
+      "full_name": "harness/harness-ai"
+    },
+    "heredotnow/skill": {
+      "id": 1162858320,
+      "full_name": "heredotnow/skill"
+    },
+    "hex-inc/hex-cursor-plugin": {
+      "id": 1150933879,
+      "full_name": "hex-inc/hex-cursor-plugin"
+    },
+    "heygen-com/skills": {
+      "id": 1140152286,
+      "full_name": "heygen-com/skills"
+    },
+    "higgsfield-ai/cursor-plugin": {
+      "id": 1237194847,
+      "full_name": "higgsfield-ai/cursor-plugin"
+    },
+    "huggingface/skills": {
+      "id": 1102903896,
+      "full_name": "huggingface/skills"
+    },
+    "icepanel/cursor-plugin": {
+      "id": 1207340232,
+      "full_name": "IcePanel/cursor-plugin"
+    },
+    "krakenfx/kraken-cli": {
+      "id": 1174829564,
+      "full_name": "krakenfx/kraken-cli"
+    },
+    "langfuse/skills": {
+      "id": 1140486123,
+      "full_name": "langfuse/skills"
+    },
+    "launchdarkly/ai-tooling": {
+      "id": 1148493063,
+      "full_name": "launchdarkly/ai-tooling"
+    },
+    "linear/cursor-plugin": {
+      "id": 1150879380,
+      "full_name": "linear/cursor-plugin"
+    },
+    "lucidsoftware/lucid-mcp-server": {
+      "id": 1267728130,
+      "full_name": "lucidsoftware/lucid-mcp-server"
+    },
+    "magicpathai/magicpath-agent-plugin": {
+      "id": 1330720794,
+      "full_name": "MagicPathAI/magicpath-agent-plugin"
+    },
+    "magicpatterns/agent-plugins": {
+      "id": 1279469290,
+      "full_name": "magicpatterns/agent-plugins"
+    },
+    "mailgun/mailgun-plugins": {
+      "id": 1309199560,
+      "full_name": "mailgun/mailgun-plugins"
+    },
+    "mainframecomputer/mainframe-plugins": {
+      "id": 1232386484,
+      "full_name": "mainframecomputer/mainframe-plugins"
+    },
+    "makenotion/cursor-notion-plugin": {
+      "id": 1150272071,
+      "full_name": "makenotion/cursor-notion-plugin"
+    },
+    "manufactinc/manufact-cursor-plugin": {
+      "id": 1260194490,
+      "full_name": "manufactinc/manufact-cursor-plugin"
+    },
+    "mem0ai/mem0": {
+      "id": 656099147,
+      "full_name": "mem0ai/mem0"
+    },
+    "microsoft/azure-skills": {
+      "id": 1167823778,
+      "full_name": "microsoft/azure-skills"
+    },
+    "millionco/react-doctor": {
+      "id": 1156960719,
+      "full_name": "millionco/react-doctor"
+    },
+    "mintlify/cursor-plugin": {
+      "id": 1270674577,
+      "full_name": "mintlify/cursor-plugin"
+    },
+    "miroapp/miro-ai": {
+      "id": 1118847464,
+      "full_name": "miroapp/miro-ai"
+    },
+    "mixpanel/ai-plugins": {
+      "id": 1162924883,
+      "full_name": "mixpanel/ai-plugins"
+    },
+    "mobbin/mobbin-mcp-server": {
+      "id": 1244377054,
+      "full_name": "mobbin/mobbin-mcp-server"
+    },
+    "mondaycom/mcp": {
+      "id": 961296260,
+      "full_name": "mondaycom/mcp"
+    },
+    "mongodb/agent-skills": {
+      "id": 1167755544,
+      "full_name": "mongodb/agent-skills"
+    },
+    "monk-io/monk-plugin": {
+      "id": 1242243389,
+      "full_name": "monk-io/monk-plugin"
+    },
+    "neondatabase/agent-skills": {
+      "id": 1138578572,
+      "full_name": "neondatabase/agent-skills"
+    },
+    "netlify/context-and-tools": {
+      "id": 1104896279,
+      "full_name": "netlify/context-and-tools"
+    },
+    "nickveenhof/cursor-gitlab-plugin": {
+      "id": 1174250608,
+      "full_name": "nickveenhof/cursor-gitlab-plugin"
+    },
+    "nvidia/skills": {
+      "id": 1167034425,
+      "full_name": "NVIDIA/skills"
+    },
+    "obra/superpowers": {
+      "id": 1073224795,
+      "full_name": "obra/superpowers"
+    },
+    "onesignal/onesignal-cursor-plugin": {
+      "id": 1277284449,
+      "full_name": "OneSignal/onesignal-cursor-plugin"
+    },
+    "opensearch-project/opensearch-agent-skills": {
+      "id": 1198640368,
+      "full_name": "opensearch-project/opensearch-agent-skills"
+    },
+    "pagerduty/cursor-plugin": {
+      "id": 1172741371,
+      "full_name": "PagerDuty/cursor-plugin"
+    },
+    "paper-design/agent-plugins": {
+      "id": 1178465306,
+      "full_name": "paper-design/agent-plugins"
+    },
+    "paradedb/cursor-plugin": {
+      "id": 1235745328,
+      "full_name": "paradedb/cursor-plugin"
+    },
+    "parallel-web/parallel-cursor-plugin": {
+      "id": 1160448615,
+      "full_name": "parallel-web/parallel-cursor-plugin"
+    },
+    "pendo-io/cursor-pendo-plugin": {
+      "id": 1162103446,
+      "full_name": "pendo-io/cursor-pendo-plugin"
+    },
+    "phantom/phantom-agent-kit": {
+      "id": 1161138892,
+      "full_name": "phantom/phantom-agent-kit"
+    },
+    "pinecone-io/pinecone-cursor-plugin": {
+      "id": 1167969496,
+      "full_name": "pinecone-io/pinecone-cursor-plugin"
+    },
+    "planetscale/cursor-plugin": {
+      "id": 1168328756,
+      "full_name": "planetscale/cursor-plugin"
+    },
+    "port-labs/cursor-plugin": {
+      "id": 1257179311,
+      "full_name": "port-labs/cursor-plugin"
+    },
+    "posthog/ai-plugin": {
+      "id": 1161219901,
+      "full_name": "PostHog/ai-plugin"
+    },
+    "prisma/cursor-plugin": {
+      "id": 1149590474,
+      "full_name": "prisma/cursor-plugin"
+    },
+    "quiverai/cursor-plugin": {
+      "id": 1240773716,
+      "full_name": "quiverai/cursor-plugin"
+    },
+    "railwayapp/railway-skills": {
+      "id": 1127614661,
+      "full_name": "railwayapp/railway-skills"
+    },
+    "ramp-public/cursor-plugin": {
+      "id": 1284162415,
+      "full_name": "ramp-public/cursor-plugin"
+    },
+    "redis/agent-skills": {
+      "id": 1144967207,
+      "full_name": "redis/agent-skills"
+    },
+    "remotion-dev/cursor-plugin": {
+      "id": 1326459036,
+      "full_name": "remotion-dev/cursor-plugin"
+    },
+    "render-oss/render-cursor-plugin": {
+      "id": 1252152183,
+      "full_name": "render-oss/render-cursor-plugin"
+    },
+    "resend/resend-skills": {
+      "id": 1138579978,
+      "full_name": "resend/resend-skills"
+    },
+    "resolve-ai-oss/resolve-ai-plugins": {
+      "id": 1239956964,
+      "full_name": "resolve-ai-oss/resolve-ai-plugins"
+    },
+    "revenuecat/ai-toolkit": {
+      "id": 1148217549,
+      "full_name": "RevenueCat/ai-toolkit"
+    },
+    "revylai/revyl-cli": {
+      "id": 838571616,
+      "full_name": "RevylAI/revyl-cli"
+    },
+    "roboflow/computer-vision-skills": {
+      "id": 1225427809,
+      "full_name": "roboflow/computer-vision-skills"
+    },
+    "runlayer/plugins": {
+      "id": 1146312870,
+      "full_name": "runlayer/plugins"
+    },
+    "scylladb/agent-skills": {
+      "id": 1197509482,
+      "full_name": "scylladb/agent-skills"
+    },
+    "semgrep/cursor-plugin": {
+      "id": 1166174577,
+      "full_name": "semgrep/cursor-plugin"
+    },
+    "shadcn-ui/ui": {
+      "id": 585146387,
+      "full_name": "shadcn-ui/ui"
+    },
+    "sinch/sinch-plugins": {
+      "id": 1114184358,
+      "full_name": "sinch/sinch-plugins"
+    },
+    "slackapi/slack-skills-plugin": {
+      "id": 1156686035,
+      "full_name": "slackapi/slack-skills-plugin"
+    },
+    "snowflakedb/snowflake-cursor-plugin": {
+      "id": 1155078993,
+      "full_name": "snowflakedb/snowflake-cursor-plugin"
+    },
+    "snyk/studio-recipes": {
+      "id": 1130600389,
+      "full_name": "snyk/studio-recipes"
+    },
+    "sonarsource/sonarqube-agent-plugins": {
+      "id": 1151399749,
+      "full_name": "SonarSource/sonarqube-agent-plugins"
+    },
+    "sonatype/sonatype-cursor-plugin": {
+      "id": 1166072947,
+      "full_name": "sonatype/sonatype-cursor-plugin"
+    },
+    "sourcegraph-community/sourcegraph-cursor-plugin": {
+      "id": 1170988981,
+      "full_name": "sourcegraph-community/sourcegraph-cursor-plugin"
+    },
+    "spotify/confidence-ai-plugins": {
+      "id": 1216960580,
+      "full_name": "spotify/confidence-ai-plugins"
+    },
+    "stayingapi/hotel-vacation-rental-mcp": {
+      "id": 1322903439,
+      "full_name": "stayingapi/hotel-vacation-rental-mcp"
+    },
+    "stoyan-stoyanov/agentcouch-plugins": {
+      "id": 1274806435,
+      "full_name": "stoyan-stoyanov/agentcouch-plugins"
+    },
+    "stripe/ai": {
+      "id": 886826524,
+      "full_name": "stripe/ai"
+    },
+    "stripe/link-cli": {
+      "id": 1219424489,
+      "full_name": "stripe/link-cli"
+    },
+    "supabase-community/cursor-plugin": {
+      "id": 1150106192,
+      "full_name": "supabase-community/cursor-plugin"
+    },
+    "superdesigndev/superdesign-skill": {
+      "id": 1139329853,
+      "full_name": "superdesigndev/superdesign-skill"
+    },
+    "superdesigndev/treg": {
+      "id": 1301657572,
+      "full_name": "superdesigndev/treg"
+    },
+    "superhuman/mcp-mail": {
+      "id": 1183532424,
+      "full_name": "superhuman/mcp-mail"
+    },
+    "sveltejs/ai-tools": {
+      "id": 1054419133,
+      "full_name": "sveltejs/ai-tools"
+    },
+    "tabnine/skills": {
+      "id": 1149769653,
+      "full_name": "tabnine/skills"
+    },
+    "tavily-ai/tavily-cursor-plugin": {
+      "id": 1162013582,
+      "full_name": "tavily-ai/tavily-cursor-plugin"
+    },
+    "team-plain/cursor-plugin-mcp": {
+      "id": 1187395461,
+      "full_name": "team-plain/cursor-plugin-mcp"
+    },
+    "thousandeyes/thousandeyes-ai-agents-toolkit": {
+      "id": 1167067765,
+      "full_name": "thousandeyes/thousandeyes-ai-agents-toolkit"
+    },
+    "tierzeroai/tierzero-cursor": {
+      "id": 1230533458,
+      "full_name": "TierZeroAI/tierzero-cursor"
+    },
+    "tldraw/tldraw": {
+      "id": 365739812,
+      "full_name": "tldraw/tldraw"
+    },
+    "turbopuffer/skills": {
+      "id": 1191999289,
+      "full_name": "turbopuffer/skills"
+    },
+    "twilio/ai": {
+      "id": 1220007647,
+      "full_name": "twilio/ai"
+    },
+    "upstash/context7": {
+      "id": 955620917,
+      "full_name": "upstash/context7"
+    },
+    "vantage-sh/cursor-plugin": {
+      "id": 1193866419,
+      "full_name": "vantage-sh/cursor-plugin"
+    },
+    "vercel/vercel-plugin": {
+      "id": 1172750294,
+      "full_name": "vercel/vercel-plugin"
+    },
+    "whopio/whop-mcp-server": {
+      "id": 1331325248,
+      "full_name": "whopio/whop-mcp-server"
+    },
+    "zeropointrepo/awesome-ag-ui": {
+      "id": 1348147375,
+      "full_name": "ZeroPointRepo/awesome-ag-ui"
+    },
+    "zeropointrepo/awesome-agent-plugins": {
+      "id": 1332056401,
+      "full_name": "ZeroPointRepo/awesome-agent-plugins"
+    },
+    "zeropointrepo/awesome-dsh-plugins": {
+      "id": 1341546900,
+      "full_name": "ZeroPointRepo/awesome-dsh-plugins"
+    },
+    "zeropointrepo/awesome-fx-skills": {
+      "id": 1343444151,
+      "full_name": "ZeroPointRepo/awesome-fx-skills"
+    },
+    "zeropointrepo/awesome-grok-bot": {
+      "id": 1332067090,
+      "full_name": "ZeroPointRepo/awesome-grok-bot"
+    },
+    "zeropointrepo/youtube-mcp": {
+      "id": 1104811310,
+      "full_name": "ZeroPointRepo/youtube-mcp"
+    },
+    "zeropointrepo/zillow-plugin": {
+      "id": 1296219000,
+      "full_name": "ZeroPointRepo/zillow-plugin"
+    },
+    "zoominfo/zoominfo-mcp-plugin": {
+      "id": 1166098857,
+      "full_name": "Zoominfo/zoominfo-mcp-plugin"
+    },
+    "zscaler/zscaler-mcp-server": {
+      "id": 992692668,
+      "full_name": "zscaler/zscaler-mcp-server"
+    }
+  }
+}
