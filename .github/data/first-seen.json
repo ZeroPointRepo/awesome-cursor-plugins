@@ -313,6 +313,24 @@
     "restream": "2026-09-07",
     "aave-mcp": "2026-09-07",
     "incident-io": "2026-09-07",
-    "circleci": "2026-09-07"
+    "circleci": "2026-09-07",
+    "dart-flutter": "2026-09-14",
+    "infobip-mcp": "2026-09-14",
+    "descript": "2026-09-14",
+    "omneky": "2026-09-14",
+    "golf": "2026-09-14",
+    "pascal-agent-skills": "2026-09-14",
+    "grok-voice": "2026-09-14",
+    "teams": "2026-09-14",
+    "artie": "2026-09-14",
+    "appsecmcp": "2026-09-14",
+    "quo": "2026-09-14",
+    "hunter": "2026-09-14",
+    "attio": "2026-09-14",
+    "harmonic": "2026-09-14",
+    "riverside": "2026-09-14",
+    "gojiberry": "2026-09-14",
+    "monid": "2026-09-14",
+    "elevenlabs": "2026-09-14"
   }
 }

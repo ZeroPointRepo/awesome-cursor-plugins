@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/plugins-311-000000" alt="Plugin count" />
+  <img src="https://img.shields.io/badge/plugins-328-000000" alt="Plugin count" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fverified.json" alt="Install commands verified" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fportability.json" alt="Multi-client plugins" />
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FZeroPointRepo%2Fawesome-cursor-plugins%2Fmain%2Fbadges%2Fchecked-at.json" alt="Last checked" />
@@ -11,7 +11,7 @@
 
 # Awesome Cursor Plugins
 
-**311 plugins from the Cursor marketplace, organized by the job each one does, and for every one
+**328 plugins from the Cursor marketplace, organized by the job each one does, and for every one
 of them: which other agents it also runs in, and whether you have to sign in.**
 
 A [Cursor plugin](https://cursor.com/docs/plugins) is a folder that bundles skills, MCP servers,
@@ -53,7 +53,7 @@ this list works it out from the source and puts it next to the entry.
 - [Cursor plugin spec, marketplaces, and where to publish](#cursor-plugin-spec-marketplaces-and-where-to-publish)
 - [Good to know](#good-to-know)
 
-- **Full catalog:** all 311 Cursor plugins with the complete portability and sign-in matrix in [CATALOG.md](CATALOG.md)
+- **Full catalog:** all 328 Cursor plugins with the complete portability and sign-in matrix in [CATALOG.md](CATALOG.md)
 - **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [plugins.json](plugins.json)
 
 ---
@@ -96,7 +96,7 @@ that plugin's own marketplace page:
 pick a project or user scope. Same flow for both plugin formats.
 
 <!-- nosignin:start -->
-**3. Sign in only if the entry says so.** 109 of the 311 have nothing to sign in to. The rest say
+**3. Sign in only if the entry says so.** 110 of the 328 have nothing to sign in to. The rest say
 `OAuth sign-in`, `Paste a token`, or `Points at your own instance` on their own line, so you know
 before you install rather than after.
 <!-- nosignin:end -->
@@ -111,18 +111,18 @@ before you install rather than after.
 
 <!-- portability:start -->
 A Cursor plugin is a directory with a manifest in it. Ship a second manifest and the same folder
-loads in a second agent. **122 of the 311 listings do exactly that. 185 are Cursor and nothing
+loads in a second agent. **130 of the 328 listings do exactly that. 194 are Cursor and nothing
 else.** Both numbers come from reading the manifest directories in each plugin's own source
 repository.
 
 | Also loads in | Plugins | What proves it |
 |---|---:|---|
-| Claude Code | 114 | `.claude-plugin/plugin.json` |
-| Codex | 73 | `.codex-plugin/plugin.json` |
-| The Agent Plugins standard | 33 | `plugin.json` at the plugin root |
+| Claude Code | 120 | `.claude-plugin/plugin.json` |
+| Codex | 76 | `.codex-plugin/plugin.json` |
+| The Agent Plugins standard | 38 | `plugin.json` at the plugin root |
+| Grok Bot | 15 | `.grok-plugin/plugin.json` |
 | GitHub Copilot | 13 | `.github/plugin/plugin.json` |
-| Grok Bot | 13 | `.grok-plugin/plugin.json` |
-| Kimi | 5 | `.kimi-plugin/plugin.json` |
+| Kimi | 4 | `.kimi-plugin/plugin.json` |
 | Devin | 4 | `.devin-plugin/plugin.json` |
 | Antigravity, Cortex, Qoder | 3 | one manifest directory each |
 
@@ -138,17 +138,17 @@ Per-plugin rows are on every entry below and in [CATALOG.md](CATALOG.md).
 ## Cursor MCP plugins and sign-in: OAuth, token, or nothing
 
 <!-- signin:start -->
-252 of the 311 plugins bring an MCP server. The question that decides whether you install one
+269 of the 328 plugins bring an MCP server. The question that decides whether you install one
 right now is whether it will ask you for credentials, and no listing page answers it. This one
 does, from a live handshake against each server.
 
 | What happens when you install | Plugins |
 |---|---:|
-| OAuth sign-in, click once and you are in | 166 |
-| Nothing to sign in to | 109 |
+| OAuth sign-in, click once and you are in | 180 |
+| Nothing to sign in to | 110 |
 | Paste a token or an API key first | 17 |
-| Points at your own instance, so you configure the URL | 14 |
-| Could not be established from outside | 5 |
+| Points at your own instance, so you configure the URL | 15 |
+| Could not be established from outside | 6 |
 
 `Nothing to sign in to` covers three honest cases: a plugin that is skills, rules, and commands
 only, a local server that runs on your machine, and a remote server that answers an
