@@ -1888,6 +1888,20 @@ unauthenticated request. Each entry says which.
 
 ### Product analytics and experiments
 
+- **Find why AI chooses competing products** with [agentzia](https://github.com/stoyan-stoyanov/agentzia-plugins) by [Morphologic AI Inc.](https://www.agentzia.dev). Hosted MCP research and an evidence-led page optimization skill. Complimentary credits; additional research is paid per selected assistant. 0★, MIT.
+  Also packaged for Claude Code, Codex, and the Agent Plugins standard · OAuth sign-in.
+
+  <details>
+  <summary>Install</summary>
+
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=agentzia&config=eyJ1cmwiOiJodHRwczovL3d3dy5hZ2VudHppYS5kZXYvbWNwIn0=
+  ```
+
+  Optional workflow skill: `npx skills add stoyan-stoyanov/agentzia-plugins --skill agentzia-optimize --agent cursor`
+
+  </details>
+
 - **Instrument analytics and analyze the charts** with [amplitude](https://github.com/amplitude/mcp-marketplace/tree/HEAD/plugins/amplitude) by [Amplitude](https://amplitude.com/). 34★, MIT.
   Also packaged for Claude Code and Codex · OAuth sign-in.
 
