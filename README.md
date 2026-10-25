@@ -830,6 +830,22 @@ unauthenticated request. Each entry says which.
 
   </details>
 
+- **Publish a site to a live URL and keep editing it** with [webly](https://github.com/Webly-AI/webly-plugin) by [Webly](https://webly.ai). Website hosting for AI agents: publish a site or share files at a live webly.site URL, then edit it over a hosted MCP server and publish drafts you approve. Free plan with 25 sites; Hobby is $5 and Pro is $20 a month. 0★, Apache-2.0.
+  Also packaged for Claude Code, Codex, and Grok Bot · OAuth sign-in.
+
+  <details>
+  <summary>Install</summary>
+
+  Paste this in your browser's address bar, or into any link field, to add the server:
+
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=webly&config=eyJ1cmwiOiJodHRwczovL2FwaS53ZWJseS5haS92MS9tY3AifQ==
+  ```
+
+  Or clone the repo into `~/.cursor/plugins/local/` and reload the window for the skill and the server.
+
+  </details>
+
 
 ### Databases and search engines
 
