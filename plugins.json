@@ -2,8 +2,8 @@
   "name": "awesome-cursor-plugins",
   "url": "https://github.com/ZeroPointRepo/awesome-cursor-plugins",
   "source": "https://raw.githubusercontent.com/ZeroPointRepo/awesome-cursor-plugins/main/plugins.json",
-  "updated": "2026-10-19",
-  "count": 456,
+  "updated": "2026-10-26",
+  "count": 478,
   "plugins": [
     {
       "name": "superpowers",
@@ -12,7 +12,7 @@
       "description": {
         "en": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques"
       },
-      "stars": 301806,
+      "stars": 305251,
       "install": "/add-plugin superpowers",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/superpowers",
@@ -34,7 +34,7 @@
       "description": {
         "en": "UI component and design system framework. Search registries, install components as source code, and audit your project."
       },
-      "stars": 125924,
+      "stars": 126557,
       "install": "/add-plugin shadcn",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/shadcn",
@@ -51,7 +51,7 @@
       "description": {
         "en": "Design and refine interfaces with Impeccable skills, specialist agents, and design checks."
       },
-      "stars": 82866,
+      "stars": 88231,
       "install": "/add-plugin impeccable",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/renaissance-geek",
@@ -68,7 +68,7 @@
       "description": {
         "en": "Mem0 memory layer for AI applications. Add persistent memory, personalization, and semantic search using the Mem0 Platform MCP server."
       },
-      "stars": 67427,
+      "stars": 67829,
       "install": "/add-plugin mem0",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mem0",
@@ -85,7 +85,7 @@
       "description": {
         "en": "Up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context."
       },
-      "stars": 63278,
+      "stars": 63696,
       "install": "/add-plugin context7",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/upstash/context7",
@@ -102,7 +102,7 @@
       "description": {
         "en": "Help your agent build, debug, and verify your code correctly. With Chrome DevTools for agents, your AI agent can interact with the Chrome browser to test code, emulate users, and catch bugs using Chrome DevTools’ capabilities before shipping."
       },
-      "stars": 53817,
+      "stars": 54172,
       "install": "/add-plugin devtools-for-agents",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/google-chrome/devtools-for-agents",
@@ -122,7 +122,7 @@
       "description": {
         "en": "Draw and visually collaborate with your agents inside Cursor"
       },
-      "stars": 50978,
+      "stars": 51091,
       "install": "/add-plugin tldraw",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/tldraw",
@@ -139,7 +139,7 @@
       "description": {
         "en": "Brainstorm, plan, debug, review, and compound learnings with AI agents"
       },
-      "stars": 25601,
+      "stars": 25714,
       "install": "/add-plugin compound-engineering",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/every",
@@ -162,7 +162,7 @@
       "description": {
         "en": "Create, inspect, validate, and assess furniture layouts with bounded next actions in Pascal through MCP."
       },
-      "stars": 24975,
+      "stars": 25115,
       "install": "/add-plugin pascal-agent-skills",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/pascal",
@@ -180,7 +180,7 @@
       "description": {
         "en": "Official GSAP skills for Cursor, Claude and other AI agents — core animations, timelines, ScrollTrigger, plugins, utilities, React integration, and performance best practices"
       },
-      "stars": 16625,
+      "stars": 17161,
       "install": "/add-plugin gsap-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/gsap",
@@ -198,7 +198,7 @@
       "description": {
         "en": "Scan, understand, and fix React codebase diagnostics with React Doctor."
       },
-      "stars": 15015,
+      "stars": 15049,
       "install": "/add-plugin react-doctor",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/react-doctor",
@@ -215,7 +215,7 @@
       "description": {
         "en": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin agent-compatibility",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/agent-compatibility",
@@ -232,7 +232,7 @@
       "description": {
         "en": "Research keywords, backlinks, rankings, and site health."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin ahrefs",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/ahrefs",
@@ -249,7 +249,7 @@
       "description": {
         "en": "Search people and companies, enrich leads, run sequences."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin amplemarket",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/amplemarket",
@@ -266,7 +266,7 @@
       "description": {
         "en": "Search candidates, prep interviews, and manage pipeline tasks."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin ashby",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/ashby",
@@ -283,7 +283,7 @@
       "description": {
         "en": "Search and update CRM records, lists, notes, and tasks."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin attio",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/cursor/attio",
@@ -300,7 +300,7 @@
       "description": {
         "en": "Run your beehiiv newsletter from chat: draft and edit posts, organize subscribers with tags, custom fields, and segments, build automations, and review publication, post, and website performance."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin beehiiv",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/beehiiv",
@@ -317,7 +317,7 @@
       "description": {
         "en": "Manage contacts, email and SMS campaigns, and CRM deals."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin brevo",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/brevo",
@@ -334,7 +334,7 @@
       "description": {
         "en": "Query expenses, receipts, bills, cards, and travel."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin brex",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/brex",
@@ -351,7 +351,7 @@
       "description": {
         "en": "Manage social media with Buffer: draft, schedule, and publish posts across connected channels, manage the queue and ideas, and review post performance."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin buffer",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/buffer",
@@ -368,7 +368,7 @@
       "description": {
         "en": "Check availability and book, cancel, or reschedule."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin calendly",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/calendly",
@@ -385,7 +385,7 @@
       "description": {
         "en": "Search meetings, transcripts, action items, and emails."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin circleback",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/circleback",
@@ -402,7 +402,7 @@
       "description": {
         "en": "Enrich people and companies, run AI research agents."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin clay",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/clay",
@@ -419,7 +419,7 @@
       "description": {
         "en": "Patterns for designing CLIs that coding agents can run reliably: non-interactive flags, layered help with examples, pipelines, actionable errors, idempotency, and dry-run."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin cli-for-agent",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cli-for-agent",
@@ -436,7 +436,7 @@
       "description": {
         "en": "Search docs, read pages, and update tables."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin coda",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/coda",
@@ -453,7 +453,7 @@
       "description": {
         "en": "Check balances, get quotes, and preview or place trades."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin coinbase",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/coinbase",
@@ -470,7 +470,7 @@
       "description": {
         "en": "Incrementally learns durable user preferences and workspace facts from transcript changes and keeps AGENTS.md up to date with plain bullet points."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin continual-learning",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/continual-learning",
@@ -487,7 +487,7 @@
       "description": {
         "en": "Search, create, and update documents and daily notes."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin craft",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/craft",
@@ -504,7 +504,7 @@
       "description": {
         "en": "Scaffold and validate new agent plugins. Handles directory setup, manifest generation, and pre-submission quality checks for the marketplace."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin create-plugin",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/create-plugin",
@@ -521,7 +521,7 @@
       "description": {
         "en": "Build apps, scripts, and automations with the TypeScript SDK."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin cursor-sdk",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cursor-sdk",
@@ -538,7 +538,7 @@
       "description": {
         "en": "Internal engineering team workflows for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin cursor-team-kit",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/cursor-team-kit",
@@ -555,7 +555,7 @@
       "description": {
         "en": "Build campaigns, manage segments, and query people."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin customer-io",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/customer-io",
@@ -572,7 +572,7 @@
       "description": {
         "en": "Pull source-linked fundamentals, KPIs, filings, and prices."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin daloopa",
       "added": "2026-09-21",
       "page": "https://cursor.com/marketplace/cursor/daloopa",
@@ -583,13 +583,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "databricks-genie-one",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Ask Databricks Genie questions about your workspace's data in plain language."
+      },
+      "stars": 14101,
+      "install": "/add-plugin databricks-genie-one",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/databricks-genie-one",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "self-hosted"
+    },
+    {
       "name": "docs-canvas",
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
         "en": "Render documentation as a navigable canvas."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin docs-canvas",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/docs-canvas",
@@ -606,7 +623,7 @@
       "description": {
         "en": "Manage envelopes, templates, workflows, and agreements."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin docusign",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/docusign",
@@ -623,7 +640,7 @@
       "description": {
         "en": "View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin etoro-trading",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/cursor/etoro-trading",
@@ -640,7 +657,7 @@
       "description": {
         "en": "Draw and export hand-drawn diagrams from chat."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin excalidraw",
       "added": "2026-09-21",
       "page": "https://cursor.com/marketplace/cursor/excalidraw",
@@ -657,10 +674,27 @@
       "description": {
         "en": "Search meetings and pull transcripts and summaries."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin fathom",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/fathom",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "feishu",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Search, create, and update Feishu docs, and read Feishu messages and groups."
+      },
+      "stars": 14101,
+      "install": "/add-plugin feishu",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/feishu",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -674,7 +708,7 @@
       "description": {
         "en": "Link your bank, card, and investment accounts through Plaid so Grok can answer questions about balances, spending, subscriptions, and investments. You'll share contact details, account and balance info, transactions, credit and loans, and investments. Grok syncs and stores your linked account data so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. Access is read-only, xAI never sees or stores your bank login, and you can unlink accounts anytime from cursor.com."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin finance",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/finance",
@@ -691,10 +725,27 @@
       "description": {
         "en": "Search meeting transcripts, summaries, and action items."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin fireflies",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/fireflies",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "framer",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Design, build, and edit your Framer sites, pages, and CMS content."
+      },
+      "stars": 14101,
+      "install": "/add-plugin framer",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/framer",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -708,7 +759,7 @@
       "description": {
         "en": "Generate presentations, documents, and webpages."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin gamma",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/cursor/gamma",
@@ -725,7 +776,7 @@
       "description": {
         "en": "Manage repos, issues, pull requests, and Actions."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin github",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/github",
@@ -742,7 +793,7 @@
       "description": {
         "en": "Search, read, draft, and manage email."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin gmail",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/gmail",
@@ -759,7 +810,7 @@
       "description": {
         "en": "Brainstorm domain names and check availability."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin godaddy",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/godaddy",
@@ -776,7 +827,7 @@
       "description": {
         "en": "Pull account summaries, deal insights, and call briefs."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin gong",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/gong",
@@ -793,10 +844,27 @@
       "description": {
         "en": "Search events and schedule meetings."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin google-calendar",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/google-calendar",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "none"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Explore datasets and tables and run SQL queries."
+      },
+      "stars": 14101,
+      "install": "/add-plugin google-cloud-bigquery",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/google-cloud-bigquery",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -810,7 +878,7 @@
       "description": {
         "en": "Read, create, and edit documents."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin google-docs",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/google-docs",
@@ -827,7 +895,7 @@
       "description": {
         "en": "Search, read, create, and share files."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin google-drive",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/google-drive",
@@ -844,7 +912,7 @@
       "description": {
         "en": "Read, write, and append spreadsheet data."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin google-sheets",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/google-sheets",
@@ -861,10 +929,27 @@
       "description": {
         "en": "Create, edit, and render presentations."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin google-slides",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/google-slides",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "gopuff",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Shop Gopuff from Grok Bot through Gopuff's official MCP server. Sign in with your Gopuff account; Gopuff handles the sign-in, and your searches, carts, and orders go to Gopuff under that account, so any order you place is charged and delivered like a normal Gopuff order."
+      },
+      "stars": 14101,
+      "install": "/add-plugin gopuff",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/gopuff",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -878,7 +963,7 @@
       "description": {
         "en": "Search candidates, jobs, and applications, and review scorecards in Greenhouse Recruiting."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin greenhouse",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/cursor/greenhouse",
@@ -895,7 +980,7 @@
       "description": {
         "en": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin grok-voice",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/cursor/grok-voice",
@@ -912,7 +997,7 @@
       "description": {
         "en": "Search company knowledge and draft verified answers."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin guru",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/guru",
@@ -929,7 +1014,7 @@
       "description": {
         "en": "Work with payroll, employees, contractors, time off, and reports."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin gusto",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/cursor/gusto",
@@ -946,7 +1031,7 @@
       "description": {
         "en": "Work with contacts, conversations, opportunities, calendars, and payments."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin highlevel",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/cursor/highlevel",
@@ -963,7 +1048,7 @@
       "description": {
         "en": "Search and update contacts, companies, deals, and tickets."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin hubspot",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/hubspot",
@@ -980,7 +1065,7 @@
       "description": {
         "en": "Find and verify emails, discover companies, and save leads."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin hunter",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/cursor/hunter",
@@ -997,7 +1082,7 @@
       "description": {
         "en": "Search conversations, contacts, and Help Center articles."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin intercom",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/intercom",
@@ -1014,7 +1099,7 @@
       "description": {
         "en": "Create and edit forms, then read submissions."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin jotform",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/jotform",
@@ -1031,7 +1116,7 @@
       "description": {
         "en": "Query recruiting analytics, shortlists, and sourcing agents."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin juicebox",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/juicebox",
@@ -1048,10 +1133,27 @@
       "description": {
         "en": "Manage profiles, segments, campaigns, and flows."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin klaviyo",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/klaviyo",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "lark",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Search, create, and update Lark Suite docs, and read Lark messages and groups."
+      },
+      "stars": 14101,
+      "install": "/add-plugin lark",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/lark",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -1065,7 +1167,7 @@
       "description": {
         "en": "Manage subscribers, groups, campaigns, and automations."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin mailerlite",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/mailerlite",
@@ -1082,7 +1184,7 @@
       "description": {
         "en": "Capture, search, and organize notes and collections."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin mem",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/mem",
@@ -1099,7 +1201,7 @@
       "description": {
         "en": "Query expenses, travel bookings, policies, and cards."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin navan",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/navan",
@@ -1116,7 +1218,7 @@
       "description": {
         "en": "Browse, search, and read Microsoft OneDrive files."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin onedrive",
       "added": "2026-09-02",
       "page": "https://cursor.com/marketplace/cursor/onedrive",
@@ -1133,7 +1235,7 @@
       "description": {
         "en": "Fan a large task out across parallel cloud agents via the Cursor SDK: planners publish tasks, workers hand off back up, and a script reconciles the tree from disk and git."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin orchestrate",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/orchestrate",
@@ -1150,7 +1252,7 @@
       "description": {
         "en": "Search meeting history and pull full transcripts."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin otter",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/otter",
@@ -1167,7 +1269,7 @@
       "description": {
         "en": "Search, read, and send Microsoft Outlook email, and look up contacts."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin outlook",
       "added": "2026-09-02",
       "page": "https://cursor.com/marketplace/cursor/outlook",
@@ -1184,7 +1286,7 @@
       "description": {
         "en": "List, create, update, and cancel Microsoft Outlook calendar events."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin outlook-calendar",
       "added": "2026-09-02",
       "page": "https://cursor.com/marketplace/cursor/outlook-calendar",
@@ -1201,7 +1303,7 @@
       "description": {
         "en": "Search sequences, prospects, and Kaia meetings."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin outreach",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/outreach",
@@ -1218,7 +1320,7 @@
       "description": {
         "en": "Work with your Plaud recordings: list and search meetings and voice notes, read full transcripts with speaker labels, and pull AI summaries, action items, and key topics into your workflow."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin plaud",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/plaud",
@@ -1235,7 +1337,7 @@
       "description": {
         "en": "Navigate, click, screenshot, and test in a real browser."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin playwright",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/playwright",
@@ -1252,10 +1354,27 @@
       "description": {
         "en": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards (URL-only connector to PostHog's hosted MCP server)."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin posthog-mcp",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/posthog-mcp",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "power-bi",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Browse Microsoft Power BI workspaces and render report pages."
+      },
+      "stars": 14101,
+      "install": "/add-plugin power-bi",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/power-bi",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -1269,7 +1388,7 @@
       "description": {
         "en": "Render PR diffs as review canvases grouped by importance."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin pr-review-canvas",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/pr-review-canvas",
@@ -1286,7 +1405,7 @@
       "description": {
         "en": "Track AI visibility, sentiment, and citations."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin profound",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/profound",
@@ -1303,7 +1422,7 @@
       "description": {
         "en": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin pstack",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/pstack",
@@ -1319,9 +1438,9 @@
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
-        "en": "Read invoices, bills, expenses, customers, accounts, and financial reports."
+        "en": "QuickBooks turns your business's financial data into clear, decision-ready insights, and now takes action on it too. Analyze profitability, cash flow, and balance sheet health, and benchmark your performance against similar businesses in your industry and region. See who owes you money and which bills are coming due with A/R and A/P aging, and break down sales by customer or product to find what is driving revenue. Create, update, send, duplicate, and schedule invoices and estimates. Add customers and products, generate, and send payment links and reminders, always with a clear preview and your confirmation before anything is sent. Get fast read-only answers on payroll and QuickBooks Capital. Look up payroll details, and when you need to, add an employee or set base pay. Check your QuickBooks Capital loans and peer lending benchmarks."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin quickbooks-online",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/cursor/quickbooks-online",
@@ -1338,7 +1457,7 @@
       "description": {
         "en": "Search highlights and Reader documents, save articles."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin readwise",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/readwise",
@@ -1355,7 +1474,7 @@
       "description": {
         "en": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin robinhood",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/robinhood",
@@ -1372,7 +1491,7 @@
       "description": {
         "en": "Query, create, and update records in your org."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin salesforce",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/salesforce",
@@ -1389,7 +1508,7 @@
       "description": {
         "en": "Manage records, users, and org setup across Salesforce."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin salesforce-headless-360",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/cursor/salesforce-headless-360",
@@ -1406,7 +1525,7 @@
       "description": {
         "en": "Research keywords, backlinks, traffic, and competitors."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin semrush",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/semrush",
@@ -1423,7 +1542,7 @@
       "description": {
         "en": "Search and read Microsoft SharePoint sites, document libraries, files, and lists."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin sharepoint",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/cursor/sharepoint",
@@ -1440,7 +1559,7 @@
       "description": {
         "en": "Analyze website traffic, audiences, and competitors."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin similarweb",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/similarweb",
@@ -1457,7 +1576,7 @@
       "description": {
         "en": "Query and update sheets, rows, and workspaces."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin smartsheet",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/smartsheet",
@@ -1474,7 +1593,7 @@
       "description": {
         "en": "Query S&P Capital IQ financials, prices, and transcripts."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin sp-global",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/sp-global",
@@ -1485,13 +1604,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "stable",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Find mail, read scanned documents, and call Stable API endpoints."
+      },
+      "stars": 14101,
+      "install": "/add-plugin stable",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/stable",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "token"
+    },
+    {
       "name": "statsig",
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
         "en": "Inspect and manage feature gates, experiments, dynamic configs, and metrics."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin statsig",
       "added": "2026-09-21",
       "page": "https://cursor.com/marketplace/cursor/statsig",
@@ -1502,13 +1638,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "tailscale",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Let Grok Bot reach MCP servers on your private Tailscale network. On your own tailnet it joins as one tag:grokbot device; on your team's company tailnet, turned on by a team admin, it uses each member's own device."
+      },
+      "stars": 14101,
+      "install": "/add-plugin tailscale",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/tailscale",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "teams",
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
         "en": "Search, read, and send Microsoft Teams chats and channel messages."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin teams",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/cursor/teams",
@@ -1525,10 +1678,10 @@
       "description": {
         "en": "Thermo-nuclear branch review: deep correctness and security audits plus harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional take-the-wheel and FSD merge-ready flows."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin thermos",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/thermos",
+      "page": "https://cursor.com/marketplace/cursor/thermos",
       "license": null,
       "runs_in": [
         "Cursor"
@@ -1542,7 +1695,7 @@
       "description": {
         "en": "Manage TikTok ad campaigns, ad groups, ads, audiences, creatives, and reports."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin tiktok-for-business",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/cursor/tiktok-for-business",
@@ -1559,7 +1712,7 @@
       "description": {
         "en": "Browse and automate the web with TinyFish: run multi-step web automations, search the web, extract clean page content, and drive remote stealth browser sessions."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin tinyfish",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/tinyfish",
@@ -1576,7 +1729,7 @@
       "description": {
         "en": "Create, find, and complete tasks and projects."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin todoist",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/todoist",
@@ -1593,7 +1746,7 @@
       "description": {
         "en": "Manage your Trello workspace from chat: browse and create boards, view and move lists, create, update, move, archive, and complete cards with labels and due dates, manage checklists, capture Inbox cards, schedule Planner focus time, and search across boards."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin trello",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/trello",
@@ -1610,7 +1763,7 @@
       "description": {
         "en": "Build forms, analyze responses, and manage contacts."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin typeform",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/typeform",
@@ -1627,7 +1780,7 @@
       "description": {
         "en": "Search talent, post jobs, and manage contracts."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin upwork",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/upwork",
@@ -1638,13 +1791,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "vanta",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Query and remediate compliance tests, controls, frameworks, risks, and vulnerabilities in Vanta."
+      },
+      "stars": 14101,
+      "install": "/add-plugin vanta",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/vanta",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "self-hosted"
+    },
+    {
       "name": "webull",
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
         "en": "View accounts, positions, orders, watchlists, and market data."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin webull",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/webull",
@@ -1661,7 +1831,7 @@
       "description": {
         "en": "Send messages and manage templates, contacts, and phone numbers in WhatsApp Business."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin whatsapp-business",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/cursor/whatsapp-business",
@@ -1678,7 +1848,7 @@
       "description": {
         "en": "Search candidates, move pipelines, and manage HR records."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin workable",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/workable",
@@ -1695,7 +1865,7 @@
       "description": {
         "en": "Look up workers, organizations, time off, payroll, and recruiting data in Workday."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin workday",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/cursor/workday",
@@ -1712,7 +1882,7 @@
       "description": {
         "en": "Search projects, create tasks, and post comments."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin wrike",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/wrike",
@@ -1727,9 +1897,9 @@
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
-        "en": "Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls."
+        "en": "Search posts, read timelines, pull trends, explore Spaces and communities, manage lists and bookmarks, access X Chat, schedule X calls, and manage livestreams."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin x",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/x",
@@ -1746,7 +1916,7 @@
       "description": {
         "en": "Manage ad campaigns, create ads, track conversions, and pull performance stats."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin x-ads",
       "added": "2026-09-02",
       "page": "https://cursor.com/marketplace/cursor/x-ads",
@@ -1763,7 +1933,7 @@
       "description": {
         "en": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin x-money",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/cursor/x-money",
@@ -1780,7 +1950,7 @@
       "description": {
         "en": "Read and write invoices, contacts, reports, and payroll."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin xero",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/cursor/xero",
@@ -1791,13 +1961,64 @@
       "sign_in": "token"
     },
     {
+      "name": "zoho-books",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Work with contacts, invoices, estimates, and items in Zoho Books."
+      },
+      "stars": 14101,
+      "install": "/add-plugin zoho-books",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/zoho-books",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "zoho-crm",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Work with leads, contacts, accounts, deals, and other Zoho CRM records."
+      },
+      "stars": 14101,
+      "install": "/add-plugin zoho-crm",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/zoho-crm",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "zoho-desk",
+      "owner": "cursor",
+      "url": "https://github.com/cursor/plugins",
+      "description": {
+        "en": "Work with tickets, contacts, tasks, and knowledge base articles in Zoho Desk."
+      },
+      "stars": 14101,
+      "install": "/add-plugin zoho-desk",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/cursor/zoho-desk",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "zoom",
       "owner": "cursor",
       "url": "https://github.com/cursor/plugins",
       "description": {
         "en": "Search meetings, pull transcripts, and work with Zoom Docs."
       },
-      "stars": 12894,
+      "stars": 14101,
       "install": "/add-plugin zoom",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cursor/zoom",
@@ -1814,7 +2035,7 @@
       "description": {
         "en": "Agent Skills for AI/ML tasks including dataset creation, model training, evaluation, and research paper publishing on Hugging Face Hub"
       },
-      "stars": 11181,
+      "stars": 11213,
       "install": "/add-plugin huggingface-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/huggingface",
@@ -1832,7 +2053,7 @@
       "description": {
         "en": "Find UI components and themes, retrieve their code, and use hosted 21st AI when enabled."
       },
-      "stars": 6109,
+      "stars": 6256,
       "install": "/add-plugin 21st",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/21st-dev",
@@ -1849,9 +2070,9 @@
       "owner": "superdesigndev",
       "url": "https://github.com/superdesigndev/treg",
       "description": {
-        "en": "OpenRouter for tools — 2,896 agent-callable endpoints across 60 providers: SEO and SERP data, backlinks, social and trends, people and company enrichment, ads, scraping. Search by the task, see the price, then call it. Credentials are injected server-side, so the agent never holds a key. Pay per call, not per subscription."
+        "en": "OpenRouter for tools - 4,000+ agent-callable endpoints across 113 providers: SEO and SERP data, backlinks, social and trends, people and company enrichment, ads, scraping. Search by the task, see the price, then call it. Credentials are injected server-side, so the agent never holds a key. Pay per call, not per subscription."
       },
-      "stars": 5771,
+      "stars": 6066,
       "install": "/add-plugin treg",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/superdesign/treg",
@@ -1868,7 +2089,7 @@
       "description": {
         "en": "Skills for NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you find the right skills to help in building NVIDIA-powered workflows."
       },
-      "stars": 3643,
+      "stars": 3735,
       "install": "/add-plugin nvidia-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/nvidia",
@@ -1881,13 +2102,76 @@
       "sign_in": "skills-only"
     },
     {
+      "name": "aws-agents",
+      "owner": "aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": {
+        "en": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore (Strands, LangGraph), connecting tools via Gateway and MCP, multi-agent and A2A orchestration, memory, Cedar policies, evaluation, observability, debugging traces and logs, and production hardening (inbound auth, IAM, rate limiting, cold-start tuning)."
+      },
+      "stars": 3282,
+      "install": "/add-plugin aws-agents",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/aws/aws-agents",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Devin",
+        "Agent Plugins"
+      ],
+      "sign_in": "none"
+    },
+    {
+      "name": "aws-core",
+      "owner": "aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": {
+        "en": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream, ElastiCache, and MemoryDB), and complete common tasks across observability (CloudWatch, X-Ray, CloudTrail, ADOT), messaging and streaming (SQS, SNS, EventBridge, Kinesis, MSK), AWS SDKs (boto3, JS v3, Swift), cost optimization, and Well-Architected Framework reviews across all six pillars."
+      },
+      "stars": 3282,
+      "install": "/add-plugin aws-core",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/aws/aws-core",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Devin",
+        "Agent Plugins"
+      ],
+      "sign_in": "local"
+    },
+    {
+      "name": "aws-data-analytics",
+      "owner": "aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": {
+        "en": "Data lake, analytics, search, ETL, and orchestration workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, Amazon OpenSearch Service, and Amazon MWAA. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, Amazon OpenSearch Service and Serverless (migration from Solr/Elasticsearch, provisioning, vector/semantic/hybrid search, log analytics, trace analytics), and Amazon MWAA Provisioned and MWAA Serverless (authoring, testing, and debugging DAGs and workflows, and Airflow version upgrades for provisioned environments)."
+      },
+      "stars": 3282,
+      "install": "/add-plugin aws-data-analytics",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/aws/aws-data-analytics",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Devin",
+        "Agent Plugins"
+      ],
+      "sign_in": "local"
+    },
+    {
       "name": "cloudflare",
       "owner": "cloudflare",
       "url": "https://github.com/cloudflare/skills",
       "description": {
         "en": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server."
       },
-      "stars": 3101,
+      "stars": 3174,
       "install": "/add-plugin cloudflare",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/cloudflare",
@@ -1907,7 +2191,7 @@
       "description": {
         "en": "Official Cursor plugin for Dart and Flutter that installs Flutter/Dart Skills and Dart MCP server for building natively compiled, visually stunning applications for mobile, web, desktop, and embedded devices from a single codebase."
       },
-      "stars": 3076,
+      "stars": 3108,
       "install": "/add-plugin dart-flutter",
       "added": "2026-09-14",
       "page": "https://cursor.com/marketplace/flutter",
@@ -1920,73 +2204,13 @@
       "sign_in": "local"
     },
     {
-      "name": "aws-agents",
-      "owner": "aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": {
-        "en": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore (Strands, LangGraph), connecting tools via Gateway and MCP, multi-agent and A2A orchestration, memory, Cedar policies, evaluation, observability, debugging traces and logs, and production hardening (inbound auth, IAM, rate limiting, cold-start tuning)."
-      },
-      "stars": 2910,
-      "install": "/add-plugin aws-agents",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/aws/aws-agents",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "none"
-    },
-    {
-      "name": "aws-core",
-      "owner": "aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": {
-        "en": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream, ElastiCache, and MemoryDB), and complete common tasks across observability (CloudWatch, X-Ray, CloudTrail, ADOT), messaging and streaming (SQS, SNS, EventBridge, Kinesis, MSK), AWS SDKs (boto3, JS v3, Swift), cost optimization, and Well-Architected Framework reviews across all six pillars."
-      },
-      "stars": 2910,
-      "install": "/add-plugin aws-core",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/aws/aws-core",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "local"
-    },
-    {
-      "name": "aws-data-analytics",
-      "owner": "aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "description": {
-        "en": "Data lake, analytics, search, ETL, and orchestration workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, Amazon OpenSearch Service, and Amazon MWAA. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, Amazon OpenSearch Service and Serverless (migration from Solr/Elasticsearch, provisioning, vector/semantic/hybrid search, log analytics, trace analytics), and Amazon MWAA Provisioned and MWAA Serverless (authoring, testing, and debugging DAGs and workflows, and Airflow version upgrades for provisioned environments)."
-      },
-      "stars": 2910,
-      "install": "/add-plugin aws-data-analytics",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/aws/aws-data-analytics",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "local"
-    },
-    {
       "name": "modern-web-guidance",
       "owner": "GoogleChrome",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "description": {
         "en": "Modern Web Guidance is an agent skill and CLI tool designed to help AI coding agents build web applications using modern, secure, and high-performance APIs rather than outdated workarounds. Supported by the Google Chrome team, it injects expert-curated web platform best practices directly into an agent's context window to prevent the generation of bloated, legacy code."
       },
-      "stars": 2501,
+      "stars": 2558,
       "install": "/add-plugin modern-web-guidance",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/google-chrome/modern-web-guidance",
@@ -2007,7 +2231,7 @@
       "description": {
         "en": "Turn designs into code, push UI back to Figma, and create Design, FigJam, and Slides files."
       },
-      "stars": 2089,
+      "stars": 2113,
       "install": "/add-plugin figma",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/figma",
@@ -2015,7 +2239,9 @@
       "runs_in": [
         "Cursor",
         "Claude Code",
-        "GitHub Copilot"
+        "GitHub Copilot",
+        "Antigravity",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -2026,7 +2252,7 @@
       "description": {
         "en": "Stripe plugin for Cursor to help with Stripe integrations including best practices, API/SDK upgrade guidance, and the Stripe MCP server."
       },
-      "stars": 1961,
+      "stars": 1972,
       "install": "/add-plugin stripe",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/stripe",
@@ -2043,7 +2269,7 @@
       "description": {
         "en": "Microsoft Azure MCP and Skills integration for cloud resource management, deployments, and Azure services. Manage your Azure infrastructure, monitor applications, and deploy resources directly from Cursor."
       },
-      "stars": 1578,
+      "stars": 1596,
       "install": "/add-plugin azure",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/azure",
@@ -2061,7 +2287,7 @@
       "description": {
         "en": "Atlassian plugin for Cursor with MCP and skills for Jira, Confluence, triage, backlogs, status reports, and more."
       },
-      "stars": 1106,
+      "stars": 1121,
       "install": "/add-plugin atlassian",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/atlassian/atlassian",
@@ -2080,7 +2306,7 @@
       "description": {
         "en": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin amazon-location-service",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/amazon-location-service",
@@ -2099,7 +2325,7 @@
       "description": {
         "en": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin aws-amplify",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/aws-amplify",
@@ -2118,7 +2344,7 @@
       "description": {
         "en": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin aws-serverless",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/aws-serverless",
@@ -2137,7 +2363,7 @@
       "description": {
         "en": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin databases-on-aws",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/databases-on-aws",
@@ -2156,7 +2382,7 @@
       "description": {
         "en": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment. Generate validated AWS architecture diagrams as draw.io XML."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin deploy-on-aws",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/deploy-on-aws",
@@ -2175,7 +2401,7 @@
       "description": {
         "en": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
       },
-      "stars": 924,
+      "stars": 930,
       "install": "/add-plugin sagemaker-ai",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/aws/sagemaker-ai",
@@ -2188,30 +2414,13 @@
       "sign_in": "local"
     },
     {
-      "name": "link",
-      "owner": "stripe",
-      "url": "https://github.com/stripe/link-cli",
-      "description": {
-        "en": "Complete purchases with one-time-use payment credentials from a Link wallet, using spend requests the user has approved."
-      },
-      "stars": 861,
-      "install": "/add-plugin link",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/stripe-link",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "token"
-    },
-    {
       "name": "superdesign",
       "owner": "superdesigndev",
       "url": "https://github.com/superdesigndev/superdesign-skill",
       "description": {
         "en": "Design or redesign frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas. Uses approved slide outlines, project context, and branchable drafts you refine."
       },
-      "stars": 841,
+      "stars": 904,
       "install": "/add-plugin superdesign",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/superdesign/superdesign",
@@ -2224,13 +2433,30 @@
       "sign_in": "skills-only"
     },
     {
+      "name": "link",
+      "owner": "stripe",
+      "url": "https://github.com/stripe/link-cli",
+      "description": {
+        "en": "Complete purchases with one-time-use payment credentials from a Link wallet, using spend requests the user has approved."
+      },
+      "stars": 879,
+      "install": "/add-plugin link",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/stripe-link",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "kraken-cli",
       "owner": "krakenfx",
       "url": "https://github.com/krakenfx/kraken-cli",
       "description": {
         "en": "Agent-first CLI for trading crypto, stocks, forex, and derivatives on Kraken. Paper trading by default; live trading opt-in via API keys."
       },
-      "stars": 765,
+      "stars": 779,
       "install": "/add-plugin kraken-cli",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/kraken",
@@ -2249,7 +2475,7 @@
       "description": {
         "en": "Agent skills for dbt: data modeling, analytics engineering, semantic layer metrics, unit testing, job troubleshooting, and dbt MCP server setup. Covers dbt Core and dbt Cloud workflows."
       },
-      "stars": 740,
+      "stars": 746,
       "install": "/add-plugin dbt",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/dbt-labs",
@@ -2267,10 +2493,10 @@
       "description": {
         "en": "Create and manage your store with Shopify. Manage inventory across locations, create discount codes, review orders and customer details, and pull analytics on your store's performance."
       },
-      "stars": 604,
+      "stars": 613,
       "install": "/add-plugin shopify-plugin",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/shopify",
+      "page": "https://cursor.com/marketplace/shopify/shopify-plugin",
       "license": "MIT",
       "runs_in": null,
       "sign_in": "none"
@@ -2282,7 +2508,7 @@
       "description": {
         "en": "Skills across Dockerfiles, Compose, Docker Agent, Docker Sandboxes, and safe Docker workflows."
       },
-      "stars": 578,
+      "stars": 599,
       "install": "/add-plugin docker-skills",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/docker",
@@ -2302,7 +2528,7 @@
       "description": {
         "en": "Social media automation CLI and MCP server for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms including X, LinkedIn, LinkedIn Pages, Instagram, Facebook, Threads, YouTube, TikTok, Reddit, Pinterest, Bluesky, Mastodon, Google My Business, Discord, Slack, Telegram, Twitch, Kick, Lemmy, Farcaster, Nostr, VK, MeWe, Tumblr, Skool, Whop, Moltbook, Dribbble, Medium, Dev.to, Hashnode, WordPress, and ListMonk"
       },
-      "stars": 523,
+      "stars": 550,
       "install": "/add-plugin postiz",
       "added": "2026-09-07",
       "page": "https://cursor.com/marketplace/postiz",
@@ -2321,7 +2547,7 @@
       "description": {
         "en": "Installs the Revyl CLI and signs you in so Cursor can run and verify mobile apps on cloud devices."
       },
-      "stars": 523,
+      "stars": 526,
       "install": "/add-plugin revyl",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/revyl",
@@ -2338,7 +2564,7 @@
       "description": {
         "en": "Create HeyGen avatar videos, personalized video messages, and translated / dubbed videos. Build a persistent digital identity from a photo, generate presenter-led videos with your digital twin, and localize existing videos into 175+ languages with voice cloning and lip-sync."
       },
-      "stars": 501,
+      "stars": 520,
       "install": "/add-plugin heygen",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/heygen",
@@ -2357,7 +2583,7 @@
       "description": {
         "en": "The official Firebase Cursor plugin. Prototype, build, and run modern apps with Firebase's backend and AI infrastructure."
       },
-      "stars": 472,
+      "stars": 488,
       "install": "/add-plugin firebase",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/firebase",
@@ -2371,13 +2597,32 @@
       "sign_in": "local"
     },
     {
+      "name": "amd-skills",
+      "owner": "amd",
+      "url": "https://github.com/amd/skills",
+      "description": {
+        "en": "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, optimize inference throughput with Hyperloom, and analyze GPU kernel and PyTorch trace performance."
+      },
+      "stars": 465,
+      "install": "/add-plugin amd-skills",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/amd",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "astronomer-data",
       "owner": "astronomer",
       "url": "https://github.com/astronomer/agents",
       "description": {
         "en": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration"
       },
-      "stars": 454,
+      "stars": 456,
       "install": "/add-plugin astronomer-data",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/astronomer",
@@ -2395,7 +2640,7 @@
       "description": {
         "en": "Connect 9,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client."
       },
-      "stars": 443,
+      "stars": 449,
       "install": "/add-plugin zapier",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/zapier",
@@ -2404,7 +2649,8 @@
         "Cursor",
         "Claude Code",
         "Codex",
-        "GitHub Copilot"
+        "GitHub Copilot",
+        "Antigravity"
       ],
       "sign_in": "oauth"
     },
@@ -2415,10 +2661,10 @@
       "description": {
         "en": "Seven skills for monday CRM users — first-run setup, morning briefings, forecast dashboards, board diagnosis, bulk data hygiene, workspace setup, and meeting-to-opportunity sync. Each skill publishes a monday artifact (update, doc, or dashboard) so work stays inside monday. Composes the official monday MCP connector; no custom server, no new auth."
       },
-      "stars": 433,
+      "stars": 436,
       "install": "/add-plugin monday-crm",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/monday-crm",
+      "page": "https://cursor.com/marketplace/monday",
       "license": "MIT",
       "runs_in": [
         "Cursor",
@@ -2427,32 +2673,13 @@
       "sign_in": "oauth"
     },
     {
-      "name": "amd-skills",
-      "owner": "amd",
-      "url": "https://github.com/amd/skills",
-      "description": {
-        "en": "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, optimize inference throughput with Hyperloom, and analyze GPU kernel and PyTorch trace performance."
-      },
-      "stars": 422,
-      "install": "/add-plugin amd-skills",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/amd",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
       "name": "databricks",
       "owner": "databricks",
       "url": "https://github.com/databricks/databricks-agent-skills",
       "description": {
         "en": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration."
       },
-      "stars": 354,
+      "stars": 368,
       "install": "/add-plugin databricks",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/databricks",
@@ -2461,30 +2688,13 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "svelte",
-      "owner": "sveltejs",
-      "url": "https://github.com/sveltejs/ai-tools",
-      "description": {
-        "en": "A plugin for all things related to Svelte development, MCP, skills, and more."
-      },
-      "stars": 334,
-      "install": "/add-plugin svelte",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/svelte",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "local"
-    },
-    {
       "name": "railway",
       "owner": "railwayapp",
       "url": "https://github.com/railwayapp/railway-skills",
       "description": {
         "en": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from Cursor. Manage services, environments, deployments, databases, object storage, networking, and observability."
       },
-      "stars": 326,
+      "stars": 335,
       "install": "/add-plugin railway",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/railway",
@@ -2499,13 +2709,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "svelte",
+      "owner": "sveltejs",
+      "url": "https://github.com/sveltejs/ai-tools",
+      "description": {
+        "en": "A plugin for all things related to Svelte development, MCP, skills, and more."
+      },
+      "stars": 335,
+      "install": "/add-plugin svelte",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/svelte",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "local"
+    },
+    {
       "name": "refero",
       "owner": "referodesign",
       "url": "https://github.com/referodesign/refero_skill",
       "description": {
         "en": "Research real product interfaces and design with evidence from Refero."
       },
-      "stars": 318,
+      "stars": 327,
       "install": "/add-plugin refero",
       "added": "2026-09-28",
       "page": "https://cursor.com/marketplace/refero",
@@ -2524,7 +2751,7 @@
       "description": {
         "en": "Build and deploy web apps and agents"
       },
-      "stars": 310,
+      "stars": 314,
       "install": "/add-plugin vercel",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/vercel",
@@ -2532,6 +2759,7 @@
       "runs_in": [
         "Cursor",
         "Claude Code",
+        "Antigravity",
         "Kimi"
       ],
       "sign_in": "oauth"
@@ -2543,7 +2771,7 @@
       "description": {
         "en": "Skills for working with Langfuse — the open-source LLM engineering platform for tracing, prompt management, and evaluation."
       },
-      "stars": 309,
+      "stars": 312,
       "install": "/add-plugin langfuse",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/langfuse/langfuse",
@@ -2552,6 +2780,24 @@
         "Cursor",
         "Claude Code",
         "Codex"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "app-builder",
+      "owner": "adobe",
+      "url": "https://github.com/adobe/skills",
+      "description": {
+        "en": "Development, customization, testing, and deployment skills for Adobe App Builder projects. Covers project initialization, action scaffolding, React Spectrum UI scaffolding, Jest unit and integration testing, Playwright E2E testing, and GitHub Actions / Azure DevOps / GitLab CI deployment pipelines."
+      },
+      "stars": 310,
+      "install": "/add-plugin app-builder",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/adobe",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code"
       ],
       "sign_in": "skills-only"
     },
@@ -2583,7 +2829,7 @@
       "description": {
         "en": "Agent skills for Meta Quest and Horizon OS development. Helps Claude assist with Quest app debugging, performance analysis, project setup, Unity and WebXR workflows, Spatial SDK and Platform SDK integration, store submission checks, and metavr device workflows."
       },
-      "stars": 221,
+      "stars": 236,
       "install": "/add-plugin meta-vr",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/meta-reality-labs",
@@ -2603,7 +2849,7 @@
       "description": {
         "en": "Expert guidance for working with Dagster and the dg CLI."
       },
-      "stars": 214,
+      "stars": 215,
       "install": "/add-plugin dagster-expert",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/dagster",
@@ -2614,31 +2860,13 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "app-builder",
-      "owner": "adobe",
-      "url": "https://github.com/adobe/skills",
-      "description": {
-        "en": "Development, customization, testing, and deployment skills for Adobe App Builder projects. Covers project initialization, action scaffolding, React Spectrum UI scaffolding, Jest unit and integration testing, Playwright E2E testing, and GitHub Actions / Azure DevOps / GitLab CI deployment pipelines."
-      },
-      "stars": 213,
-      "install": "/add-plugin app-builder",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/adobe",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
       "name": "resend",
       "owner": "resend",
       "url": "https://github.com/resend/resend-skills",
       "description": {
         "en": "Skills and MCP server for the Resend email platform — sending, receiving, templates, CLI, React Email, and deliverability best practices."
       },
-      "stars": 202,
+      "stars": 206,
       "install": "/add-plugin resend",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/resend",
@@ -2658,7 +2886,7 @@
       "description": {
         "en": "Sanity plugin for Cursor with MCP server, agent skills, agent rules, and commands."
       },
-      "stars": 191,
+      "stars": 194,
       "install": "/add-plugin sanity",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/sanity",
@@ -2678,7 +2906,7 @@
       "description": {
         "en": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices."
       },
-      "stars": 190,
+      "stars": 191,
       "install": "/add-plugin mongodb",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mongodb/mongodb",
@@ -2687,7 +2915,8 @@
         "Cursor",
         "Claude Code",
         "Codex",
-        "Grok Bot"
+        "Grok Bot",
+        "Antigravity"
       ],
       "sign_in": "local"
     },
@@ -2698,7 +2927,7 @@
       "description": {
         "en": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access. If you are running a different MongoDB deployment or want to run a local MongoDB MCP Server, install the MongoDB (Self-Managed MCP) plugin instead."
       },
-      "stars": 190,
+      "stars": 191,
       "install": "/add-plugin mongodb-atlas",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mongodb/mongodb-atlas",
@@ -2708,7 +2937,8 @@
         "Claude Code",
         "Codex",
         "GitHub Copilot",
-        "Grok Bot"
+        "Grok Bot",
+        "Antigravity"
       ],
       "sign_in": "oauth"
     },
@@ -2719,7 +2949,7 @@
       "description": {
         "en": "Skills for building, running, testing, and deploying UiPath automations, agents, coded apps, and platform operations."
       },
-      "stars": 171,
+      "stars": 175,
       "install": "/add-plugin uipath",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/uipath",
@@ -2738,7 +2968,7 @@
       "description": {
         "en": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization"
       },
-      "stars": 167,
+      "stars": 170,
       "install": "/add-plugin redis-development",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/redis",
@@ -2755,7 +2985,7 @@
       "description": {
         "en": "Dynatrace observability skills. DQL query patterns, application and infrastructure monitoring, log analysis, problem investigation, and incident response workflows. Use with dtctl or the Dynatrace MCP server (https://docs.dynatrace.com/docs/shortlink/dynatrace-mcp-server) for live platform access."
       },
-      "stars": 165,
+      "stars": 167,
       "install": "/add-plugin dynatrace",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/dynatrace",
@@ -2773,7 +3003,7 @@
       "description": {
         "en": "Secure access to Miro boards. Enables AI to read board context, create diagrams, and generate code with enterprise-grade security."
       },
-      "stars": 163,
+      "stars": 164,
       "install": "/add-plugin miro",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/miro",
@@ -2807,7 +3037,7 @@
       "description": {
         "en": "Ship stablecoin apps faster. Best-practice skills for USDC payments, cross-chain transfers, wallets, and smart contracts — plus Circle's MCP server for real-time SDK and documentation guidance."
       },
-      "stars": 155,
+      "stars": 158,
       "install": "/add-plugin circle",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/circle",
@@ -2826,7 +3056,7 @@
       "description": {
         "en": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps."
       },
-      "stars": 150,
+      "stars": 156,
       "install": "/add-plugin slack",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/slack",
@@ -2845,7 +3075,7 @@
       "description": {
         "en": "Turn recurring work you spot in Cursor into Make automations and AI Agents that keep running in the cloud. Build, run, and manage them from Cursor, connected to the apps and data they need. Everything stays visible in Make's visual landscape, so you can inspect and change it anytime."
       },
-      "stars": 142,
+      "stars": 152,
       "install": "/add-plugin make",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/make",
@@ -2856,13 +3086,33 @@
       "sign_in": "oauth"
     },
     {
+      "name": "canva",
+      "owner": "canva-sdks",
+      "url": "https://github.com/canva-sdks/canva-skills",
+      "description": {
+        "en": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server."
+      },
+      "stars": 137,
+      "install": "/add-plugin canva",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/canva",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "webflow",
       "owner": "webflow",
       "url": "https://github.com/webflow/webflow-skills",
       "description": {
         "en": "Production-ready agent skills for Webflow - CMS management, site auditing, asset optimization, and safe publishing"
       },
-      "stars": 130,
+      "stars": 132,
       "install": "/add-plugin webflow",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/webflow",
@@ -2874,16 +3124,16 @@
       "sign_in": "oauth"
     },
     {
-      "name": "canva",
-      "owner": "canva-sdks",
-      "url": "https://github.com/canva-sdks/canva-skills",
+      "name": "githits",
+      "owner": "githits-com",
+      "url": "https://github.com/githits-com/githits-cli",
       "description": {
-        "en": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server."
+        "en": "The code context layer for AI coding agents"
       },
-      "stars": 128,
-      "install": "/add-plugin canva",
+      "stars": 119,
+      "install": "/add-plugin githits",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/canva",
+      "page": "https://cursor.com/marketplace/githits",
       "license": "Apache-2.0",
       "runs_in": [
         "Cursor",
@@ -2900,7 +3150,7 @@
       "description": {
         "en": "Official Convex plugin for Cursor - reactive backend development with TypeScript, including rules, skills, MCP integration, and automation hooks"
       },
-      "stars": 116,
+      "stars": 117,
       "install": "/add-plugin convex",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/convex",
@@ -2911,33 +3161,13 @@
       "sign_in": "local"
     },
     {
-      "name": "githits",
-      "owner": "githits-com",
-      "url": "https://github.com/githits-com/githits-cli",
-      "description": {
-        "en": "The code context layer for AI coding agents"
-      },
-      "stars": 115,
-      "install": "/add-plugin githits",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/githits",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "sonarqube",
       "owner": "SonarSource",
       "url": "https://github.com/SonarSource/sonarqube-agent-plugins",
       "description": {
         "en": "Automatically enforce SonarQube code quality and security in the agent coding loop — 7,000+ rules, secrets scanning, agentic analysis, and quality gates across 40+ languages."
       },
-      "stars": 112,
+      "stars": 113,
       "install": "/add-plugin sonarqube",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/sonarsource",
@@ -2958,7 +3188,7 @@
       "description": {
         "en": "Manage your Neon backend with the Neon agent skills and the Neon MCP Server: Lakebase Postgres, branching, Object Storage, Functions, and the AI Gateway"
       },
-      "stars": 101,
+      "stars": 106,
       "install": "/add-plugin neon-postgres",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/neon",
@@ -2973,11 +3203,30 @@
       "description": {
         "en": "Give Cursor an Inkbox identity for email, SMS, iMessage, voice calls, contacts, notes, and agent-to-agent tasks."
       },
-      "stars": 100,
+      "stars": 103,
       "install": "/add-plugin inkbox",
       "added": "2026-08-31",
       "page": "https://cursor.com/marketplace/inkbox",
       "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "posthog",
+      "owner": "PostHog",
+      "url": "https://github.com/PostHog/ai-plugin",
+      "description": {
+        "en": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Cursor"
+      },
+      "stars": 95,
+      "install": "/add-plugin posthog",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/posthog",
+      "license": null,
       "runs_in": [
         "Cursor",
         "Claude Code",
@@ -3005,25 +3254,6 @@
         "Grok Bot",
         "Kimi",
         "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "posthog",
-      "owner": "PostHog",
-      "url": "https://github.com/PostHog/ai-plugin",
-      "description": {
-        "en": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Cursor"
-      },
-      "stars": 92,
-      "install": "/add-plugin posthog",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/posthog",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
       ],
       "sign_in": "oauth"
     },
@@ -3071,10 +3301,10 @@
       "description": {
         "en": "Configure your RevenueCat integration and access data from your RevenueCat projects."
       },
-      "stars": 74,
+      "stars": 76,
       "install": "/add-plugin revenuecat",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/revenuecat",
+      "page": "https://cursor.com/marketplace/revenuecat/revenuecat",
       "license": "MIT",
       "runs_in": [
         "Cursor",
@@ -3091,7 +3321,7 @@
       "description": {
         "en": "Deep Google Play subscription lifecycle skills for the RevenueCat Android SDK — purchases, plan and price changes, payment recovery, webhooks, security."
       },
-      "stars": 74,
+      "stars": 76,
       "install": "/add-plugin revenuecat-play-billing",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/revenuecat/revenuecat-play-billing",
@@ -3111,7 +3341,7 @@
       "description": {
         "en": "Use the Revolut X CLI (revx) for crypto trading, market data, monitoring, and grid bot strategies"
       },
-      "stars": 73,
+      "stars": 75,
       "install": "/add-plugin revolut-x",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/revolut",
@@ -3123,13 +3353,32 @@
       "sign_in": "skills-only"
     },
     {
+      "name": "runway-api",
+      "owner": "runwayml",
+      "url": "https://github.com/runwayml/skills",
+      "description": {
+        "en": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs. Connect to your Runway Dev account to inspect available models and task errors, manage Model Routers and live avatars, and inspect recorded routing decisions."
+      },
+      "stars": 74,
+      "install": "/add-plugin runway-api",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/runway/runway-api",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "snyk-secure-development",
       "owner": "snyk",
       "url": "https://github.com/snyk/studio-recipes",
       "description": {
         "en": "Snyk security scanning, remediation, and dependency health for Cursor"
       },
-      "stars": 67,
+      "stars": 68,
       "install": "/add-plugin snyk-secure-development",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/snyk/snyk-secure-development",
@@ -3146,7 +3395,7 @@
       "description": {
         "en": "Add Arize AX observability to LLM applications — auto-instrumentation, trace export, dataset management, experiment workflows, prompt optimization, and deep linking via the ax CLI."
       },
-      "stars": 65,
+      "stars": 66,
       "install": "/add-plugin arize-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/arize-ai",
@@ -3154,6 +3403,7 @@
       "runs_in": [
         "Cursor",
         "Claude Code",
+        "Antigravity",
         "Agent Plugins"
       ],
       "sign_in": "skills-only"
@@ -3165,7 +3415,7 @@
       "description": {
         "en": "Search real-world UI & UX design references for mobile apps, web apps, and websites with Mobbin."
       },
-      "stars": 61,
+      "stars": 65,
       "install": "/add-plugin mobbin",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mobbin",
@@ -3177,13 +3427,30 @@
       "sign_in": "oauth"
     },
     {
+      "name": "motion",
+      "owner": "motiondivision",
+      "url": "https://github.com/motiondivision/ai-kit",
+      "description": {
+        "en": "Animation for the web, done properly. Motion and CSS best practices, official documentation and example search, CSS spring generation, and the MotionScore performance audit that grades every animation by its render-pipeline cost."
+      },
+      "stars": 62,
+      "install": "/add-plugin motion",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/motion",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "opensearch-agent-skills",
       "owner": "opensearch-project",
       "url": "https://github.com/opensearch-project/opensearch-agent-skills",
       "description": {
         "en": "OpenSearch skills to help set up and deploy OpenSearch for a variety of use cases: build search applications with semantic, hybrid, neural sparse, and agentic search strategies; analyze observability data with log analytics (PPL and Query DSL) and distributed traces (OpenTelemetry); deploy to Amazon OpenSearch Service or OpenSearch Serverless with Bedrock integration for embeddings and RAG. Just ask your AI assistant to set up a search app, query logs, investigate traces, or deploy to AWS."
       },
-      "stars": 59,
+      "stars": 62,
       "install": "/add-plugin opensearch-agent-skills",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/opensearch",
@@ -3218,7 +3485,7 @@
       "description": {
         "en": "A single unified Auth0 skill that detects your framework, feature, and tooling, then loads the right reference guides for adding authentication — login, MFA, Organizations, ACUL, custom domains, branding, JWT validation, migration, and debugging — to any app."
       },
-      "stars": 53,
+      "stars": 54,
       "install": "/add-plugin auth0",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/auth0",
@@ -3239,7 +3506,7 @@
       "description": {
         "en": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, and Databricks. Makes Claude fluent in Airtable: bases and schema, records, and collaboration UI. Bundles the official Airtable MCP server."
       },
-      "stars": 52,
+      "stars": 53,
       "install": "/add-plugin airtable",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/airtable",
@@ -3252,31 +3519,13 @@
       "sign_in": "oauth"
     },
     {
-      "name": "here.now",
-      "owner": "heredotnow",
-      "url": "https://github.com/heredotnow/skill",
-      "description": {
-        "en": "Publish websites, apps, and files to live URLs at {slug}.here.now or custom domains. Publish HTML apps, documents, images, PDFs, videos, and static files, with access control, custom domains, analytics, and private Drive storage for agent files."
-      },
-      "stars": 49,
-      "install": "/add-plugin here.now",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/here-now",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Codex"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
       "name": "zscaler",
       "owner": "zscaler",
       "url": "https://github.com/zscaler/zscaler-mcp-server",
       "description": {
         "en": "Manage the Zscaler cloud security platform including ZPA (private access), ZIA (internet access), ZDX (digital experience), ZCC (client connector), EASM (attack surface management), and Z-Insights (security analytics). Includes guided skills for application onboarding, policy audits, incident investigation, and cross-product troubleshooting."
       },
-      "stars": 49,
+      "stars": 52,
       "install": "/add-plugin zscaler",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/zscaler",
@@ -3288,19 +3537,39 @@
       "sign_in": "token"
     },
     {
-      "name": "motion",
-      "owner": "motiondivision",
-      "url": "https://github.com/motiondivision/ai-kit",
+      "name": "here.now",
+      "owner": "heredotnow",
+      "url": "https://github.com/heredotnow/skill",
       "description": {
-        "en": "Animation for the web, done properly. Motion and CSS best practices, official documentation and example search, CSS spring generation, and the MotionScore performance audit that grades every animation by its render-pipeline cost."
+        "en": "Publish websites, apps, and files to live URLs at {slug}.here.now or custom domains. Publish HTML apps, documents, images, PDFs, videos, and static files, with access control, custom domains, analytics, and private Drive storage for agent files."
       },
-      "stars": 46,
-      "install": "/add-plugin motion",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/motion",
+      "stars": 50,
+      "install": "/add-plugin here.now",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/here-now",
       "license": null,
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Codex"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "roboflow",
+      "owner": "roboflow",
+      "url": "https://github.com/roboflow/computer-vision-skills",
+      "description": {
+        "en": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment."
+      },
+      "stars": 47,
+      "install": "/add-plugin roboflow",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/roboflow",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
       ],
       "sign_in": "oauth"
     },
@@ -3311,30 +3580,11 @@
       "description": {
         "en": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts"
       },
-      "stars": 45,
+      "stars": 46,
       "install": "/add-plugin amplitude",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/amplitude",
       "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "roboflow",
-      "owner": "roboflow",
-      "url": "https://github.com/roboflow/computer-vision-skills",
-      "description": {
-        "en": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment."
-      },
-      "stars": 45,
-      "install": "/add-plugin roboflow",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/roboflow",
-      "license": "Apache-2.0",
       "runs_in": [
         "Cursor",
         "Claude Code",
@@ -3349,7 +3599,7 @@
       "description": {
         "en": "WorkOS integration skills for AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, migrations, and API references, plus the WorkOS MCP server for managing your workspace."
       },
-      "stars": 45,
+      "stars": 46,
       "install": "/add-plugin workos",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/workos",
@@ -3362,13 +3612,34 @@
       "sign_in": "oauth"
     },
     {
+      "name": "netlify-skills",
+      "owner": "netlify",
+      "url": "https://github.com/netlify/context-and-tools",
+      "description": {
+        "en": "Netlify platform skills — functions, edge functions, blobs, database, identity, image CDN, forms, config, CLI, frameworks, caching, AI gateway, and deployment"
+      },
+      "stars": 45,
+      "install": "/add-plugin netlify-skills",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/netlify",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "GitHub Copilot",
+        "Grok Bot",
+        "Antigravity"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "omni-analytics",
       "owner": "exploreomni",
       "url": "https://github.com/exploreomni/omni-agent-skills",
       "description": {
         "en": "Explore, query, model, and manage Omni Analytics through the Rest API and embed SDK."
       },
-      "stars": 44,
+      "stars": 45,
       "install": "/add-plugin omni-analytics",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/omni/omni-analytics",
@@ -3386,7 +3657,7 @@
       "description": {
         "en": "Connect Omni Analytics with external data platforms."
       },
-      "stars": 44,
+      "stars": 45,
       "install": "/add-plugin omni-integrations",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/omni/omni-integrations",
@@ -3404,7 +3675,7 @@
       "description": {
         "en": "Set up and manage mobile CI/CD on Bitrise: build, test, and distribute iOS, Android, Flutter, and React Native apps."
       },
-      "stars": 42,
+      "stars": 43,
       "install": "/add-plugin bitrise",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/bitrise",
@@ -3432,24 +3703,40 @@
       "sign_in": "oauth"
     },
     {
-      "name": "netlify-skills",
-      "owner": "netlify",
-      "url": "https://github.com/netlify/context-and-tools",
+      "name": "notion-workspace",
+      "owner": "makenotion",
+      "url": "https://github.com/makenotion/cursor-notion-plugin",
       "description": {
-        "en": "Netlify platform skills — functions, edge functions, blobs, database, identity, image CDN, forms, config, CLI, frameworks, caching, AI gateway, and deployment"
+        "en": "Search Notion pages and databases, create and update records, and publish content to your workspace."
       },
-      "stars": 41,
-      "install": "/add-plugin netlify-skills",
+      "stars": 38,
+      "install": "/add-plugin notion-workspace",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/netlify",
-      "license": "MIT",
+      "page": "https://cursor.com/marketplace/notion",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "paper-desktop",
+      "owner": "paper-design",
+      "url": "https://github.com/paper-design/agent-plugins",
+      "description": {
+        "en": "Design on a canvas that Cursor can read and write to — built on web standards."
+      },
+      "stars": 37,
+      "install": "/add-plugin paper-desktop",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/paper",
+      "license": null,
       "runs_in": [
         "Cursor",
         "Claude Code",
-        "GitHub Copilot",
-        "Grok Bot"
+        "Codex"
       ],
-      "sign_in": "skills-only"
+      "sign_in": "local"
     },
     {
       "name": "twilio-developer-kit",
@@ -3471,32 +3758,13 @@
       "sign_in": "none"
     },
     {
-      "name": "paper-desktop",
-      "owner": "paper-design",
-      "url": "https://github.com/paper-design/agent-plugins",
-      "description": {
-        "en": "Design on a canvas that Cursor can read and write to — built on web standards."
-      },
-      "stars": 36,
-      "install": "/add-plugin paper-desktop",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/paper",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "local"
-    },
-    {
       "name": "agentmail",
       "owner": "agentmail-to",
       "url": "https://github.com/agentmail-to/agentmail-plugins",
       "description": {
         "en": "Email inboxes for agents. Create inboxes, send and receive emails, automate email workflows, and create accounts with AgentID."
       },
-      "stars": 35,
+      "stars": 36,
       "install": "/add-plugin agentmail",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/agentmail",
@@ -3505,6 +3773,62 @@
         "Cursor",
         "Claude Code",
         "Codex"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "descript",
+      "owner": "descriptinc",
+      "url": "https://github.com/descriptinc/descript-mcp",
+      "description": {
+        "en": "Edit video and audio by editing text. Import media, create projects, and use AI to edit — all from your agent."
+      },
+      "stars": 36,
+      "install": "/add-plugin descript",
+      "added": "2026-09-14",
+      "page": "https://cursor.com/marketplace/descript",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "higgsfield",
+      "owner": "higgsfield-ai",
+      "url": "https://github.com/higgsfield-ai/cursor-plugin",
+      "description": {
+        "en": "Generate images, videos, and more using Higgsfield MCP from Cursor."
+      },
+      "stars": 36,
+      "install": "/add-plugin higgsfield",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/higgsfield",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "wix",
+      "owner": "wix",
+      "url": "https://github.com/wix/skills",
+      "description": {
+        "en": "Build, manage, and deploy Wix sites and apps directly from Cursor. Includes CLI development skills for creating dashboard extensions, backend APIs, site widgets, and service plugins. Connects to the Wix MCP server for site management."
+      },
+      "stars": 36,
+      "install": "/add-plugin wix",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/wix",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -3529,69 +3853,13 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "descript",
-      "owner": "descriptinc",
-      "url": "https://github.com/descriptinc/descript-mcp",
-      "description": {
-        "en": "Edit video and audio by editing text. Import media, create projects, and use AI to edit — all from your agent."
-      },
-      "stars": 34,
-      "install": "/add-plugin descript",
-      "added": "2026-09-14",
-      "page": "https://cursor.com/marketplace/descript",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "notion-workspace",
-      "owner": "makenotion",
-      "url": "https://github.com/makenotion/cursor-notion-plugin",
-      "description": {
-        "en": "Search Notion pages and databases, create and update records, and publish content to your workspace."
-      },
-      "stars": 34,
-      "install": "/add-plugin notion-workspace",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/notion",
-      "license": null,
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "wix",
-      "owner": "wix",
-      "url": "https://github.com/wix/skills",
-      "description": {
-        "en": "Build, manage, and deploy Wix sites and apps directly from Cursor. Includes CLI development skills for creating dashboard extensions, backend APIs, site widgets, and service plugins. Connects to the Wix MCP server for site management."
-      },
-      "stars": 34,
-      "install": "/add-plugin wix",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/wix",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "cursor-supermemory",
       "owner": "supermemoryai",
       "url": "https://github.com/supermemoryai/cursor-supermemory",
       "description": {
         "en": "Persistent AI memory for Cursor — powered by Supermemory"
       },
-      "stars": 33,
+      "stars": 35,
       "install": "/add-plugin cursor-supermemory",
       "added": "2026-09-02",
       "page": "https://cursor.com/marketplace/supermemory",
@@ -3603,86 +3871,13 @@
       "sign_in": "local"
     },
     {
-      "name": "elastic",
-      "owner": "elastic",
-      "url": "https://github.com/elastic/cursor-plugins",
-      "description": {
-        "en": "Elastic skills and documentation — Elasticsearch, Kibana, Observability, Security, Cloud, ES|QL, OpenTelemetry, and MCP docs access"
-      },
-      "stars": 33,
-      "install": "/add-plugin elastic",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/elastic",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "none"
-    },
-    {
-      "name": "higgsfield",
-      "owner": "higgsfield-ai",
-      "url": "https://github.com/higgsfield-ai/cursor-plugin",
-      "description": {
-        "en": "Generate images, videos, and more using Higgsfield MCP from Cursor."
-      },
-      "stars": 33,
-      "install": "/add-plugin higgsfield",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/higgsfield",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "datarobot-agent-skills",
-      "owner": "datarobot-oss",
-      "url": "https://github.com/datarobot-oss/datarobot-agent-skills",
-      "description": {
-        "en": "A collection of DataRobot agent skills for model training, deployment, predictions, monitoring, and more."
-      },
-      "stars": 31,
-      "install": "/add-plugin datarobot-agent-skills",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/datarobot",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
-      "name": "mcp-mail",
-      "owner": "superhuman",
-      "url": "https://github.com/superhuman/mcp-mail",
-      "description": {
-        "en": "Superhuman Mail MCP Server"
-      },
-      "stars": 31,
-      "install": "/add-plugin mcp-mail",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/superhuman-mail",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "upstash",
       "owner": "upstash",
       "url": "https://github.com/upstash/skills",
       "description": {
         "en": "The Upstash MCP server plus agent skills for every Upstash SDK and CLI — Redis, QStash, Workflow, Box, Blob, Ratelimit, Vector, and Search."
       },
-      "stars": 31,
+      "stars": 34,
       "install": "/add-plugin upstash",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/upstash/upstash",
@@ -3702,7 +3897,7 @@
       "description": {
         "en": "Prospect, enrich leads, load outreach sequences, and query sales analytics with Apollo.io — one-click MCP server integration."
       },
-      "stars": 29,
+      "stars": 33,
       "install": "/add-plugin apollo",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/apollo-io",
@@ -3714,13 +3909,86 @@
       "sign_in": "oauth"
     },
     {
+      "name": "elastic",
+      "owner": "elastic",
+      "url": "https://github.com/elastic/cursor-plugins",
+      "description": {
+        "en": "Elastic skills and documentation — Elasticsearch, Kibana, Observability, Security, Cloud, ES|QL, OpenTelemetry, and MCP docs access"
+      },
+      "stars": 33,
+      "install": "/add-plugin elastic",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/elastic",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "none"
+    },
+    {
+      "name": "datarobot-agent-skills",
+      "owner": "datarobot-oss",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills",
+      "description": {
+        "en": "A collection of DataRobot agent skills for model training, deployment, predictions, monitoring, and more."
+      },
+      "stars": 32,
+      "install": "/add-plugin datarobot-agent-skills",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/datarobot",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Agent Plugins"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "mcp-mail",
+      "owner": "superhuman",
+      "url": "https://github.com/superhuman/mcp-mail",
+      "description": {
+        "en": "Superhuman Mail MCP Server"
+      },
+      "stars": 32,
+      "install": "/add-plugin mcp-mail",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/superhuman-mail",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "harness",
+      "owner": "harness",
+      "url": "https://github.com/harness/harness-ai",
+      "description": {
+        "en": "Harness Skills + Harness MCP server packaged as a Cursor plugin. Build, debug, deploy, and govern via Harness from Cursor."
+      },
+      "stars": 30,
+      "install": "/add-plugin harness",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/harness",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "metamask-agent-wallet",
       "owner": "MetaMask",
       "url": "https://github.com/MetaMask/agent-skills",
       "description": {
         "en": "MetaMask Agent Wallet skills and session-start readiness for the mm CLI — auth, wallets, swaps, bridges, perps, prediction markets, and earn."
       },
-      "stars": 29,
+      "stars": 30,
       "install": "/add-plugin metamask-agent-wallet",
       "added": "2026-10-19",
       "page": "https://cursor.com/marketplace/metamask",
@@ -3742,7 +4010,7 @@
       "description": {
         "en": "Generate, edit, enhance, and produce images and videos with Krea's creative AI suite."
       },
-      "stars": 28,
+      "stars": 29,
       "install": "/add-plugin krea",
       "added": "2026-10-05",
       "page": "https://cursor.com/marketplace/krea",
@@ -3755,21 +4023,24 @@
       "sign_in": "oauth"
     },
     {
-      "name": "harness",
-      "owner": "harness",
-      "url": "https://github.com/harness/harness-ai",
+      "name": "crowdstrike-falcon-fusion",
+      "owner": "CrowdStrike",
+      "url": "https://github.com/CrowdStrike/fusion-skills",
       "description": {
-        "en": "Harness Skills + Harness MCP server packaged as a Cursor plugin. Build, debug, deploy, and govern via Harness from Cursor."
+        "en": "Author, deploy, and run Falcon Fusion workflows with live action discovery, schema validation, and execution monitoring."
       },
-      "stars": 27,
-      "install": "/add-plugin harness",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/harness",
-      "license": "Apache-2.0",
+      "stars": 28,
+      "install": "/add-plugin crowdstrike-falcon-fusion",
+      "added": "2026-08-31",
+      "page": "https://cursor.com/marketplace/crowdstrike/crowdstrike-falcon-fusion",
+      "license": "MIT",
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Agent Plugins"
       ],
-      "sign_in": "oauth"
+      "sign_in": "skills-only"
     },
     {
       "name": "launchdarkly",
@@ -3778,7 +4049,7 @@
       "description": {
         "en": "LaunchDarkly agent skills and mcp server for feature flag management, AI configuration, and skill authoring"
       },
-      "stars": 27,
+      "stars": 28,
       "install": "/add-plugin launchdarkly",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/launchdarkly",
@@ -3789,6 +4060,44 @@
         "Codex"
       ],
       "sign_in": "oauth"
+    },
+    {
+      "name": "composio",
+      "owner": "ComposioHQ",
+      "url": "https://github.com/ComposioHQ/composio-mcp-plugin",
+      "description": {
+        "en": "Connect and operate 1000+ external apps from Cursor via the Composio MCP server. Managed OAuth, intelligent tool routing, and a remote sandbox for bulk data processing."
+      },
+      "stars": 27,
+      "install": "/add-plugin composio",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/composio",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "forge-skills",
+      "owner": "atlassian",
+      "url": "https://github.com/atlassian/forge-skills",
+      "description": {
+        "en": "Forge app builder skill bundle with Forge MCP integration for building, deploying, and troubleshooting Atlassian Forge apps."
+      },
+      "stars": 27,
+      "install": "/add-plugin forge-skills",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/atlassian/forge-skills",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "GitHub Copilot",
+        "Agent Plugins"
+      ],
+      "sign_in": "none"
     },
     {
       "name": "lightrun-ai",
@@ -3809,24 +4118,21 @@
       "sign_in": "oauth"
     },
     {
-      "name": "crowdstrike-falcon-fusion",
-      "owner": "CrowdStrike",
-      "url": "https://github.com/CrowdStrike/fusion-skills",
+      "name": "adapter-mind",
+      "owner": "Adapter-Group",
+      "url": "https://github.com/Adapter-Group/cursor-connector",
       "description": {
-        "en": "Author, deploy, and run Falcon Fusion workflows with live action discovery, schema validation, and execution monitoring."
+        "en": "Adapter Mind brings your world, and the tribal knowledge contained within it, to Grok Bot and Grok Build in high resolution, before you even ask. Mind does the work before the work, the ETL of your past, the live processing of your present, and forecasting into the future, so every token Grok generates produces the highest value for you. All while enabling the same understanding of your world to be accessible and portable anywhere via a simple API."
       },
       "stars": 26,
-      "install": "/add-plugin crowdstrike-falcon-fusion",
-      "added": "2026-08-31",
-      "page": "https://cursor.com/marketplace/crowdstrike/crowdstrike-falcon-fusion",
+      "install": "/add-plugin adapter-mind",
+      "added": "2026-09-28",
+      "page": "https://cursor.com/marketplace/adapter",
       "license": "MIT",
       "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
+        "Cursor"
       ],
-      "sign_in": "skills-only"
+      "sign_in": "oauth"
     },
     {
       "name": "browser-use",
@@ -3835,7 +4141,7 @@
       "description": {
         "en": "Give Cursor a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows."
       },
-      "stars": 25,
+      "stars": 26,
       "install": "/add-plugin browser-use",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/browser-use",
@@ -3846,25 +4152,22 @@
       "sign_in": "local"
     },
     {
-      "name": "forge-skills",
-      "owner": "atlassian",
-      "url": "https://github.com/atlassian/forge-skills",
+      "name": "growthbook",
+      "owner": "growthbook",
+      "url": "https://github.com/growthbook/skills",
       "description": {
-        "en": "Forge app builder skill bundle with Forge MCP integration for building, deploying, and troubleshooting Atlassian Forge apps."
+        "en": "Full-lifecycle agent skills for GrowthBook feature flags, experimentation, and product analytics."
       },
       "stars": 25,
-      "install": "/add-plugin forge-skills",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/atlassian/forge-skills",
-      "license": "Apache-2.0",
+      "install": "/add-plugin growthbook",
+      "added": "2026-10-12",
+      "page": "https://cursor.com/marketplace/growthbook",
+      "license": "MIT",
       "runs_in": [
         "Cursor",
-        "Claude Code",
-        "Codex",
-        "GitHub Copilot",
-        "Agent Plugins"
+        "Claude Code"
       ],
-      "sign_in": "none"
+      "sign_in": "skills-only"
     },
     {
       "name": "monk",
@@ -3888,48 +4191,13 @@
       "sign_in": "unknown"
     },
     {
-      "name": "adapter-mind",
-      "owner": "Adapter-Group",
-      "url": "https://github.com/Adapter-Group/cursor-connector",
-      "description": {
-        "en": "A Mind for Grok Bot and Grok Build that learns the nuances of your world because it thinks not a file system that recalls because it memorizes. Adapter Mind goes beyond the concepts of memory and context with active cognition built for industrial scale, reliability and trust while remaining full-self-driving. Empowering Grok Bot, Grok Build and your own applications before anyone even asks so tokens go to where they matter most: advancing your mission."
-      },
-      "stars": 24,
-      "install": "/add-plugin adapter-mind",
-      "added": "2026-09-28",
-      "page": "https://cursor.com/marketplace/adapter",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "growthbook",
-      "owner": "growthbook",
-      "url": "https://github.com/growthbook/skills",
-      "description": {
-        "en": "Full-lifecycle agent skills for GrowthBook feature flags, experimentation, and product analytics."
-      },
-      "stars": 24,
-      "install": "/add-plugin growthbook",
-      "added": "2026-10-12",
-      "page": "https://cursor.com/marketplace/growthbook",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
       "name": "postman",
       "owner": "postmanlabs",
       "url": "https://github.com/postmanlabs/postman-plugin",
       "description": {
         "en": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman Flows, and publish generated API documentation."
       },
-      "stars": 22,
+      "stars": 24,
       "install": "/add-plugin postman",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/postman",
@@ -3945,21 +4213,78 @@
       "sign_in": "oauth"
     },
     {
-      "name": "composio",
-      "owner": "ComposioHQ",
-      "url": "https://github.com/ComposioHQ/composio-mcp-plugin",
+      "name": "gitbook",
+      "owner": "GitbookIO",
+      "url": "https://github.com/GitbookIO/gitbook-skills",
       "description": {
-        "en": "Connect and operate 1000+ external apps from Cursor via the Composio MCP server. Managed OAuth, intelligent tool routing, and a remote sandbox for bulk data processing."
+        "en": "Create, configure, and author GitBook documentation sites — site orchestration via the GitBook REST API, Git Sync setup, branding customization, and GitBook-flavored Markdown page authoring."
+      },
+      "stars": 21,
+      "install": "/add-plugin gitbook",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/gitbook",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Grok Bot"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "wonder",
+      "owner": "aquila-lab",
+      "url": "https://github.com/aquila-lab/wonder-plugins",
+      "description": {
+        "en": "Create and edit designs with Cursor on a canvas where every design is real code."
+      },
+      "stars": 21,
+      "install": "/add-plugin wonder",
+      "added": "2026-09-02",
+      "page": "https://cursor.com/marketplace/wonder",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "firecrawl",
+      "owner": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl-cursor-plugin",
+      "description": {
+        "en": "Web scraping, crawling, and search for AI agents. Gives Cursor full access to web content through the Firecrawl CLI."
       },
       "stars": 20,
-      "install": "/add-plugin composio",
+      "install": "/add-plugin firecrawl",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/composio",
+      "page": "https://cursor.com/marketplace/firecrawl",
       "license": "MIT",
       "runs_in": [
         "Cursor"
       ],
-      "sign_in": "oauth"
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "phantom-connect",
+      "owner": "phantom",
+      "url": "https://github.com/phantom/phantom-agent-kit",
+      "description": {
+        "en": "Give your agent a wallet. Swap, sign, and manage addresses across Phantom's supported chains — and tap into Phantom's docs for context."
+      },
+      "stars": 20,
+      "install": "/add-plugin phantom-connect",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/phantom",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code"
+      ],
+      "sign_in": "none"
     },
     {
       "name": "scandit-sdk",
@@ -3978,6 +4303,23 @@
         "Claude Code",
         "Codex",
         "GitHub Copilot"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "appwrite-plugin",
+      "owner": "appwrite",
+      "url": "https://github.com/appwrite/cursor-plugin",
+      "description": {
+        "en": "The Appwrite plugin for Cursor includes skills and MCP servers, allowing AI agents to access your projects and correctly integrate with your projects."
+      },
+      "stars": 19,
+      "install": "/add-plugin appwrite-plugin",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/appwrite",
+      "license": "BSD-3-Clause",
+      "runs_in": [
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -4019,24 +4361,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "phantom-connect",
-      "owner": "phantom",
-      "url": "https://github.com/phantom/phantom-agent-kit",
-      "description": {
-        "en": "Give your agent a wallet. Swap, sign, and manage addresses across Phantom's supported chains — and tap into Phantom's docs for context."
-      },
-      "stars": 19,
-      "install": "/add-plugin phantom-connect",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/phantom",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code"
-      ],
-      "sign_in": "none"
-    },
-    {
       "name": "buildkite",
       "owner": "buildkite",
       "url": "https://github.com/buildkite/skills",
@@ -4055,86 +4379,13 @@
       "sign_in": "oauth"
     },
     {
-      "name": "wonder",
-      "owner": "aquila-lab",
-      "url": "https://github.com/aquila-lab/wonder-plugins",
-      "description": {
-        "en": "Create and edit designs with Cursor on a canvas where every design is real code."
-      },
-      "stars": 18,
-      "install": "/add-plugin wonder",
-      "added": "2026-09-02",
-      "page": "https://cursor.com/marketplace/wonder",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "appwrite-plugin",
-      "owner": "appwrite",
-      "url": "https://github.com/appwrite/cursor-plugin",
-      "description": {
-        "en": "The Appwrite plugin for Cursor includes skills and MCP servers, allowing AI agents to access your projects and correctly integrate with your projects."
-      },
-      "stars": 17,
-      "install": "/add-plugin appwrite-plugin",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/appwrite",
-      "license": "BSD-3-Clause",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "firecrawl",
-      "owner": "firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl-cursor-plugin",
-      "description": {
-        "en": "Web scraping, crawling, and search for AI agents. Gives Cursor full access to web content through the Firecrawl CLI."
-      },
-      "stars": 17,
-      "install": "/add-plugin firecrawl",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/firecrawl",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
-      "name": "gitbook",
-      "owner": "GitbookIO",
-      "url": "https://github.com/GitbookIO/gitbook-skills",
-      "description": {
-        "en": "Create, configure, and author GitBook documentation sites — site orchestration via the GitBook REST API, Git Sync setup, branding customization, and GitBook-flavored Markdown page authoring."
-      },
-      "stars": 17,
-      "install": "/add-plugin gitbook",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/gitbook",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Grok Bot"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "mixpanel-mcp",
       "owner": "mixpanel",
       "url": "https://github.com/mixpanel/ai-plugins",
       "description": {
         "en": "Mixpanel skills for Cursor — tracking implementation, metric investigation, and more."
       },
-      "stars": 17,
+      "stars": 18,
       "install": "/add-plugin mixpanel-mcp",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/mixpanel",
@@ -4162,6 +4413,45 @@
       "sign_in": "local"
     },
     {
+      "name": "browse",
+      "owner": "browserbase",
+      "url": "https://github.com/browserbase/browse-plugin",
+      "description": {
+        "en": "Browser automation for AI agents: navigate, extract, screenshot, and interact with real web pages via a single CLI."
+      },
+      "stars": 15,
+      "install": "/add-plugin browse",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/browserbase",
+      "license": null,
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Grok Bot",
+        "Antigravity",
+        "Agent Plugins"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "parallel",
+      "owner": "parallel-web",
+      "url": "https://github.com/parallel-web/parallel-cursor-plugin",
+      "description": {
+        "en": "Web search, content extraction, deep research, data enrichment, entity discovery (FindAll), and web monitoring — powered by parallel-cli."
+      },
+      "stars": 15,
+      "install": "/add-plugin parallel",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/parallel",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "skills",
       "owner": "ngrok",
       "url": "https://github.com/ngrok/skills",
@@ -4181,34 +4471,13 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "browse",
-      "owner": "browserbase",
-      "url": "https://github.com/browserbase/browse-plugin",
-      "description": {
-        "en": "Browser automation for AI agents: navigate, extract, screenshot, and interact with real web pages via a single CLI."
-      },
-      "stars": 14,
-      "install": "/add-plugin browse",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/browserbase",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Grok Bot",
-        "Agent Plugins"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
       "name": "granola",
       "owner": "granola-inc",
       "url": "https://github.com/granola-inc/granola-cursor-plugin",
       "description": {
         "en": "Your meetings in your workflow. Granola gives Cursor access to what your team discussed, decided, and committed to."
       },
-      "stars": 13,
+      "stars": 14,
       "install": "/add-plugin granola",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/granola",
@@ -4235,6 +4504,24 @@
         "Agent Plugins"
       ],
       "sign_in": "oauth"
+    },
+    {
+      "name": "turbopuffer",
+      "owner": "turbopuffer",
+      "url": "https://github.com/turbopuffer/skills",
+      "description": {
+        "en": "Turbopuffer vector and full-text search database integration for Cursor"
+      },
+      "stars": 13,
+      "install": "/add-plugin turbopuffer",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/turbopuffer",
+      "license": null,
+      "runs_in": [
+        "Cursor",
+        "Claude Code"
+      ],
+      "sign_in": "unknown"
     },
     {
       "name": "basecamp",
@@ -4273,22 +4560,38 @@
       "sign_in": "oauth"
     },
     {
-      "name": "turbopuffer",
-      "owner": "turbopuffer",
-      "url": "https://github.com/turbopuffer/skills",
+      "name": "runlayer",
+      "owner": "runlayer",
+      "url": "https://github.com/runlayer/plugins",
       "description": {
-        "en": "Turbopuffer vector and full-text search database integration for Cursor"
+        "en": "Simpler, safer way to run MCPs, Skills, and Agents. Discover what's running, enforce security policies in real time, protect secrets, and get full audit trails — all built for how developers actually work in Cursor."
       },
       "stars": 12,
-      "install": "/add-plugin turbopuffer",
+      "install": "/add-plugin runlayer",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/turbopuffer",
+      "page": "https://cursor.com/marketplace/runlayer",
       "license": null,
       "runs_in": [
-        "Cursor",
-        "Claude Code"
+        "Cursor"
       ],
-      "sign_in": "unknown"
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "dropbox",
+      "owner": "dropbox",
+      "url": "https://github.com/dropbox/dropbox-ai-plugins",
+      "description": {
+        "en": "The Dropbox plugin for Cursor connects your Dropbox files directly to Cursor, so you can search, reference, and organize files, save generated content, and create sharing links - all without switching tools. It respects your existing Dropbox permissions, and Cursor only works with files you already have access to."
+      },
+      "stars": 11,
+      "install": "/add-plugin dropbox",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/dropbox",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
     },
     {
       "name": "fullstory",
@@ -4310,21 +4613,21 @@
       "sign_in": "oauth"
     },
     {
-      "name": "runlayer",
-      "owner": "runlayer",
-      "url": "https://github.com/runlayer/plugins",
+      "name": "n8n",
+      "owner": "n8n-io",
+      "url": "https://github.com/n8n-io/n8n-cursor-plugin",
       "description": {
-        "en": "Simpler, safer way to run MCPs, Skills, and Agents. Discover what's running, enforce security policies in real time, protect secrets, and get full audit trails — all built for how developers actually work in Cursor."
+        "en": "Build, test, and run workflows on your n8n instance from Cursor."
       },
       "stars": 11,
-      "install": "/add-plugin runlayer",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/runlayer",
-      "license": null,
+      "install": "/add-plugin n8n",
+      "added": "2026-10-12",
+      "page": "https://cursor.com/marketplace/n8n",
+      "license": "Apache-2.0",
       "runs_in": [
         "Cursor"
       ],
-      "sign_in": "skills-only"
+      "sign_in": "self-hosted"
     },
     {
       "name": "snowflake-cursor-plugin",
@@ -4378,23 +4681,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "crustdata",
-      "owner": "mhimed-crustdata",
-      "url": "https://github.com/mhimed-crustdata/crustdata-cursor-plugin",
-      "description": {
-        "en": "Live B2B data on 1B+ people and 200M+ companies: search, enrich, contacts, jobs, and social posts."
-      },
-      "stars": 10,
-      "install": "/add-plugin crustdata",
-      "added": "2026-09-07",
-      "page": "https://cursor.com/marketplace/crustdata",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "endorlabs",
       "owner": "endorlabs",
       "url": "https://github.com/endorlabs/ai-plugins",
@@ -4410,6 +4696,44 @@
         "Cursor"
       ],
       "sign_in": "local"
+    },
+    {
+      "name": "fullenrich",
+      "owner": "FullEnrich",
+      "url": "https://github.com/FullEnrich/fullenrich-skills",
+      "description": {
+        "en": "Find prospects, enrich verified emails, and phone numbers via waterfall enrichment, and export results."
+      },
+      "stars": 10,
+      "install": "/add-plugin fullenrich",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/fullenrich",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "jam",
+      "owner": "jamdotdev",
+      "url": "https://github.com/jamdotdev/skills",
+      "description": {
+        "en": "Jam's MCP is the fast lane between Jam recordings and your dev tools. Drop a Jam link into Cursor and the whole recording – video, console, network, logs – arrives pre-packaged."
+      },
+      "stars": 10,
+      "install": "/add-plugin jam",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/jam",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "sign_in": "oauth"
     },
     {
       "name": "meticulous",
@@ -4502,40 +4826,38 @@
       "sign_in": "none"
     },
     {
-      "name": "fullenrich",
-      "owner": "FullEnrich",
-      "url": "https://github.com/FullEnrich/fullenrich-skills",
+      "name": "opusclip",
+      "owner": "opus-pro",
+      "url": "https://github.com/opus-pro/opusclip-mcp",
       "description": {
-        "en": "Find prospects, enrich verified emails, and phone numbers via waterfall enrichment, and export results."
+        "en": "Turn long videos into AI-curated short clips: caption, reframe, thumbnail, schedule, and publish."
       },
       "stars": 9,
-      "install": "/add-plugin fullenrich",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/fullenrich",
+      "install": "/add-plugin opusclip",
+      "added": "2026-09-28",
+      "page": "https://cursor.com/marketplace/opusclip",
+      "license": "MIT",
+      "runs_in": null,
+      "sign_in": "oauth"
+    },
+    {
+      "name": "zoominfo",
+      "owner": "Zoominfo",
+      "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+      "description": {
+        "en": "Connect AI agents to ZoomInfo's verified GTM context graph: 100M companies, 300M professional contacts, buyer intent signals, and real-time scoops. Build prospect lists, enrich records, deep research key organizations, find decision-makers, and prioritize accounts by intent. The B2B sales intelligence layer for Cursor and any MCP-compatible agent."
+      },
+      "stars": 9,
+      "install": "/add-plugin zoominfo",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/zoominfo",
       "license": "MIT",
       "runs_in": [
         "Cursor",
         "Claude Code",
-        "Agent Plugins"
+        "Codex"
       ],
       "sign_in": "oauth"
-    },
-    {
-      "name": "parallel",
-      "owner": "parallel-web",
-      "url": "https://github.com/parallel-web/parallel-cursor-plugin",
-      "description": {
-        "en": "Web search, content extraction, deep research, data enrichment, entity discovery (FindAll), and web monitoring — powered by parallel-cli."
-      },
-      "stars": 9,
-      "install": "/add-plugin parallel",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/parallel",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "skills-only"
     },
     {
       "name": "airwallex-agentos",
@@ -4576,16 +4898,16 @@
       "sign_in": "oauth"
     },
     {
-      "name": "dropbox",
-      "owner": "dropbox",
-      "url": "https://github.com/dropbox/dropbox-ai-plugins",
+      "name": "apify",
+      "owner": "apify",
+      "url": "https://github.com/apify/apify-cursor-plugin",
       "description": {
-        "en": "The Dropbox plugin for Cursor connects your Dropbox files directly to Cursor, so you can search, reference, and organize files, save generated content, and create sharing links - all without switching tools. It respects your existing Dropbox permissions, and Cursor only works with files you already have access to."
+        "en": "Official Apify agent skills for web scraping, data extraction, and automation"
       },
       "stars": 8,
-      "install": "/add-plugin dropbox",
+      "install": "/add-plugin apify",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/dropbox",
+      "page": "https://cursor.com/marketplace/apify",
       "license": "Apache-2.0",
       "runs_in": [
         "Cursor"
@@ -4593,19 +4915,59 @@
       "sign_in": "oauth"
     },
     {
-      "name": "opusclip",
-      "owner": "opus-pro",
-      "url": "https://github.com/opus-pro/opusclip-mcp",
+      "name": "bird",
+      "owner": "messagebird",
+      "url": "https://github.com/messagebird/bird-ai",
       "description": {
-        "en": "Turn long videos into AI-curated short clips: caption, reframe, thumbnail, schedule, and publish."
+        "en": "Drive Bird from your coding agent: operate the Bird API from the terminal with the `bird` CLI, send across email, SMS, and WhatsApp, and audit a domain's email authentication."
       },
       "stars": 8,
-      "install": "/add-plugin opusclip",
-      "added": "2026-09-28",
-      "page": "https://cursor.com/marketplace/opusclip",
+      "install": "/add-plugin bird",
+      "added": "2026-09-07",
+      "page": "https://cursor.com/marketplace/bird",
       "license": "MIT",
-      "runs_in": null,
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Antigravity",
+        "Agent Plugins"
+      ],
       "sign_in": "oauth"
+    },
+    {
+      "name": "chargebee-integration",
+      "owner": "chargebee",
+      "url": "https://github.com/chargebee/ai",
+      "description": {
+        "en": "Use Chargebee's API integration patterns, webhook handling, SDK usage, and schema references for billing operations in Cursor."
+      },
+      "stars": 8,
+      "install": "/add-plugin chargebee-integration",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/chargebee",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
+      "name": "hostinger-cursor-plugin",
+      "owner": "hostinger",
+      "url": "https://github.com/hostinger/hostinger-cursor-plugin",
+      "description": {
+        "en": "Hostinger plugin for Cursor IDE marketplace"
+      },
+      "stars": 8,
+      "install": "/add-plugin hostinger-cursor-plugin",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/hostinger",
+      "license": "NOASSERTION",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "local"
     },
     {
       "name": "snyk-api-web",
@@ -4625,16 +4987,50 @@
       "sign_in": "token"
     },
     {
-      "name": "zoominfo",
-      "owner": "Zoominfo",
-      "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+      "name": "sourcegraph-cursor-plugin",
+      "owner": "sourcegraph-community",
+      "url": "https://github.com/sourcegraph-community/sourcegraph-cursor-plugin",
       "description": {
-        "en": "Connect AI agents to ZoomInfo's verified GTM context graph: 100M companies, 300M professional contacts, buyer intent signals, and real-time scoops. Build prospect lists, enrich records, deep research key organizations, find decision-makers, and prioritize accounts by intent. The B2B sales intelligence layer for Cursor and any MCP-compatible agent."
+        "en": "Sourcegraph plugin for cursor"
       },
       "stars": 8,
-      "install": "/add-plugin zoominfo",
+      "install": "/add-plugin sourcegraph-cursor-plugin",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/zoominfo",
+      "page": "https://cursor.com/marketplace/sourcegraph",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "self-hosted"
+    },
+    {
+      "name": "spacefast",
+      "owner": "spacefast",
+      "url": "https://github.com/spacefast/plugins",
+      "description": {
+        "en": "Turn an idea into a website, dashboard, report, or small web tool you can share. Build it in your conversation, or bring something you already made, and publish it with Spacefast."
+      },
+      "stars": 8,
+      "install": "/add-plugin spacefast",
+      "added": "2026-10-12",
+      "page": "https://cursor.com/marketplace/automattic",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "alpaca-broker",
+      "owner": "alpacahq",
+      "url": "https://github.com/alpacahq/agentic",
+      "description": {
+        "en": "Connect to Alpaca's Broker API."
+      },
+      "stars": 7,
+      "install": "/add-plugin alpaca-broker",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/alpaca/alpaca-broker",
       "license": "MIT",
       "runs_in": [
         "Cursor",
@@ -4644,40 +5040,21 @@
       "sign_in": "oauth"
     },
     {
-      "name": "apify",
-      "owner": "apify",
-      "url": "https://github.com/apify/apify-cursor-plugin",
+      "name": "alpaca-trading",
+      "owner": "alpacahq",
+      "url": "https://github.com/alpacahq/agentic",
       "description": {
-        "en": "Official Apify agent skills for web scraping, data extraction, and automation"
+        "en": "Connect to Alpaca's Trading and Market Data APIs."
       },
       "stars": 7,
-      "install": "/add-plugin apify",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/apify",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "bird",
-      "owner": "messagebird",
-      "url": "https://github.com/messagebird/bird-ai",
-      "description": {
-        "en": "Drive Bird from your coding agent: operate the Bird API from the terminal with the `bird` CLI, send across email, SMS, and WhatsApp, and audit a domain's email authentication."
-      },
-      "stars": 7,
-      "install": "/add-plugin bird",
-      "added": "2026-09-07",
-      "page": "https://cursor.com/marketplace/bird",
+      "install": "/add-plugin alpaca-trading",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/alpaca/alpaca-trading",
       "license": "MIT",
       "runs_in": [
         "Cursor",
         "Claude Code",
-        "Codex",
-        "Antigravity",
-        "Agent Plugins"
+        "Codex"
       ],
       "sign_in": "oauth"
     },
@@ -4808,6 +5185,23 @@
       "sign_in": "oauth"
     },
     {
+      "name": "lovable",
+      "owner": "lovablelabs",
+      "url": "https://github.com/lovablelabs/lovable-cursor-plugin",
+      "description": {
+        "en": "Drive Lovable from Cursor: create projects, send work to the Lovable agent, manage Lovable Cloud databases, and deploy, all through the Lovable MCP server."
+      },
+      "stars": 7,
+      "install": "/add-plugin lovable",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/lovable",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "scylladb",
       "owner": "scylladb",
       "url": "https://github.com/scylladb/agent-skills",
@@ -4826,21 +5220,19 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "sourcegraph-cursor-plugin",
-      "owner": "sourcegraph-community",
-      "url": "https://github.com/sourcegraph-community/sourcegraph-cursor-plugin",
+      "name": "shop",
+      "owner": "Shopify",
+      "url": "https://github.com/Shopify/shop",
       "description": {
-        "en": "Sourcegraph plugin for cursor"
+        "en": "Shop across millions of stores: find and compare over a billion products, build carts, and check out. Sign in with Shop to pay with Shop Pay, use your saved addresses, get results personalized to you, and track your orders and deliveries. At stores that don't support Shop Pay directly, approve the purchase and your agent completes it with a single-use card."
       },
       "stars": 7,
-      "install": "/add-plugin sourcegraph-cursor-plugin",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/sourcegraph",
-      "license": null,
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "self-hosted"
+      "install": "/add-plugin shop",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/shopify/shop",
+      "license": "MIT",
+      "runs_in": null,
+      "sign_in": "unknown"
     },
     {
       "name": "aleph",
@@ -4860,40 +5252,19 @@
       "sign_in": "oauth"
     },
     {
-      "name": "alpaca-broker",
-      "owner": "alpacahq",
-      "url": "https://github.com/alpacahq/agentic",
+      "name": "browserless",
+      "owner": "browserless",
+      "url": "https://github.com/browserless/cursor-mcp-plugin",
       "description": {
-        "en": "Connect to Alpaca's Broker API."
+        "en": "Browser automation tool for AI agents: web scraping, crawling, and web search, with built-in stealth features by running headless browsers in the Browserless cloud"
       },
       "stars": 6,
-      "install": "/add-plugin alpaca-broker",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/alpaca/alpaca-broker",
+      "install": "/add-plugin browserless",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/browserless",
       "license": "MIT",
       "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "alpaca-trading",
-      "owner": "alpacahq",
-      "url": "https://github.com/alpacahq/agentic",
-      "description": {
-        "en": "Connect to Alpaca's Trading and Market Data APIs."
-      },
-      "stars": 6,
-      "install": "/add-plugin alpaca-trading",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/alpaca/alpaca-trading",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -4917,21 +5288,23 @@
       "sign_in": "oauth"
     },
     {
-      "name": "chargebee-integration",
-      "owner": "chargebee",
-      "url": "https://github.com/chargebee/ai",
+      "name": "elevenlabs",
+      "owner": "elevenlabs",
+      "url": "https://github.com/elevenlabs/plugin",
       "description": {
-        "en": "Use Chargebee's API integration patterns, webhook handling, SDK usage, and schema references for billing operations in Cursor."
+        "en": "ElevenLabs voice AI — text-to-speech, voice agents, and speech engine skills, agent management via the ElevenLabs hosted MCP server, plus Architect skills for building and iterating on ElevenLabs agents."
       },
       "stars": 6,
-      "install": "/add-plugin chargebee-integration",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/chargebee",
+      "install": "/add-plugin elevenlabs",
+      "added": "2026-09-14",
+      "page": "https://cursor.com/marketplace/elevenlabs",
       "license": null,
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Claude Code",
+        "Codex"
       ],
-      "sign_in": "skills-only"
+      "sign_in": "oauth"
     },
     {
       "name": "kong-konnect",
@@ -4953,17 +5326,17 @@
       "sign_in": "oauth"
     },
     {
-      "name": "lovable",
-      "owner": "lovablelabs",
-      "url": "https://github.com/lovablelabs/lovable-cursor-plugin",
+      "name": "perspective-ai",
+      "owner": "Perspective-AI",
+      "url": "https://github.com/Perspective-AI/mcp",
       "description": {
-        "en": "Drive Lovable from Cursor: create projects, send work to the Lovable agent, manage Lovable Cloud databases, and deploy, all through the Lovable MCP server."
+        "en": "An AI Concierge replaces static forms with adaptive AI conversations that understand real situations, structure key information automatically, and trigger the right next step."
       },
       "stars": 6,
-      "install": "/add-plugin lovable",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/lovable",
-      "license": null,
+      "install": "/add-plugin perspective-ai",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/perspective-ai",
+      "license": "MIT",
       "runs_in": [
         "Cursor"
       ],
@@ -4989,6 +5362,40 @@
       "sign_in": "oauth"
     },
     {
+      "name": "plain",
+      "owner": "team-plain",
+      "url": "https://github.com/team-plain/cursor-plugin-mcp",
+      "description": {
+        "en": "Manage support threads, customers, and help articles."
+      },
+      "stars": 6,
+      "install": "/add-plugin plain",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/plain",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "quiverai",
+      "owner": "quiverai",
+      "url": "https://github.com/quiverai/cursor-plugin",
+      "description": {
+        "en": "Generate, vectorize, animate, and edit SVG assets with Arrow 2."
+      },
+      "stars": 6,
+      "install": "/add-plugin quiverai",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/quiverai",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "sinch-cursor-plugin",
       "owner": "sinch",
       "url": "https://github.com/sinch/sinch-plugins",
@@ -5004,23 +5411,6 @@
         "Cursor"
       ],
       "sign_in": "none"
-    },
-    {
-      "name": "spacefast",
-      "owner": "spacefast",
-      "url": "https://github.com/spacefast/plugins",
-      "description": {
-        "en": "Turn an idea into a website, dashboard, report, or small web tool you can share. Build it in your conversation, or bring something you already made, and publish it with Spacefast."
-      },
-      "stars": 6,
-      "install": "/add-plugin spacefast",
-      "added": "2026-10-12",
-      "page": "https://cursor.com/marketplace/automattic",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
     },
     {
       "name": "tubealfred-youtube",
@@ -5054,6 +5444,25 @@
       "license": "MIT",
       "runs_in": [
         "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "activecampaign",
+      "owner": "ActiveCampaign",
+      "url": "https://github.com/ActiveCampaign/activecampaign-plugin",
+      "description": {
+        "en": "Marketing automation, CRM, and email marketing powered by ActiveCampaign. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights from your AI agent."
+      },
+      "stars": 5,
+      "install": "/add-plugin activecampaign",
+      "added": "2026-09-28",
+      "page": "https://cursor.com/marketplace/activecampaign",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -5109,38 +5518,22 @@
       "sign_in": "oauth"
     },
     {
-      "name": "hostinger-cursor-plugin",
-      "owner": "hostinger",
-      "url": "https://github.com/hostinger/hostinger-cursor-plugin",
+      "name": "nitrosend",
+      "owner": "nitrosend",
+      "url": "https://github.com/nitrosend/cursor",
       "description": {
-        "en": "Hostinger plugin for Cursor IDE marketplace"
+        "en": "AI-native email. Compose newsletters, build automation flows, manage contacts, run agent inboxes, and send campaigns — all from Cursor. Powered by 28 MCP tools backed by a 68K-word email marketing knowledge base."
       },
       "stars": 5,
-      "install": "/add-plugin hostinger-cursor-plugin",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/hostinger",
-      "license": "NOASSERTION",
+      "install": "/add-plugin nitrosend",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/nitrosend",
+      "license": "MIT",
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Grok Bot"
       ],
-      "sign_in": "local"
-    },
-    {
-      "name": "n8n",
-      "owner": "n8n-io",
-      "url": "https://github.com/n8n-io/n8n-cursor-plugin",
-      "description": {
-        "en": "Build, test, and run workflows on your n8n instance from Cursor."
-      },
-      "stars": 5,
-      "install": "/add-plugin n8n",
-      "added": "2026-10-12",
-      "page": "https://cursor.com/marketplace/n8n",
-      "license": "Apache-2.0",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "self-hosted"
+      "sign_in": "oauth"
     },
     {
       "name": "paybox-plugin",
@@ -5157,57 +5550,6 @@
       "runs_in": [
         "Cursor",
         "Grok Bot"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "perspective-ai",
-      "owner": "Perspective-AI",
-      "url": "https://github.com/Perspective-AI/mcp",
-      "description": {
-        "en": "An AI Concierge replaces static forms with adaptive AI conversations that understand real situations, structure key information automatically, and trigger the right next step."
-      },
-      "stars": 5,
-      "install": "/add-plugin perspective-ai",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/perspective-ai",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "plain",
-      "owner": "team-plain",
-      "url": "https://github.com/team-plain/cursor-plugin-mcp",
-      "description": {
-        "en": "Manage support threads, customers, and help articles."
-      },
-      "stars": 5,
-      "install": "/add-plugin plain",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/plain",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "quiverai",
-      "owner": "quiverai",
-      "url": "https://github.com/quiverai/cursor-plugin",
-      "description": {
-        "en": "Generate, vectorize, animate, and edit SVG assets with Arrow 2."
-      },
-      "stars": 5,
-      "install": "/add-plugin quiverai",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/quiverai",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -5242,28 +5584,10 @@
       "license": "MIT",
       "runs_in": [
         "Cursor",
-        "Claude Code"
-      ],
-      "sign_in": "none"
-    },
-    {
-      "name": "activecampaign",
-      "owner": "ActiveCampaign",
-      "url": "https://github.com/ActiveCampaign/activecampaign-plugin",
-      "description": {
-        "en": "Marketing automation, CRM, and email marketing powered by ActiveCampaign. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights from your AI agent."
-      },
-      "stars": 4,
-      "install": "/add-plugin activecampaign",
-      "added": "2026-09-28",
-      "page": "https://cursor.com/marketplace/activecampaign",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
         "Claude Code",
         "Agent Plugins"
       ],
-      "sign_in": "oauth"
+      "sign_in": "none"
     },
     {
       "name": "aikido-cursor-plugin",
@@ -5351,21 +5675,24 @@
       "sign_in": "oauth"
     },
     {
-      "name": "browserless",
-      "owner": "browserless",
-      "url": "https://github.com/browserless/cursor-mcp-plugin",
+      "name": "celigo",
+      "owner": "celigo",
+      "url": "https://github.com/celigo/ai",
       "description": {
-        "en": "Browser automation tool for AI agents: web scraping, crawling, and web search, with built-in stealth features by running headless browsers in the Browserless cloud"
+        "en": "Build integrations on the Celigo platform covering flows, connections, exports/imports, mappings, scripts, and more."
       },
       "stars": 4,
-      "install": "/add-plugin browserless",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/browserless",
+      "install": "/add-plugin celigo",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/celigo",
       "license": "MIT",
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Grok Bot"
       ],
-      "sign_in": "oauth"
+      "sign_in": "self-hosted"
     },
     {
       "name": "coderabbit",
@@ -5436,23 +5763,59 @@
       "sign_in": "skills-only"
     },
     {
-      "name": "jam",
-      "owner": "jamdotdev",
-      "url": "https://github.com/jamdotdev/jam-plugin",
+      "name": "heptabase",
+      "owner": "heptameta",
+      "url": "https://github.com/heptameta/heptabase-agent-plugins",
       "description": {
-        "en": "Jam's MCP is the fast lane between Jam recordings and your dev tools. Drop a Jam link into Cursor and the whole recording – video, console, network, logs – arrives pre-packaged."
+        "en": "Connect AI agents to Heptabase to search, read, create, and update knowledge through the hosted MCP server."
       },
       "stars": 4,
-      "install": "/add-plugin jam",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/jam",
+      "install": "/add-plugin heptabase",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/heptabase",
       "license": "MIT",
       "runs_in": [
         "Cursor",
         "Claude Code",
-        "Codex"
+        "Codex",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
+    },
+    {
+      "name": "readme",
+      "owner": "readmeio",
+      "url": "https://github.com/readmeio/agent-plugins",
+      "description": {
+        "en": "Search, read, and update your ReadMe docs, API reference, and changelog."
+      },
+      "stars": 4,
+      "install": "/add-plugin readme",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/readme",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "none"
+    },
+    {
+      "name": "remotion",
+      "owner": "remotion-dev",
+      "url": "https://github.com/remotion-dev/cursor-plugin",
+      "description": {
+        "en": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React."
+      },
+      "stars": 4,
+      "install": "/add-plugin remotion",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/remotion",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Agent Plugins"
+      ],
+      "sign_in": "skills-only"
     },
     {
       "name": "resolve-ai",
@@ -5481,11 +5844,46 @@
       "stars": 4,
       "install": "/add-plugin runway",
       "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/runway",
+      "page": "https://cursor.com/marketplace/runway/runway",
       "license": "MIT",
       "runs_in": [
         "Cursor",
         "Grok Bot"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "ryze-ai",
+      "owner": "Ryze-AI-Adgent",
+      "url": "https://github.com/Ryze-AI-Adgent/cursor-plugin",
+      "description": {
+        "en": "Connect Google Ads and Meta Ads, then pull GA4, Search Console, and SEO/GEO/AEO in the same workspace. Audit campaigns and rankings, find wasted spend, inspect indexing, track AI-referral traffic, and report paid + organic performance — one connector for ads and search, not ads-only."
+      },
+      "stars": 4,
+      "install": "/add-plugin ryze-ai",
+      "added": "2026-09-02",
+      "page": "https://cursor.com/marketplace/ryze-ai",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "sentry",
+      "owner": "getsentry",
+      "url": "https://github.com/getsentry/plugin-cursor",
+      "description": {
+        "en": "Sentry Plugin for Cursor to help with debugging including MCP and skill capabilities."
+      },
+      "stars": 4,
+      "install": "/add-plugin sentry",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/sentry",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -5507,6 +5905,23 @@
       "sign_in": "self-hosted"
     },
     {
+      "name": "vast-dataengine",
+      "owner": "vast-data",
+      "url": "https://github.com/vast-data/data-engine-skills",
+      "description": {
+        "en": "Create VAST DataEngine functions, triggers, and pipelines with the vastde CLI."
+      },
+      "stars": 4,
+      "install": "/add-plugin vast-dataengine",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/vast-data",
+      "license": null,
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "skills-only"
+    },
+    {
       "name": "whop",
       "owner": "whopio",
       "url": "https://github.com/whopio/whop-mcp-server",
@@ -5518,6 +5933,23 @@
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/whop",
       "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "adspirer",
+      "owner": "Adspirer",
+      "url": "https://github.com/Adspirer/adspirer-cursor-plugin",
+      "description": {
+        "en": "Create, analyze, and optimize campaigns across Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, Amazon Ads, and ChatGPT Ads."
+      },
+      "stars": 3,
+      "install": "/add-plugin adspirer",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/adspirer/adspirer",
+      "license": "MIT",
       "runs_in": [
         "Cursor"
       ],
@@ -5559,25 +5991,6 @@
       "sign_in": "self-hosted"
     },
     {
-      "name": "elevenlabs",
-      "owner": "elevenlabs",
-      "url": "https://github.com/elevenlabs/plugin",
-      "description": {
-        "en": "ElevenLabs voice AI — text-to-speech, voice agents, and speech engine skills, agent management via the ElevenLabs hosted MCP server, plus Architect skills for building and iterating on ElevenLabs agents."
-      },
-      "stars": 3,
-      "install": "/add-plugin elevenlabs",
-      "added": "2026-09-14",
-      "page": "https://cursor.com/marketplace/elevenlabs",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "fast-io",
       "owner": "VEngTech",
       "url": "https://github.com/VEngTech/fastio-skills",
@@ -5593,6 +6006,23 @@
         "Cursor",
         "Claude Code",
         "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "floot",
+      "owner": "floothq",
+      "url": "https://github.com/floothq/mcp",
+      "description": {
+        "en": "Build and host full-stack apps."
+      },
+      "stars": 3,
+      "install": "/add-plugin floot",
+      "added": "2026-10-05",
+      "page": "https://cursor.com/marketplace/floot",
+      "license": null,
+      "runs_in": [
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -5628,29 +6058,10 @@
       "runs_in": [
         "Cursor",
         "Claude Code",
+        "Devin",
         "Agent Plugins"
       ],
       "sign_in": "oauth"
-    },
-    {
-      "name": "heptabase",
-      "owner": "heptameta",
-      "url": "https://github.com/heptameta/heptabase-agent-plugins",
-      "description": {
-        "en": "Connect AI agents to Heptabase to search, read, create, and update knowledge through the hosted MCP server."
-      },
-      "stars": 3,
-      "install": "/add-plugin heptabase",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/heptabase",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
-      ],
-      "sign_in": "unknown"
     },
     {
       "name": "lucid",
@@ -5670,11 +6081,50 @@
       "sign_in": "oauth"
     },
     {
+      "name": "magicpath",
+      "owner": "MagicPathAI",
+      "url": "https://github.com/MagicPathAI/magicpath-agent-plugin",
+      "description": {
+        "en": "Design and build interactive UI on a shared canvas. Bring local code and repositories into MagicPath, install or export designs, and map ideas with diagrams, flowcharts, wireframes, user journeys, and annotations."
+      },
+      "stars": 3,
+      "install": "/add-plugin magicpath",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/magicpath",
+      "license": null,
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Codex",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "monid",
+      "owner": "monid-ai",
+      "url": "https://github.com/monid-ai/plugins",
+      "description": {
+        "en": "Discover and run hundreds of data endpoints — web scraping, people/company enrichment, social media, and search — through one interface. Connects to the hosted Monid MCP server; falls back to the Monid CLI when a shell is available."
+      },
+      "stars": 3,
+      "install": "/add-plugin monid",
+      "added": "2026-09-14",
+      "page": "https://cursor.com/marketplace/monid",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "natural",
       "owner": "naturalpay",
       "url": "https://github.com/naturalpay/agent-plugins",
       "description": {
-        "en": "Send and request money, manage agents, and check balances on Natural - via Natural's hosted OAuth MCP."
+        "en": "Send and request money, manage agents, and check balances on Natural."
       },
       "stars": 3,
       "install": "/add-plugin natural",
@@ -5754,76 +6204,6 @@
       "runs_in": [
         "Cursor",
         "Claude Code"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "readme",
-      "owner": "readmeio",
-      "url": "https://github.com/readmeio/agent-plugins",
-      "description": {
-        "en": "Search, read, and update your ReadMe docs, API reference, and changelog."
-      },
-      "stars": 3,
-      "install": "/add-plugin readme",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/readme",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "none"
-    },
-    {
-      "name": "remotion",
-      "owner": "remotion-dev",
-      "url": "https://github.com/remotion-dev/cursor-plugin",
-      "description": {
-        "en": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React."
-      },
-      "stars": 3,
-      "install": "/add-plugin remotion",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/remotion",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Agent Plugins"
-      ],
-      "sign_in": "skills-only"
-    },
-    {
-      "name": "ryze-ai",
-      "owner": "Ryze-AI-Adgent",
-      "url": "https://github.com/Ryze-AI-Adgent/cursor-plugin",
-      "description": {
-        "en": "Connect Google Ads and Meta Ads, then pull GA4, Search Console, and SEO/GEO/AEO in the same workspace. Audit campaigns and rankings, find wasted spend, inspect indexing, track AI-referral traffic, and report paid + organic performance — one connector for ads and search, not ads-only."
-      },
-      "stars": 3,
-      "install": "/add-plugin ryze-ai",
-      "added": "2026-09-02",
-      "page": "https://cursor.com/marketplace/ryze-ai",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "sentry",
-      "owner": "getsentry",
-      "url": "https://github.com/getsentry/plugin-cursor",
-      "description": {
-        "en": "Sentry Plugin for Cursor to help with debugging including MCP and skill capabilities."
-      },
-      "stars": 3,
-      "install": "/add-plugin sentry",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/sentry",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -5915,23 +6295,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "adspirer",
-      "owner": "Adspirer",
-      "url": "https://github.com/Adspirer/adspirer-cursor-plugin",
-      "description": {
-        "en": "Create, analyze, and optimize campaigns across Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, Amazon Ads, and ChatGPT Ads."
-      },
-      "stars": 2,
-      "install": "/add-plugin adspirer",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/adspirer/adspirer",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "appsecmcp",
       "owner": "PaloAltoNetworks",
       "url": "https://github.com/PaloAltoNetworks/AppSecMCP",
@@ -5967,11 +6330,31 @@
         "Codex",
         "GitHub Copilot",
         "Grok Bot",
+        "Antigravity",
         "Devin",
         "Qoder",
         "Agent Plugins"
       ],
       "sign_in": "skills-only"
+    },
+    {
+      "name": "bulkpublish",
+      "owner": "bulkpublish",
+      "url": "https://github.com/bulkpublish/bulkpublish-ai-toolkit",
+      "description": {
+        "en": "Draft, schedule, and publish social media posts across 15 networks. Manage media and channels, and read engagement metrics."
+      },
+      "stars": 2,
+      "install": "/add-plugin bulkpublish",
+      "added": "2026-10-19",
+      "page": "https://cursor.com/marketplace/bulkpublish",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
     },
     {
       "name": "clickup",
@@ -6121,22 +6504,19 @@
       "sign_in": "local"
     },
     {
-      "name": "magicpath",
-      "owner": "MagicPathAI",
-      "url": "https://github.com/MagicPathAI/magicpath-agent-plugin",
+      "name": "magic-patterns",
+      "owner": "magicpatterns",
+      "url": "https://github.com/magicpatterns/agent-plugins",
       "description": {
-        "en": "Design and build interactive UI on a shared canvas. Bring local code and repositories into MagicPath, install or export designs, and map ideas with diagrams, flowcharts, wireframes, user journeys, and annotations."
+        "en": "Use Magic Patterns (magicpatterns.com) from Cursor: prototype ideas, generate UI inspiration, upload local UI, and integrate Magic Patterns designs into your codebase."
       },
       "stars": 2,
-      "install": "/add-plugin magicpath",
+      "install": "/add-plugin magic-patterns",
       "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/magicpath",
-      "license": null,
+      "page": "https://cursor.com/marketplace/magic-patterns",
+      "license": "MIT",
       "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Codex",
-        "Agent Plugins"
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -6158,43 +6538,6 @@
       "sign_in": "token"
     },
     {
-      "name": "monid",
-      "owner": "monid-ai",
-      "url": "https://github.com/monid-ai/plugins",
-      "description": {
-        "en": "Discover and run hundreds of data endpoints — web scraping, people/company enrichment, social media, and search — through one interface. Connects to the hosted Monid MCP server; falls back to the Monid CLI when a shell is available."
-      },
-      "stars": 2,
-      "install": "/add-plugin monid",
-      "added": "2026-09-14",
-      "page": "https://cursor.com/marketplace/monid",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "nitrosend",
-      "owner": "nitrosend",
-      "url": "https://github.com/nitrosend/cursor",
-      "description": {
-        "en": "AI-native email. Compose newsletters, build automation flows, manage contacts, run agent inboxes, and send campaigns — all from Cursor. Powered by 28 MCP tools backed by a 68K-word email marketing knowledge base."
-      },
-      "stars": 2,
-      "install": "/add-plugin nitrosend",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/nitrosend",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Grok Bot"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "pinecone",
       "owner": "pinecone-io",
       "url": "https://github.com/pinecone-io/pinecone-cursor-plugin",
@@ -6212,6 +6555,25 @@
       "sign_in": "local"
     },
     {
+      "name": "quo",
+      "owner": "OpenPhone",
+      "url": "https://github.com/OpenPhone/quo-grok-plugin",
+      "description": {
+        "en": "Give your agent a phone number. Use Quo to send and review business texts, manage contacts and tasks, and follow up on missed calls."
+      },
+      "stars": 2,
+      "install": "/add-plugin quo",
+      "added": "2026-09-14",
+      "page": "https://cursor.com/marketplace/quo",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Grok Bot",
+        "Agent Plugins"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "ramp",
       "owner": "ramp-public",
       "url": "https://github.com/ramp-public/cursor-plugin",
@@ -6222,23 +6584,6 @@
       "install": "/add-plugin ramp",
       "added": "2026-08-25",
       "page": "https://cursor.com/marketplace/ramp",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "read-ai",
-      "owner": "Read-AI",
-      "url": "https://github.com/Read-AI/read-ai-plugins",
-      "description": {
-        "en": "Connect Cursor to Read AI meeting intelligence — list meetings, fetch transcripts and reports, create meeting agents, and share reports via the hosted MCP at api.read.ai."
-      },
-      "stars": 2,
-      "install": "/add-plugin read-ai",
-      "added": "2026-09-21",
-      "page": "https://cursor.com/marketplace/read-ai",
       "license": "MIT",
       "runs_in": [
         "Cursor"
@@ -6262,7 +6607,7 @@
         "Claude Code",
         "Agent Plugins"
       ],
-      "sign_in": "oauth"
+      "sign_in": "none"
     },
     {
       "name": "wispr-flow",
@@ -6279,6 +6624,24 @@
       "runs_in": [
         "Cursor",
         "Antigravity"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "airops-grok-plugin",
+      "owner": "airopshq",
+      "url": "https://github.com/airopshq/airops-grok-plugin",
+      "description": {
+        "en": "Access to AirOps Brand Kits, AEO analytics, content opportunities, reports, grids, and Knowledge Bases."
+      },
+      "stars": 1,
+      "install": "/add-plugin airops-grok-plugin",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/airops",
+      "license": "Apache-2.0",
+      "runs_in": [
+        "Cursor",
+        "Grok Bot"
       ],
       "sign_in": "oauth"
     },
@@ -6331,25 +6694,6 @@
       "license": null,
       "runs_in": [
         "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "bulkpublish",
-      "owner": "bulkpublish",
-      "url": "https://github.com/bulkpublish/bulkpublish-ai-toolkit",
-      "description": {
-        "en": "Draft, schedule, and publish social media posts across 15 networks. Manage media and channels, and read engagement metrics."
-      },
-      "stars": 1,
-      "install": "/add-plugin bulkpublish",
-      "added": "2026-10-19",
-      "page": "https://cursor.com/marketplace/bulkpublish",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -6409,6 +6753,23 @@
       "sign_in": "oauth"
     },
     {
+      "name": "crustdata",
+      "owner": "crustdata",
+      "url": "https://github.com/crustdata/crustdata-cursor-plugin",
+      "description": {
+        "en": "B2B data on people and companies: people search, company search and enrichment across 800M+ profiles and 200M+ companies. Work history, headcount, funding and other company data, job postings, social posts, and contact data (work emails, phone numbers)."
+      },
+      "stars": 1,
+      "install": "/add-plugin crustdata",
+      "added": "2026-09-07",
+      "page": "https://cursor.com/marketplace/crustdata",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "customerio",
       "owner": "customerio",
       "url": "https://github.com/customerio/cursor-plugin",
@@ -6422,6 +6783,24 @@
       "license": "MIT",
       "runs_in": [
         "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "digitalocean",
+      "owner": "digitalocean",
+      "url": "https://github.com/digitalocean/grokbot-plugin",
+      "description": {
+        "en": "Manage any DigitalOcean product, including Droplets, App Platform, Kubernetes, databases, networking, monitoring, and more."
+      },
+      "stars": 1,
+      "install": "/add-plugin digitalocean",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/digitalocean",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -6460,19 +6839,20 @@
       "sign_in": "local"
     },
     {
-      "name": "floot",
-      "owner": "floothq",
-      "url": "https://github.com/floothq/mcp",
+      "name": "fal-ai",
+      "owner": "fal-ai-community",
+      "url": "https://github.com/fal-ai-community/fal-grok-plugin",
       "description": {
-        "en": "Build and host full-stack apps."
+        "en": "Create images, video, music, voice and 3D from a prompt."
       },
       "stars": 1,
-      "install": "/add-plugin floot",
-      "added": "2026-10-05",
-      "page": "https://cursor.com/marketplace/floot",
-      "license": null,
+      "install": "/add-plugin fal-ai",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/fal",
+      "license": "MIT",
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Grok Bot"
       ],
       "sign_in": "oauth"
     },
@@ -6565,6 +6945,23 @@
       "sign_in": "oauth"
     },
     {
+      "name": "invideo",
+      "owner": "invideoio",
+      "url": "https://github.com/invideoio/invideo-plugin",
+      "description": {
+        "en": "Make videos with invideo: generate media, edit timelines, and export."
+      },
+      "stars": 1,
+      "install": "/add-plugin invideo",
+      "added": "2026-10-12",
+      "page": "https://cursor.com/marketplace/invideo",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "knock",
       "owner": "knocklabs",
       "url": "https://github.com/knocklabs/skills",
@@ -6581,23 +6978,6 @@
         "Claude Code",
         "Codex",
         "Agent Plugins"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "magic-patterns",
-      "owner": "magicpatterns",
-      "url": "https://github.com/magicpatterns/agent-plugins",
-      "description": {
-        "en": "Use Magic Patterns (magicpatterns.com) from Cursor: prototype ideas, generate UI inspiration, upload local UI, and integrate Magic Patterns designs into your codebase."
-      },
-      "stars": 1,
-      "install": "/add-plugin magic-patterns",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/magic-patterns",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -6648,7 +7028,7 @@
       "install": "/add-plugin mural",
       "added": "2026-10-12",
       "page": "https://cursor.com/marketplace/mural",
-      "license": null,
+      "license": "Apache-2.0",
       "runs_in": [
         "Cursor",
         "Claude Code",
@@ -6711,21 +7091,36 @@
       "sign_in": "oauth"
     },
     {
-      "name": "quo",
-      "owner": "OpenPhone",
-      "url": "https://github.com/OpenPhone/quo-grok-plugin",
+      "name": "read-ai",
+      "owner": "Read-AI",
+      "url": "https://github.com/Read-AI/read-ai-plugins",
       "description": {
-        "en": "Give your agent a phone number. Use Quo to send and review business texts, manage contacts and tasks, and follow up on missed calls."
+        "en": "Connect Cursor to Read AI meeting intelligence — list meetings, fetch transcripts and reports, create meeting agents, and share reports via the hosted MCP at api.read.ai."
       },
       "stars": 1,
-      "install": "/add-plugin quo",
-      "added": "2026-09-14",
-      "page": "https://cursor.com/marketplace/quo",
-      "license": "Apache-2.0",
+      "install": "/add-plugin read-ai",
+      "added": "2026-09-21",
+      "page": "https://cursor.com/marketplace/read-ai",
+      "license": "MIT",
       "runs_in": [
-        "Cursor",
-        "Grok Bot",
-        "Agent Plugins"
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "replit",
+      "owner": "replit",
+      "url": "https://github.com/replit/replit-cursor-plugin",
+      "description": {
+        "en": "Build, update, and publish Replit apps."
+      },
+      "stars": 1,
+      "install": "/add-plugin replit",
+      "added": "2026-10-05",
+      "page": "https://cursor.com/marketplace/replit",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
       ],
       "sign_in": "oauth"
     },
@@ -6742,7 +7137,9 @@
       "page": "https://cursor.com/marketplace/restream",
       "license": "MIT",
       "runs_in": [
-        "Cursor"
+        "Cursor",
+        "Claude Code",
+        "Codex"
       ],
       "sign_in": "oauth"
     },
@@ -6783,6 +7180,24 @@
       "sign_in": "oauth"
     },
     {
+      "name": "spottercode",
+      "owner": "thoughtspot",
+      "url": "https://github.com/thoughtspot/spottercode-mcp-plugin",
+      "description": {
+        "en": "ThoughtSpot developer documentation — search Visual Embed SDK, REST API v2, and developer guides through MCP-compatible clients."
+      },
+      "stars": 1,
+      "install": "/add-plugin spottercode",
+      "added": "2026-08-25",
+      "page": "https://cursor.com/marketplace/thoughtspot",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code"
+      ],
+      "sign_in": "token"
+    },
+    {
       "name": "superagent",
       "owner": "superagent-ai",
       "url": "https://github.com/superagent-ai/cursor-plugin",
@@ -6796,6 +7211,26 @@
       "license": "MIT",
       "runs_in": [
         "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "superme",
+      "owner": "superme-ai",
+      "url": "https://github.com/superme-ai/superme-plugins",
+      "description": {
+        "en": "Ask people who've been there, get multiple perspectives, and make better decisions about your work."
+      },
+      "stars": 1,
+      "install": "/add-plugin superme",
+      "added": "2026-09-07",
+      "page": "https://cursor.com/marketplace/superme",
+      "license": null,
+      "runs_in": [
+        "Cursor",
+        "Claude Code",
+        "Grok Bot",
+        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -6939,6 +7374,23 @@
       "sign_in": "oauth"
     },
     {
+      "name": "adspirer-retail-ads",
+      "owner": "Adspirer",
+      "url": "https://github.com/Adspirer/adspirer-retail-ads-cursor-plugin",
+      "description": {
+        "en": "Amazon & Walmart retail advertising. Analyze ad performance, track ACoS and ROAS, research keywords, and create and optimize campaigns with your approval."
+      },
+      "stars": 0,
+      "install": "/add-plugin adspirer-retail-ads",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/adspirer/adspirer-retail-ads",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
       "name": "adspirer-search-ads",
       "owner": "Adspirer",
       "url": "https://github.com/Adspirer/adspirer-search-ads-cursor-plugin",
@@ -7027,8 +7479,8 @@
     },
     {
       "name": "bright-security",
-      "owner": "NeuraLegion",
-      "url": "https://github.com/NeuraLegion/bright-ai-plugins",
+      "owner": "BrightSec",
+      "url": "https://github.com/BrightSec/bright-ai-plugins",
       "description": {
         "en": "Bright DAST scanning and remediation automation for Cursor using the Bright MCP server."
       },
@@ -7074,7 +7526,7 @@
       "runs_in": [
         "Cursor"
       ],
-      "sign_in": "self-hosted"
+      "sign_in": "oauth"
     },
     {
       "name": "cello",
@@ -7415,23 +7867,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "invideo",
-      "owner": "invideoio",
-      "url": "https://github.com/invideoio/invideo-plugin",
-      "description": {
-        "en": "Make videos with invideo: generate media, edit timelines, and export."
-      },
-      "stars": 0,
-      "install": "/add-plugin invideo",
-      "added": "2026-10-12",
-      "page": "https://cursor.com/marketplace/invideo",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "kapa",
       "owner": "kapa-ai",
       "url": "https://github.com/kapa-ai/kapa-plugin",
@@ -7464,6 +7899,24 @@
       "license": null,
       "runs_in": [
         "Cursor"
+      ],
+      "sign_in": "oauth"
+    },
+    {
+      "name": "landbase-agent-plugins",
+      "owner": "landbaseapp",
+      "url": "https://github.com/landbaseapp/landbase-agent-plugins",
+      "description": {
+        "en": "Build, enrich, and qualify B2B prospect lists of companies and people from natural-language searches."
+      },
+      "stars": 0,
+      "install": "/add-plugin landbase-agent-plugins",
+      "added": "2026-10-26",
+      "page": "https://cursor.com/marketplace/landbase",
+      "license": "MIT",
+      "runs_in": [
+        "Cursor",
+        "Claude Code"
       ],
       "sign_in": "oauth"
     },
@@ -7800,23 +8253,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "replit",
-      "owner": "replit",
-      "url": "https://github.com/replit/replit-cursor-plugin",
-      "description": {
-        "en": "Build, update, and publish Replit apps."
-      },
-      "stars": 0,
-      "install": "/add-plugin replit",
-      "added": "2026-10-05",
-      "page": "https://cursor.com/marketplace/replit",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
       "name": "riverside",
       "owner": "riversidefm",
       "url": "https://github.com/riversidefm/riverside-mcp-public",
@@ -7958,24 +8394,6 @@
       "sign_in": "oauth"
     },
     {
-      "name": "spottercode",
-      "owner": "thoughtspot",
-      "url": "https://github.com/thoughtspot/spottercode-mcp-plugin",
-      "description": {
-        "en": "ThoughtSpot developer documentation — search Visual Embed SDK, REST API v2, and developer guides through MCP-compatible clients."
-      },
-      "stars": 0,
-      "install": "/add-plugin spottercode",
-      "added": "2026-08-25",
-      "page": "https://cursor.com/marketplace/thoughtspot",
-      "license": "MIT",
-      "runs_in": [
-        "Cursor",
-        "Claude Code"
-      ],
-      "sign_in": "token"
-    },
-    {
       "name": "streak",
       "owner": "StreakYC",
       "url": "https://github.com/StreakYC/streak-grok-plugin",
@@ -7989,26 +8407,6 @@
       "license": "MIT",
       "runs_in": [
         "Cursor"
-      ],
-      "sign_in": "oauth"
-    },
-    {
-      "name": "superme",
-      "owner": "superme-ai",
-      "url": "https://github.com/superme-ai/superme-plugins",
-      "description": {
-        "en": "Ask people who've been there, get multiple perspectives, and make better decisions about your work."
-      },
-      "stars": 0,
-      "install": "/add-plugin superme",
-      "added": "2026-09-07",
-      "page": "https://cursor.com/marketplace/superme",
-      "license": null,
-      "runs_in": [
-        "Cursor",
-        "Claude Code",
-        "Grok Bot",
-        "Agent Plugins"
       ],
       "sign_in": "oauth"
     },
@@ -8095,6 +8493,7 @@
       "license": "MIT",
       "runs_in": [
         "Cursor",
+        "Claude Code",
         "Codex"
       ],
       "sign_in": "oauth"
