@@ -1754,6 +1754,18 @@ unauthenticated request. Each entry says which.
 
 ### Sales and account research
 
+- **Find the best GTM APIs and compare their plans** with [datacircle](https://github.com/waynehamadi/datacircle-cursor-plugin) by [Datacircle](https://datacircle.dev). Hosted MCP server and skill that benchmark GTM data APIs. Free, no key, MIT.
+  Also packaged for Claude Code and Gemini CLI · No sign-in.
+
+  <details>
+  <summary>Install</summary>
+
+  ```text
+  cursor://anysphere.cursor-deeplink/mcp/install?name=datacircle&config=eyJ1cmwiOiJodHRwczovL2FwaS5kYXRhY2lyY2xlLmRldi9tY3AifQ==
+  ```
+
+  </details>
+
 - **Enrich people and companies and run research agents** with [clay](https://github.com/cursor/plugins/tree/HEAD/third_party/clay) by [Cursor](https://cursor.com/). 5,031★.
   Cursor only · OAuth sign-in.
 
